@@ -9,9 +9,9 @@ No model calls or network access are needed to render the figures once dependenc
 Use Python 3.12 or newer. From the repository root:
 
 ```sh
-python3 -m venv ecis2027_epidemische_Fehler/scripts/paper_figures/.venv
-ecis2027_epidemische_Fehler/scripts/paper_figures/.venv/bin/python -m pip install -r ecis2027_epidemische_Fehler/scripts/paper_figures/requirements.txt
-ecis2027_epidemische_Fehler/scripts/paper_figures/.venv/bin/python ecis2027_epidemische_Fehler/scripts/paper_figures/render_all.py
+python3 -m venv scripts/paper_figures/.venv
+scripts/paper_figures/.venv/bin/python -m pip install -r scripts/paper_figures/requirements.txt
+scripts/paper_figures/.venv/bin/python scripts/paper_figures/render_all.py
 ```
 
 Render one figure by running its script instead of `render_all.py`.
@@ -34,7 +34,7 @@ The baseline script also writes the values and sources used as a CSV.
 
 - The detection overview reads aggregate counts in `runs/comparative_analysis/v4/`, excludes GPT-OSS run 2 and all earlier judges, and shows four trajectory-only pairings and two own-model evaluations per support condition. Shading describes whether all, some, or none of those configurations reject more than half of included errors. It is not a significance test. The benchmark column summarises reference checks and the original control result.
 
-- Support effects and the heatmap read `paired_conditions.csv` in the archived GPT-OSS and Qwen run outputs under `ecis2027_epidemische_Fehler/runs/`.
+- Support effects and the heatmap read `paired_conditions.csv` in the archived GPT-OSS and Qwen run outputs under `runs/`.
 - The baseline plot reads the archived summary tables. Crossed open-weight estimates and confidence intervals are entered at the rounded precision reported in the original manuscript. These are not reconstructed per-attempt crossed verdicts.
 - The Venn plot reconstructs approximate region areas from rounded manuscript detection rates and exact shared-miss counts. The approximation is marked in the figure. Areas use the same percentage scale across the two panels; the enclosing rectangles do not encode the total error counts.
 - The assessment diagram represents the classification scheme, not measured frequencies. `Unclassified` in its error branch refers to evidential provenance. The simplified diagram omits unclassifiable task outcomes and analysis exclusions, which must remain described in the Methods.
@@ -45,7 +45,7 @@ The baseline script also writes the values and sources used as a CSV.
 To regenerate them as well:
 
 ```sh
-ecis2027_epidemische_Fehler/scripts/paper_figures/.venv/bin/python ecis2027_epidemische_Fehler/scripts/paper_figures/render_all.py --include-archive
+scripts/paper_figures/.venv/bin/python scripts/paper_figures/render_all.py --include-archive
 ```
 
 The original `figure1.png` and `figure2.png` predate these scripts and are not regenerated here.

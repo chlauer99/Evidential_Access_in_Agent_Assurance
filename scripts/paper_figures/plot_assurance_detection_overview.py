@@ -11,8 +11,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
-root = Path(__file__).resolve().parents[3]
-data_dir = root / 'ecis2027_epidemische_Fehler/runs/comparative_analysis/v4'
+root = Path(__file__).resolve().parents[2]
+data_dir = root / 'runs/comparative_analysis/v4'
 out = root / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 

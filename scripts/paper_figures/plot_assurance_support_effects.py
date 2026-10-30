@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.ticker import FuncFormatter
 
-root=Path(__file__).resolve().parents[3]
+root=Path(__file__).resolve().parents[2]
 out=root/'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 models=[('GPT-OSS-120B','gpt_oss_120b_exp_2','#176B9B','o',0.13), ('Qwen3.8-27B','qwen3_8_27b_exp_3','#B56B00','s',-0.13)]
 data={}
 for name, run, *_ in models:
-    path=root/'ecis2027_epidemische_Fehler/runs'/run/'09_analysis/outputs/paired_conditions.csv'
+    path=root/'runs'/run/'09_analysis/outputs/paired_conditions.csv'
     with path.open() as f:
         data[name]={(r['condition'],r['measure']):r for r in csv.DictReader(f)}
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'axes.titlesize':14,'axes.labelsize':12,'xtick.labelsize':11,'ytick.labelsize':12,'svg.fonttype':'none'})

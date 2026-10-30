@@ -51,7 +51,7 @@ historischen Paper-Tabellen und -Abbildungen werden in diesem Modus nicht erzeug
 
 ## Vorbereitung
 
-Alle folgenden Befehle im Paketordner `ecis2027_epidemische_Fehler` ausführen.
+Alle folgenden Befehle im Hauptverzeichnis des Repositories ausführen.
 Python 3.11 oder neuer und Docker mit laufendem Docker-Dienst werden benötigt.
 Der FHIR-Testserver läuft lokal auf Port 8080; der vLLM-Server bleibt auf dem angegebenen
 Netzwerkrechner. Netzwerk/VPN-Zugriff auf diesen Rechner muss vorhanden sein.

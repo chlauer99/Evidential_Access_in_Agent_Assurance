@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle, Rectangle
-out=Path(__file__).resolve().parents[3] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
+out=Path(__file__).resolve().parents[2] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'svg.fonttype':'none'})
 def intersection(r,R,d):

@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch,FancyArrowPatch
-out=Path(__file__).resolve().parents[4] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
+out=Path(__file__).resolve().parents[3] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','svg.fonttype':'none'})
 fig=plt.figure(figsize=(10.8,4.7));ax=fig.add_axes([.015,.025,.97,.95]);ax.set_xlim(0,1);ax.set_ylim(0,1);ax.axis('off')

@@ -4,7 +4,7 @@ Experiment and analysis code for **“No Results Found”: Evidential Access and
 
 ## Contents
 
-The `ecis2027_epidemische_Fehler/` directory contains:
+The repository root contains:
 
 - `harness/`: experiment pipeline, agent runners, judges, prompts, model configurations, benchmark tasks, server setup sources, and existing tests.
 - `analysis/`: outcome, provenance, judge, and cross-model analyses and figure scripts.
@@ -15,7 +15,7 @@ The `ecis2027_epidemische_Fehler/` directory contains:
 
 ## Run new experiments
 
-See [RUNNING.md](RUNNING.md) for setup and execution. From `ecis2027_epidemische_Fehler/`:
+See [RUNNING.md](RUNNING.md) for setup and execution. From the repository root:
 
 ```sh
 conda env create -f environment-harness.yml
@@ -31,7 +31,7 @@ This branch imports the local experiment source files, including previously untr
 
 The package README and reproduction report describe the original full research package. Archived-data reproduction (`reproduce.py --level A`), historical comparisons, and scripts reading archived runs require data that are not included in this initial code release. Existing historical checksum manifests are omitted because they describe that full package.
 
-See [the package documentation](ecis2027_epidemische_Fehler/README.md) and [third-party provenance notes](ecis2027_epidemische_Fehler/LICENSE-NOTES.md).
+See [the package documentation](PACKAGE_README.md) and [third-party provenance notes](LICENSE-NOTES.md).
 
 ## Import validation
 

@@ -1,6 +1,6 @@
 # Fehlende Cross-Judge-Bedingungen ergänzen
 
-Aus `ecis2027_epidemische_Fehler/` in der bestehenden Harness-Umgebung:
+Aus dem Hauptverzeichnis des Repositories in der bestehenden Harness-Umgebung:
 
 ```sh
 python harness/scripts/backfill_cross_judge.py

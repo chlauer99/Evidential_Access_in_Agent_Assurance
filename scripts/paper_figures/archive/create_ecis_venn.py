@@ -5,7 +5,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle, FancyBboxPatch
 from matplotlib.lines import Line2D
-out=Path(__file__).resolve().parents[4] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
+out=Path(__file__).resolve().parents[3] / 'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'svg.fonttype':'none'})
 fig,axs=plt.subplots(1,2,figsize=(10.8,5.5))

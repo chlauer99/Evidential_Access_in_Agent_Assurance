@@ -4,10 +4,10 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-root=Path(__file__).resolve().parents[4]
+root=Path(__file__).resolve().parents[3]
 out=root/'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
-with (root/'ecis2027_epidemische_Fehler/data/published/judge_conditions_summary.csv').open() as f:
+with (root/'data/published/judge_conditions_summary.csv').open() as f:
     original=[r for r in csv.DictReader(f) if r['cond']=='Trajectory only']
 lookup={(r['judge'],r['agent']):r for r in original}
 order=[('GPT-4.1','GPT-4.1'),('GPT-4.1-mini','GPT-4.1'),('GPT-4.1','GPT-4.1-mini'),('GPT-4.1-mini','GPT-4.1-mini'),('DeepSeek V3.2','GPT-4.1'),('DeepSeek V3.2','GPT-4.1-mini'),('DeepSeek V3.2','DeepSeek V3.2')]
@@ -18,7 +18,7 @@ for judge,agent in order:
     r=lookup[judge,agent]
     rows.append(dict(judge=judge,agent=agent,ed=1-float(r['pg']),ca=float(r['pc']),J=float(r['J']),lo=float(r['lo']),hi=float(r['hi']),source='judge_conditions_summary.csv'))
 for judge,agent,run in [('GPT-OSS-120B','GPT-OSS-120B','gpt_oss_120b_exp_2'),('Qwen3.8-27B','Qwen3.8-27B','qwen3_8_27b_exp_3')]:
-    with (root/'ecis2027_epidemische_Fehler/runs'/run/'09_analysis/outputs/judge_summary.csv').open() as f:
+    with (root/'runs'/run/'09_analysis/outputs/judge_summary.csv').open() as f:
         r=next(r for r in csv.DictReader(f) if r['condition']=='neutral')
     rows.append(dict(judge=judge,agent=agent,ed=float(r['error_discovery']),ca=float(r['correct_certification']),J=float(r['youden_j']),lo=float(r['youden_j_lo']),hi=float(r['youden_j_hi']),source=f'{run}/judge_summary.csv'))
 # Crossed estimates and intervals are reported to two decimals in the original manuscript.

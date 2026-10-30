@@ -5,14 +5,14 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap,TwoSlopeNorm
 import numpy as np
-root=Path(__file__).resolve().parents[3]
+root=Path(__file__).resolve().parents[2]
 out=root/'paper/ECIS2027_manuscript_v4_LaTeX/Figures'
 out.mkdir(parents=True, exist_ok=True)
 models=[('GPT-OSS-120B','gpt_oss_120b_exp_2'),('Qwen3.8-27B','qwen3_8_27b_exp_3')]
 conditions=['spec','checklist','record_access']; measures=['error_discovery','correct_certification']
 values=[]; crossing=[]
 for name,run in models:
-    with (root/'ecis2027_epidemische_Fehler/runs'/run/'09_analysis/outputs/paired_conditions.csv').open() as f:
+    with (root/'runs'/run/'09_analysis/outputs/paired_conditions.csv').open() as f:
         rows={(r['condition'],r['measure']):r for r in csv.DictReader(f)}
     values.append([[100*float(rows[c,m]['difference']) for m in measures] for c in conditions])
     crossing.append([[float(rows[c,m]['lo'])<=0<=float(rows[c,m]['hi']) for m in measures] for c in conditions])
