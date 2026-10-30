@@ -1,0 +1,334 @@
+--- paper_versions/analyse_judges.py
++++ mab_harness/analyse_judges.py
+@@ -18,3 +18,6 @@
+ ROOT = Path(__file__).resolve().parent.parent
+-RUNS = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
+ 
+
+--- paper_versions/analyse_pilot.py
++++ mab_harness/analyse_pilot.py
+@@ -21,3 +21,6 @@
+ ROOT = Path(__file__).resolve().parent.parent
+-RUNS = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
+ 
+@@ -63,3 +66,3 @@
+     """Return set of (task, attempt) whose failure disappears after answer-format normalisation."""
+-    sys.path.insert(0, str(ROOT / "mab_tasks" / "task10_1" / "tests"))
++    sys.path.insert(0, str(_llm.tasks_dir(ROOT / "mab_tasks") / "task10_1" / "tests"))
+     import medagentbench_logic as logic
+@@ -73,3 +76,3 @@
+                 continue
+-            ans = json.loads((ROOT / r["answer_file"]).read_text(encoding="utf-8"))
++            ans = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))
+             ans["result"] = norm
+@@ -118,3 +121,3 @@
+     """
+-    sys.path.insert(0, str(ROOT / "mab_tasks" / "task10_1" / "tests"))
++    sys.path.insert(0, str(_llm.tasks_dir(ROOT / "mab_tasks") / "task10_1" / "tests"))
+     import medagentbench_logic as logic
+@@ -132,3 +135,3 @@
+             ref_res = ref["result"] if isinstance(ref["result"], str) else json.dumps(ref["result"])
+-            ans = json.loads((ROOT / r["answer_file"]).read_text(encoding="utf-8"))
++            ans = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))
+             ans["result"] = ref_res
+@@ -154,3 +157,3 @@
+     for r in rows:
+-        m = json.loads((ROOT / "mab_tasks" / r["task_id"] / "tests" / "task_metadata.json").read_text(encoding="utf-8"))
++        m = json.loads((_llm.tasks_dir(ROOT / "mab_tasks") / r["task_id"] / "tests" / "task_metadata.json").read_text(encoding="utf-8"))
+         m["fhir_api_base"] = "http://localhost:8080/fhir/"
+
+--- paper_versions/judge_agentic.py
++++ mab_harness/judge_agentic.py
+@@ -21,2 +21,5 @@
+ HERE = Path(__file__).resolve().parent
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
+ JR = runpy.run_path(str(HERE / "judge_runs.py"), run_name="judge_runs_mod")
+@@ -78,3 +81,10 @@
+     ap.add_argument("--workers", type=int, default=6)
++    ap.add_argument("--temperature", type=float, default=0.0, help="judge temperature (paper 0); negative = omit")
++    ap.add_argument("--max-tokens", type=int, default=400, help="output cap per turn (paper 400)")
++    ap.add_argument("--rpm", type=float, default=None)
++    ap.add_argument("--tpm", type=int, default=None, help="optional tokens-per-minute throttle")
++    ap.add_argument("--strip-reasoning", action="store_true")
+     a = ap.parse_args(argv)
++    limiter = _llm.RateLimiter(a.rpm)
++    bucket = JR["TokenBucket"](a.tpm) if a.tpm else None
+     import requests
+@@ -82,5 +92,5 @@
+     ses = requests.Session(); ses.trust_env = False
+-    client = OpenAI(max_retries=10, timeout=180, base_url=a.base_url, api_key=os.environ[a.api_key_env])
+-    extra = (json.loads(Path(a.extra_body[1:]).read_text(encoding="utf-8")) if a.extra_body and a.extra_body.startswith("@")
+-             else json.loads(a.extra_body) if a.extra_body else None)
++    client = OpenAI(max_retries=10, timeout=180, base_url=a.base_url, api_key=_llm.api_key(a.api_key_env))
++    extra = _llm.load_extra_body(a.extra_body)
++    metas = {}
+     sample = json.loads(Path(a.sample).read_text(encoding="utf-8"))
+@@ -107,8 +117,20 @@
+     def call(msgs):
+-        kw = dict(model=a.judge, messages=msgs, temperature=0, max_tokens=400)
++        kw = dict(model=a.judge, messages=msgs, max_tokens=a.max_tokens)
++        if a.temperature is not None and a.temperature >= 0:
++            kw["temperature"] = a.temperature
+         if extra:
+             kw["extra_body"] = extra
++        limiter.acquire()
++        est = sum(len(m_["content"]) for m_ in msgs) / 4.0 + a.max_tokens
++        if bucket:
++            bucket.acquire(est)
+         resp = client.chat.completions.create(**kw)
++        if bucket:
++            bucket.reconcile(est, (resp.usage.prompt_tokens or 0) + (resp.usage.completion_tokens or 0))
++        metas[threading.get_ident()] = _llm.call_meta(resp, extra, a.base_url)
+         u = resp.usage; ux = getattr(u, "model_extra", None) or {}
+-        return (resp.choices[0].message.content or ""), u.prompt_tokens, u.completion_tokens, ux.get("cost") or 0.0, \
++        text = resp.choices[0].message.content or ""
++        if a.strip_reasoning:
++            text = _llm.strip_reasoning(text)
++        return text, u.prompt_tokens, u.completion_tokens, ux.get("cost") or 0.0, \
+                (getattr(resp, "model_extra", None) or {}).get("provider")
+@@ -117,3 +139,3 @@
+         instr, ctx = load_task(r["task_id"])
+-        hist = json.loads((ROOT / r["answer_file"]).read_text(encoding="utf-8"))["history"]
++        hist = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))["history"]
+         prompt = USER.format(instruction=instr, context=ctx, spec="", checks=ACCESS.format(k=a.max_queries, base=FHIR),
+@@ -166,3 +188,4 @@
+                "oracle_passed": r.get("passed"), "provider": provider, "cost_usd": cost,
+-               "prompt_variant": "neutral+ehr_access", "with_spec": False}
++               "prompt_variant": "neutral+ehr_access", "with_spec": False,
++               "call_meta": metas.get(threading.get_ident())}
+         with lock:
+
+--- paper_versions/judge_report.py
++++ mab_harness/judge_report.py
+@@ -23,3 +23,6 @@
+ ROOT = HERE.parent
+-RUNS = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
+ aj = runpy.run_path(str(HERE / "analyse_judges.py"), run_name="aj")
+
+--- paper_versions/judge_runs.py
++++ mab_harness/judge_runs.py
+@@ -25,4 +25,7 @@
+ ROOT = HERE.parent
+-RUNS = ROOT / "mab_runs"
+-TASKS = ROOT / "mab_tasks"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
++TASKS = _llm.tasks_dir(ROOT / "mab_tasks")
+ 
+@@ -127,3 +130,8 @@
+                          "(output file judge_<model>_spec.jsonl)")
++    ap.add_argument("--temperature", type=float, default=0.0, help="judge temperature (paper 0); negative = omit the parameter")
++    ap.add_argument("--max-tokens", type=int, default=400, help="output cap (paper 400; raise for reasoning models)")
++    ap.add_argument("--rpm", type=float, default=None, help="optional requests-per-minute throttle")
++    ap.add_argument("--strip-reasoning", action="store_true", help="remove <think>...</think> before JSON parsing")
+     a = ap.parse_args(argv)
++    limiter = _llm.RateLimiter(a.rpm)
+     spec_block = ""
+@@ -134,7 +142,4 @@
+     from openai import OpenAI
+-    if not os.environ.get(a.api_key_env):
+-        raise RuntimeError(f"{a.api_key_env} is not set")
+-    client = OpenAI(max_retries=10, timeout=180, base_url=a.base_url, api_key=os.environ[a.api_key_env])
+-    extra_body = (json.loads(Path(a.extra_body[1:]).read_text(encoding="utf-8")) if a.extra_body and a.extra_body.startswith("@")
+-                  else json.loads(a.extra_body) if a.extra_body else None)
++    client = OpenAI(max_retries=10, timeout=180, base_url=a.base_url, api_key=_llm.api_key(a.api_key_env))
++    extra_body = _llm.load_extra_body(a.extra_body)
+     via_openai = a.base_url is None
+@@ -162,3 +167,3 @@
+         instr, ctx = load_task(r["task_id"])
+-        hist = json.loads((ROOT / r["answer_file"]).read_text(encoding="utf-8"))["history"]
++        hist = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))["history"]
+         prompt = USER.format(instruction=instr, context=ctx, spec=spec_block, checks=VERIFY_CHECKS if a.prompt == "verify" else "",
+@@ -171,4 +176,7 @@
+         t0 = time.time()
+-        kw = dict(model=a.judge, messages=msgs, temperature=0)
+-        kw["max_completion_tokens" if via_openai else "max_tokens"] = 400
++        kw = dict(model=a.judge, messages=msgs)
++        if a.temperature is not None and a.temperature >= 0:
++            kw["temperature"] = a.temperature
++        kw["max_completion_tokens" if via_openai else "max_tokens"] = a.max_tokens
++        limiter.acquire()
+         if not a.no_json_mode:
+@@ -186,2 +194,4 @@
+         content = resp.choices[0].message.content or ""
++        if a.strip_reasoning:
++            content = _llm.strip_reasoning(content)
+         try:
+@@ -201,3 +211,4 @@
+                "latency_s": round(time.time() - t0, 2), "oracle_passed": r["passed"],
+-               "provider": provider, "cost_usd": u_extra.get("cost"), "prompt_variant": a.prompt, "with_spec": a.with_spec}
++               "provider": provider, "cost_usd": u_extra.get("cost"), "prompt_variant": a.prompt, "with_spec": a.with_spec,
++               "call_meta": _llm.call_meta(resp, extra_body, a.base_url)}
+         with lock:
+
+--- paper_versions/probes.py
++++ mab_harness/probes.py
+@@ -18,2 +18,5 @@
+ from pathlib import Path
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
+ 
+@@ -61,5 +64,9 @@
+     from openai import OpenAI
+-    client = OpenAI(max_retries=8, timeout=180, base_url=a.base_url, api_key=os.environ[a.api_key_env])
+-    extra = (json.loads(Path(a.extra_body[1:]).read_text(encoding="utf-8")) if a.extra_body and a.extra_body.startswith("@")
+-             else json.loads(a.extra_body) if a.extra_body else None)
++    client = OpenAI(max_retries=8, timeout=180, base_url=a.base_url, api_key=_llm.api_key(a.api_key_env))
++    extra = _llm.load_extra_body(a.extra_body)
++    limiter = _llm.RateLimiter(getattr(a, "rpm", None))
++    bucket = None
++    if getattr(a, "tpm", None):
++        import runpy as _rp
++        bucket = _rp.run_path(str(Path(__file__).resolve().parent / "run_agents.py"), run_name="ra_tb")["TokenBucket"](a.tpm)
+     inst = json.loads(Path(a.instances).read_text(encoding="utf-8"))
+@@ -78,7 +85,14 @@
+         kw = dict(model=a.model, messages=[{"role": "system", "content": SYSTEM}, {"role": "user", "content": p["prompt"]}],
+-                  temperature=a.temperature, max_tokens=200)
++                  max_tokens=getattr(a, "max_tokens", 200))
++        if a.temperature is not None and a.temperature >= 0:
++            kw["temperature"] = a.temperature
+         if extra:
+             kw["extra_body"] = extra
++        limiter.acquire()
++        if bucket:
++            bucket.acquire(len(p["prompt"]) / 4.0 + 250)
+         resp = client.chat.completions.create(**kw)
+         text = resp.choices[0].message.content if resp.choices else ""
++        if getattr(a, "strip_reasoning", False):
++            text = _llm.strip_reasoning(text or "")
+         u = resp.usage
+@@ -89,3 +103,4 @@
+                "cost_usd": (getattr(u, "model_extra", None) or {}).get("cost") if u else None,
+-               "prompt_tokens": getattr(u, "prompt_tokens", None)}
++               "prompt_tokens": getattr(u, "prompt_tokens", None),
++               "call_meta": _llm.call_meta(resp, extra, a.base_url)}
+         with lock:
+@@ -108,2 +123,5 @@
+     r.add_argument("--out", required=True)
++    r.add_argument("--max-tokens", type=int, default=200, help="output cap (paper 200)")
++    r.add_argument("--rpm", type=float, default=None); r.add_argument("--strip-reasoning", action="store_true")
++    r.add_argument("--tpm", type=int, default=None)
+     a = ap.parse_args()
+
+--- paper_versions/run_agents.py
++++ mab_harness/run_agents.py
+@@ -38,4 +38,7 @@
+ ROOT = HERE.parent
+-TASKS_DIR = ROOT / "mab_tasks"
+-RUNS_DIR = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++TASKS_DIR = _llm.tasks_dir(ROOT / "mab_tasks")
++RUNS_DIR = _llm.runs_dir(ROOT / "mab_runs")
+ FUNCS_PATH = HERE / "funcs_v1.json"
+@@ -148,7 +151,6 @@
+                  tpm: int | None = None, base_url: str | None = None, api_key_env: str = "OPENAI_API_KEY",
+-                 extra_body: dict | None = None):
++                 extra_body: dict | None = None, rpm: float | None = None, strip_reasoning: bool = False):
+         from openai import OpenAI
+-        if not os.environ.get(api_key_env):
+-            raise RuntimeError(f"{api_key_env} is not set in the environment")
+-        self.client = OpenAI(max_retries=10, timeout=180, base_url=base_url, api_key=os.environ[api_key_env])
++        self.client = OpenAI(max_retries=10, timeout=180, base_url=base_url, api_key=_llm.api_key(api_key_env))
++        self.base_url, self.limiter, self.strip = base_url, _llm.RateLimiter(rpm), strip_reasoning
+         self.model, self.temperature = model, temperature
+@@ -166,2 +168,3 @@
+             self.bucket.acquire(est)
++        self.limiter.acquire()
+         text, usage, dt, served = self._call(messages)
+@@ -206,3 +209,7 @@
+                           "finish_reason": resp.choices[0].finish_reason}
+-        return (resp.choices[0].message.content or ""), usage, time.time() - t0, resp.model
++        self._last_log.update({k: v for k, v in _llm.call_meta(resp, self.extra_body, self.base_url).items() if k != "provider"})
++        text = resp.choices[0].message.content or ""
++        if self.strip:                            # optional: drop <think>...</think> before the strict action parser
++            text = _llm.strip_reasoning(text)
++        return text, usage, time.time() - t0, resp.model
+ 
+@@ -403,3 +410,3 @@
+     ap.add_argument("--n", type=int, default=8, help="attempts per task")
+-    ap.add_argument("--temperature", type=float, default=0.8)
++    ap.add_argument("--temperature", type=float, default=0.8, help="sampling temperature (paper 0.8); a negative value omits the parameter")
+     ap.add_argument("--reasoning-effort", default=None)
+@@ -419,2 +426,4 @@
+                     help="variant: accept an action line that follows a short preamble (prompt unchanged; counts logged)")
++    ap.add_argument("--rpm", type=float, default=None, help="optional requests-per-minute throttle (free tiers, local servers)")
++    ap.add_argument("--strip-reasoning", action="store_true", help="remove <think>...</think> blocks before parsing the action")
+     ap.add_argument("--extra-body", default=None, help="JSON object (or @path/to/file.json) passed as extra_body, e.g. OpenRouter provider routing")
+@@ -445,2 +454,4 @@
+ 
++    if a.temperature is not None and a.temperature < 0:
++        a.temperature = None
+     agent_factory = {
+@@ -448,5 +459,4 @@
+                                       base_url=a.base_url, api_key_env=a.api_key_env,
+-                                      extra_body=(json.loads(Path(a.extra_body[1:]).read_text(encoding="utf-8"))
+-                                                  if a.extra_body and a.extra_body.startswith("@")
+-                                                  else json.loads(a.extra_body) if a.extra_body else None)),
++                                      extra_body=_llm.load_extra_body(a.extra_body),
++                                      rpm=a.rpm, strip_reasoning=a.strip_reasoning),
+         "replay": lambda: ReplayAgent(logic, run_dir),
+@@ -491,3 +501,3 @@
+                "n_get": ep["n_get"], "n_post": ep["n_post"], "usage": ep["usage"], "latency_s": ep["latency_s"],
+-               "result": ep["result"], "answer_file": str(ans_path.relative_to(ROOT)),
++               "result": ep["result"], "answer_file": _llm.answer_ref(ROOT, ans_path),
+                "providers": sorted({str(x.get("provider")) for x in ep["served_log"]}),
+
+--- paper_versions/seed_from_pilot.py
++++ mab_harness/seed_from_pilot.py
+@@ -15,3 +15,6 @@
+ ROOT = Path(__file__).resolve().parent.parent
+-RUNS = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
+ 
+@@ -47,6 +50,6 @@
+         for r in todo:
+-            old = ROOT / r["answer_file"]
++            old = _llm.resolve_answer(ROOT, RUNS, r["answer_file"])
+             new = dst / "answers" / old.name
+             shutil.copy2(old, new)
+-            r = dict(r, answer_file=str(new.relative_to(ROOT)), reused_from=a.source)
++            r = dict(r, answer_file=_llm.answer_ref(ROOT, new), reused_from=a.source)
+             fh.write(json.dumps(r) + "\n")
+
+--- paper_versions/trace_mechanisms.py
++++ mab_harness/trace_mechanisms.py
+@@ -33,3 +33,6 @@
+ ROOT = HERE.parent
+-RUNS = ROOT / "mab_runs"
++import sys as _sys
++_sys.path.insert(0, str(Path(__file__).resolve().parent))
++import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
++RUNS = _llm.runs_dir(ROOT / "mab_runs")
+ FHIR = "http://localhost:8080/fhir/"
+@@ -182,3 +185,3 @@
+         return cls, LOCUS[cls], ""
+-    hist = json.loads((ROOT / row["answer_file"]).read_text(encoding="utf-8"))["history"]
++    hist = json.loads(_llm.resolve_answer(ROOT, RUNS, row["answer_file"]).read_text(encoding="utf-8"))["history"]
+     steps = parse_steps(hist)
+@@ -292,3 +295,3 @@
+             r = json.loads(l)
+-            h = json.loads((ROOT / r["answer_file"]).read_text(encoding="utf-8"))["history"]
++            h = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))["history"]
+             ref[r["task_id"]] = {"answer": r["result"], "posts": [s for s in parse_steps(h) if s["kind"] == "POST"]}

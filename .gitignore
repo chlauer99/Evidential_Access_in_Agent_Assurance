@@ -1,0 +1,37 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+._*
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Generated outputs and archived experiment data
+outputs/
+data/
+mab_runs/
+runs/**
+# Keep analysis source stored in a run directory
+!runs/**/
+!runs/**/*.py
+*.log
+*.jsonl
+# Downloaded server and compiled dependencies
+mab_server/
+h2fix/lib/
+h2fix/classes/
+*.class
+*.jar
+*.war
+*.zip

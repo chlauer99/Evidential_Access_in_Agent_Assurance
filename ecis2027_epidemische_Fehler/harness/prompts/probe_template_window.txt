@@ -1,0 +1,4 @@
+It is now {now}. These are a patient's {analyte} measurements (time, value):
+{points}
+
+What is the most recent value measured within the last 24 hours? Reply with the number only, or -1 if there is none.

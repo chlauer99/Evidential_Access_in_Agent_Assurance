@@ -1,0 +1,8 @@
+{
+ "provider": {
+  "order": [
+   "anthropic"
+  ],
+  "allow_fallbacks": true
+ }
+}

@@ -1,0 +1,22 @@
+# Chain test without API calls or FHIR server: the archived raw pilot runs, controls and judge verdicts are imported
+# instead of being generated, and steps 3-10 run on them offline (see README, "Tests").
+name: chain_test_archived
+description: archived study data through steps 3-10 (offline grading and tracing where the server would be needed)
+expect_paper: true
+import_archived: true          # steps 1, 2, 6, 7, 8 import archived outputs instead of calling models
+offline: true                  # steps 3 and 4 use the offline modes (stored grader verdicts, hand-traced codes)
+fhir: {mode: external, base_url: http://localhost:8080/fhir/}
+pilot_tasks: {per_category: 3, seed: 2026}
+models: {}
+agents:
+  pilot_gpt41: {model: archived, tasks: pilot, attempts: 8}
+  pilot_gpt41mini: {model: archived, tasks: pilot, attempts: 8}
+  full_deepseekv32: {model: archived, tasks: all, attempts: 4}
+controls: {judged: [control_replay, control_null], full: []}
+judges:
+  gpt-4.1: {model: archived}
+  gpt-4.1-mini: {model: archived}
+  deepseek-v3.2: {model: archived, access: true}
+record_access: {judge: deepseek-v3.2, max_queries: 4, sample_seed: 2027}
+probes: {model: archived}
+cue: {agent: full_deepseekv32, attempts: 2}

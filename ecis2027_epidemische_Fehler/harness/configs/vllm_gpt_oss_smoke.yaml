@@ -1,0 +1,42 @@
+# Optional technical smoke test only: --steps 0-1 (three attempts).
+# Single main run, no pilots. Internal full/cue run identifiers retain legacy names.
+# GPT-OSS 120B via vLLM; all agent and judge requests use this one model.
+# Larger output budgets and low reasoning differ from the original paper.
+name: vllm_gpt_oss_main_v2_smoke
+design: single_model
+description: GPT-OSS 120B, 300 tasks x 4 attempts, four evidence conditions, no pilots
+expect_paper: false
+fhir: {mode: docker, image: jyxsu6/medagentbench@sha256:3fb83d7ed71c5476f9eb6212bd440a909ef7505922bbc757dc488a8fc0701966, base_url: http://localhost:8080/fhir/, server_dir: mab_server, java_env: null}
+models:
+  oss_full:
+    name: GPT-OSS 120B
+    developer: openai
+    base_url: http://192.168.92.194:10121/v1
+    api_key_env: ""
+    model: openai/gpt-oss-120b
+    temperature: 0.8
+    max_output_tokens: 8192
+    extra_body: {reasoning_effort: low}
+    tpm: null
+    rpm: null
+    workers: 1
+    lenient_actions: false
+    strip_reasoning: true
+    price_in: 0.0
+    price_out: 0.0
+agents:
+  full_deepseekv32: {model: oss_full, tasks: "task1_1,task4_29,task9_3", attempts: 1}
+controls: {tasks: all, judged: [full_control_replay, control_null], full: []}
+judges:
+  gpt-oss-120b:
+    model: oss_full
+    structured_output: true
+    temperature: 0
+    max_tokens: 8192
+    neutral: [full_deepseekv32, full_control_replay, control_null]
+    spec: [full_deepseekv32, full_control_replay, control_null]
+    verify: [full_deepseekv32, full_control_replay, control_null]
+    access: true
+record_access: {continue_on_errors: true, judge: gpt-oss-120b, max_queries: 4, sample_seed: 2027, workers: 1}
+probes: {model: oss_full, samples: 3, temperature: 0.8, max_tokens: 8192, workers: 1}
+cue: {agent: full_deepseekv32, attempts: 2}

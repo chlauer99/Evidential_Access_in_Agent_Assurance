@@ -1,0 +1,103 @@
+# Paper configuration: reproduces the setup of the ECIS 2027 study exactly (models, tasks, attempts, conditions).
+# run:  python harness/run_pipeline.py --config harness/configs/paper.yaml --dry-run
+name: paper
+description: ECIS 2027 study, original MedAgentBench protocol (verbatim prompt, funcs_v1, 8 rounds, POSTs not persisted)
+expect_paper: true            # step 10 fails unless the numbers match the paper (only meaningful for exact replays)
+
+fhir:
+  mode: auto                  # auto | windows-nodocker | docker | external
+  image: jyxsu6/medagentbench@sha256:3fb83d7ed71c5476f9eb6212bd440a909ef7505922bbc757dc488a8fc0701966
+  base_url: http://localhost:8080/fhir/
+  server_dir: mab_server      # windows-nodocker: files fetched by fetch_server.py (about 4.5 GB)
+  java_env: null              # windows-nodocker: conda env root with openjdk 17 (default: env of `java` on PATH)
+
+pilot_tasks: {per_category: 3, seed: 2026}   # stratified sample of 30 tasks (select_pilot in run_agents.py)
+
+# Every model entry: name, developer, base_url, api_key_env (empty for local servers), model, temperature,
+# max_output_tokens, extra_body (provider routing), tpm / rpm throttles, workers, lenient_actions, strip_reasoning,
+# price_in / price_out (USD per million tokens, used for the cost estimate only).
+models:
+  gpt41:
+    name: GPT-4.1
+    developer: openai
+    base_url: null            # OpenAI API
+    api_key_env: OPENAI_API_KEY
+    model: gpt-4.1-2025-04-14 # the paper called the alias gpt-4.1; every response was served by gpt-4.1-2025-04-14
+    temperature: 0.8
+    max_output_tokens: 4096
+    extra_body: null
+    tpm: 27000                # account limit 30,000 tokens/min; never run two gpt-4.1 jobs at once
+    rpm: null
+    workers: 3
+    lenient_actions: false
+    strip_reasoning: false
+    price_in: 2.0
+    price_out: 8.0
+  gpt41mini:
+    name: GPT-4.1-mini
+    developer: openai
+    base_url: null
+    api_key_env: OPENAI_API_KEY
+    model: gpt-4.1-mini-2025-04-14
+    temperature: 0.8
+    max_output_tokens: 4096
+    extra_body: null
+    tpm: 180000
+    rpm: null
+    workers: 6
+    lenient_actions: false
+    strip_reasoning: false
+    price_in: 0.4
+    price_out: 1.6
+  deepseek:
+    name: DeepSeek V3.2
+    developer: deepseek
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    model: deepseek/deepseek-v3.2
+    temperature: 0.8
+    max_output_tokens: 4096
+    extra_body: {provider: {quantizations: [fp8], allow_fallbacks: true}}   # FP8 endpoints only
+    tpm: null
+    rpm: null
+    workers: 6
+    lenient_actions: false
+    strip_reasoning: false
+    price_in: 0.27
+    price_out: 0.4
+
+# Role slots (identifiers used by the analyses; see analysis/config.py). tasks: pilot | all | comma-separated ids
+agents:
+  pilot_gpt41: {model: gpt41, tasks: pilot, attempts: 8, max_total_tokens: 4000000}
+  pilot_gpt41mini: {model: gpt41mini, tasks: pilot, attempts: 8, max_total_tokens: 6000000}
+  full_deepseekv32: {model: deepseek, tasks: all, attempts: 4, max_total_tokens: 14000000}
+
+controls:
+  judged: [control_replay, control_null]          # 30 pilot tasks; graded by the judges (Table 5 control rows)
+  full: [full_control_replay, full_control_null]  # 300 tasks; tracer reference and do-nothing floor (70 of 300)
+
+# Judge role slot -> model; temperature 0 and a 400-token cap as in the paper. Conditions list the runs judged.
+judges:
+  gpt-4.1:
+    model: gpt41
+    temperature: 0
+    max_tokens: 400
+    neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null]
+    spec: [pilot_gpt41, control_replay, control_null]
+  gpt-4.1-mini:
+    model: gpt41mini
+    temperature: 0
+    max_tokens: 400
+    neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null]
+    spec: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null]
+  deepseek-v3.2:
+    model: deepseek
+    temperature: 0
+    max_tokens: 400
+    neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null, full_deepseekv32]
+    verify: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null]
+    access: true              # record-access condition on the stratified sample (418 attempts in the paper)
+
+record_access: {judge: deepseek-v3.2, max_queries: 4, sample_seed: 2027, workers: 6}
+probes: {model: deepseek, samples: 3, temperature: 0.8, max_tokens: 200, workers: 6}
+cue: {agent: full_deepseekv32, attempts: 2, max_total_tokens: 3000000}

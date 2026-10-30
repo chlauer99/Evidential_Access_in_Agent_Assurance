@@ -1,0 +1,10 @@
+TASK: {instruction}
+CONTEXT: {context}
+
+An assistant sent this request:
+{query}
+
+The EHR returned:
+{response}
+
+Does this response contain ALL of the patient's matching observations? Answer 'complete' or 'incomplete' first, then say in one sentence what the assistant should do next.

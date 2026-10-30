@@ -1,0 +1,68 @@
+# Example: the same design with hosted models from other developers (OpenAI-compatible APIs).
+# Keys are read from the environment variables named in api_key_env; they are never written anywhere.
+name: example_api
+description: two NVIDIA NIM models of one developer on the pilot tasks, one Groq model on all tasks
+expect_paper: false
+fhir: {mode: auto, image: jyxsu6/medagentbench@sha256:3fb83d7ed71c5476f9eb6212bd440a909ef7505922bbc757dc488a8fc0701966, base_url: http://localhost:8080/fhir/, server_dir: mab_server, java_env: null}
+pilot_tasks: {per_category: 3, seed: 2026}
+models:
+  llama_large:
+    name: Llama 3.3 70B (NIM)
+    developer: meta
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY
+    model: meta/llama-3.3-70b-instruct
+    temperature: 0.8
+    max_output_tokens: 4096   # NIM accepts max_tokens; some models cap it lower
+    extra_body: null
+    tpm: null
+    rpm: 35                   # NIM free tier: about 40 requests/min
+    workers: 2
+    lenient_actions: false    # set true if the model writes a preamble before GET/POST/FINISH (logged as a variant)
+    strip_reasoning: false
+    price_in: 0.0
+    price_out: 0.0
+  llama_small:
+    name: Llama 3.1 8B (NIM)
+    developer: meta
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY
+    model: meta/llama-3.1-8b-instruct
+    temperature: 0.8
+    max_output_tokens: 4096
+    extra_body: null
+    tpm: null
+    rpm: 35
+    workers: 2
+    lenient_actions: false
+    strip_reasoning: false
+    price_in: 0.0
+    price_out: 0.0
+  gptoss:
+    name: gpt-oss-120b (Groq)
+    developer: openai-oss
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    model: openai/gpt-oss-120b
+    temperature: 0.8
+    max_output_tokens: 4096
+    extra_body: null
+    tpm: 7500                 # Groq free tier token limit per minute (check your account)
+    rpm: 25
+    workers: 1
+    lenient_actions: false
+    strip_reasoning: true     # reasoning model: drop <think> blocks if the endpoint returns them inline
+    price_in: 0.15
+    price_out: 0.6
+agents:
+  pilot_gpt41: {model: llama_large, tasks: pilot, attempts: 8}
+  pilot_gpt41mini: {model: llama_small, tasks: pilot, attempts: 8}
+  full_deepseekv32: {model: gptoss, tasks: all, attempts: 4}
+controls: {judged: [control_replay, control_null], full: [full_control_replay, full_control_null]}
+judges:
+  gpt-4.1: {model: llama_large, temperature: 0, max_tokens: 400, neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null], spec: [pilot_gpt41, control_replay, control_null]}
+  gpt-4.1-mini: {model: llama_small, temperature: 0, max_tokens: 400, neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null], spec: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null]}
+  deepseek-v3.2: {model: gptoss, temperature: -1, max_tokens: 2000, neutral: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null, full_deepseekv32], verify: [pilot_gpt41, pilot_gpt41mini, control_replay, control_null], access: true}
+record_access: {judge: deepseek-v3.2, max_queries: 4, sample_seed: 2027, workers: 1}
+probes: {model: gptoss, samples: 3, temperature: 0.8, max_tokens: 1000, workers: 1}
+cue: {agent: full_deepseekv32, attempts: 2}

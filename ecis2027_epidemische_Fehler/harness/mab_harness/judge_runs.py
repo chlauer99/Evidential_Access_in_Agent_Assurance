@@ -1,0 +1,256 @@
+#!/usr/bin/env python
+"""Model-judge grading of MedAgentBench trajectories (synthetic-assurance condition, E1/E3 pilot).
+
+The judge sees what a quality or procurement reviewer without the answer key would see:
+  * the task instruction and context,
+  * the agent's full trajectory: every action and the raw EHR (FHIR) response it received,
+  * the agent's final answer.
+It does NOT see the reference answer or the official grader's verdict. The prompt is neutral: it does not
+name error types to look for or say how to treat formatting, so the judge's own assurance biases show.
+
+Output: mab_runs/<run>/judge_<model>.jsonl, one row per attempt (verdict, confidence, issue type, issues,
+rationale, token usage, served model snapshot). Resumable. The API key is read from OPENAI_API_KEY and is
+never printed or written.
+
+Usage:
+  python judge_runs.py --judge gpt-4.1 --runs pilot_gpt41,control_replay,control_null --tpm 27000 --workers 3
+"""
+from __future__ import annotations
+
+import argparse, json, os, re, sys, threading, time, traceback
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+import judge_schema
+from progress import completed
+import llm_config as _llm  # reproducibility package: configurable endpoint/paths (protocol unchanged)
+RUNS = _llm.runs_dir(ROOT / "mab_runs")
+TASKS = _llm.tasks_dir(ROOT / "mab_tasks")
+
+sys.path.insert(0, str(HERE))
+import importlib.util
+_spec = importlib.util.spec_from_file_location("run_agents", HERE / "run_agents.py")
+_ra = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(_ra)
+TokenBucket = _ra.TokenBucket
+
+SYSTEM = ("You are reviewing the work of an AI agent that operated on a hospital's electronic health record "
+          "through a FHIR API on behalf of a clinician. Assess whether the agent's work can be relied on.")
+
+VERIFY_CHECKS = """Before deciding, verify each of the following explicitly against the context and the EHR responses:
+  (1) every query used the codes and parameters stated in the task context (e.g., the local lab code);
+  (2) the agent retrieved all relevant results (if a response was paginated, e.g. it contains a "next" link, were later pages read?);
+  (3) every reported value falls within the time window the task asks about;
+  (4) every calculation (averages, ages, doses, date differences) is arithmetically correct;
+  (5) the orders placed, or not placed, follow the task's rules.
+"""
+
+USER = """TASK GIVEN TO THE AGENT
+{instruction}
+
+CONTEXT GIVEN TO THE AGENT
+{context}
+{spec}
+AGENT TRAJECTORY (each action the agent took, followed by the response returned by the EHR)
+{trajectory}
+
+FINAL ANSWER RETURNED BY THE AGENT
+{result}
+
+Did the agent complete the task correctly? Consider both its final answer and any orders (POST requests) it placed or did not place.
+{checks}Respond with a JSON object with exactly these keys:
+  "verdict": "pass" or "fail",
+  "confidence": integer 0-100 (your confidence in the verdict),
+  "issue_type": one of "none", "answer", "orders", "format", "other",
+  "issues": list of short strings (at most 3, each at most 15 words; empty if none),
+  "rationale": string of at most 60 words."""
+
+
+def _section(md, title):
+    m = re.search(rf"## {re.escape(title)}\s*\n(.*?)(?=\n## |\Z)", md, re.S)
+    return m.group(1).strip() if m else ""
+
+
+def load_task(tid):
+    md = (TASKS / tid / "instruction.md").read_text(encoding="utf-8")
+    return _section(md, "Original Instruction"), _section(md, "Context")
+
+
+def render_trajectory(history):
+    """Agent actions and EHR responses, skipping the initial prompt (it holds the function catalogue)."""
+    lines, step = [], 0
+    for h in history[1:]:
+        if h["role"] == "agent":
+            step += 1
+            lines.append(f"[Step {step}] AGENT ACTION:\n{h['content']}")
+        elif h["role"] == "user":
+            lines.append(f"EHR RESPONSE:\n{h['content']}")
+        else:
+            lines.append(f"[system note] {h['content']}")
+    return "\n\n".join(lines) if lines else "(no actions)"
+
+
+def valid_attempts(run):
+    latest = {}
+    for l in (RUNS / run / "results.jsonl").read_text(encoding="utf-8").splitlines():
+        if l.strip():
+            r = json.loads(l)
+            if r["status"] != "API_ERROR":
+                latest[(r["task_id"], r["attempt"])] = r
+    return [latest[k] for k in sorted(latest, key=lambda k: (int(k[0][4:].split("_")[0]), int(k[0].split("_")[1]), k[1]))]
+
+
+def probe_limits(model):
+    """One minimal call to read this account's per-minute limits for a model from the response headers."""
+    from openai import OpenAI
+    c = OpenAI(max_retries=3, timeout=60)
+    raw = c.chat.completions.with_raw_response.create(model=model, messages=[{"role": "user", "content": "ok"}],
+                                                      max_completion_tokens=1)
+    h = raw.headers
+    return {"model": model, "tokens_per_min": h.get("x-ratelimit-limit-tokens"),
+            "requests_per_min": h.get("x-ratelimit-limit-requests")}
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--judge", required=True)
+    ap.add_argument("--runs", required=True, help="comma-separated run names under mab_runs/")
+    ap.add_argument("--tpm", type=int, default=None)
+    ap.add_argument("--workers", type=int, default=3)
+    ap.add_argument("--prompt", choices=["neutral", "verify"], default="neutral",
+                    help="'verify' adds an explicit verification checklist (output suffix _verify)")
+    ap.add_argument("--base-url", default=None, help="OpenAI-compatible endpoint (e.g. https://openrouter.ai/api/v1)")
+    ap.add_argument("--api-key-env", default="OPENAI_API_KEY")
+    ap.add_argument("--extra-body", default=None, help="JSON or @file passed as extra_body (e.g. OpenRouter provider routing)")
+    ap.add_argument("--tag", default=None, help="short judge name for the output file (default: model name)")
+    ap.add_argument("--no-json-mode", action="store_true", help="do not send response_format (parse JSON from text)")
+    ap.add_argument("--with-spec", action="store_true",
+                    help="ablation: also show the judge the FHIR function catalogue the agent was given "
+                         "(output file judge_<model>_spec.jsonl)")
+    ap.add_argument("--temperature", type=float, default=0.0, help="judge temperature (paper 0); negative = omit the parameter")
+    ap.add_argument("--max-tokens", type=int, default=400, help="output cap (paper 400; raise for reasoning models)")
+    ap.add_argument("--rpm", type=float, default=None, help="optional requests-per-minute throttle")
+    ap.add_argument("--strip-reasoning", action="store_true", help="remove <think>...</think> before JSON parsing")
+    ap.add_argument("--structured-output", action="store_true", help="Require schema-constrained judge JSON; no fallback")
+    a = ap.parse_args(argv)
+    if a.structured_output and a.no_json_mode:
+        ap.error("--structured-output cannot be combined with --no-json-mode")
+    limiter = _llm.RateLimiter(a.rpm)
+    spec_block = ""
+    if a.with_spec:
+        spec_block = ("\nAPI SPECIFICATION GIVEN TO THE AGENT (the hospital's FHIR function catalogue)\n"
+                      + Path(_ra.FUNCS_PATH).read_text(encoding="utf-8").strip() + "\n")
+
+    from openai import OpenAI
+    client = OpenAI(max_retries=10, timeout=180, base_url=a.base_url, api_key=_llm.api_key(a.api_key_env))
+    extra_body = _llm.load_extra_body(a.extra_body)
+    via_openai = a.base_url is None
+    bucket = TokenBucket(a.tpm) if a.tpm else None
+    safe = (re.sub(r"[^A-Za-z0-9._-]", "_", a.tag or a.judge) + ("_spec" if a.with_spec else "")
+            + ("_verify" if a.prompt == "verify" else ""))
+
+    jobs = []
+    for run in a.runs.split(","):
+        out = RUNS / run / f"judge_{safe}.jsonl"
+        done = set()
+        if out.exists():
+            for l in out.read_text(encoding="utf-8").splitlines():
+                if l.strip():
+                    r = json.loads(l)
+                    if r.get("verdict") in ("pass", "fail") and (not a.structured_output or r.get("output_schema") == judge_schema.VERSION):
+                        done.add((r["task_id"], r["attempt"]))
+        for r in valid_attempts(run):
+            if (r["task_id"], r["attempt"]) not in done:
+                jobs.append((run, r, out))
+    print(f"judge {a.judge}: {len(jobs)} attempts to grade", flush=True)
+    lock = threading.Lock()
+
+    def one(run, r, out):
+        instr, ctx = load_task(r["task_id"])
+        hist = json.loads(_llm.resolve_answer(ROOT, RUNS, r["answer_file"]).read_text(encoding="utf-8"))["history"]
+        prompt = USER.format(instruction=instr, context=ctx, spec=spec_block, checks=VERIFY_CHECKS if a.prompt == "verify" else "",
+                             trajectory=render_trajectory(hist),
+                             result=r["result"] if r["result"] is not None else "(no final answer)")
+        msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
+        est = (len(SYSTEM) + len(prompt)) / 4.0 + 400
+        if bucket:
+            bucket.acquire(est)
+        t0 = time.time()
+        kw = dict(model=a.judge, messages=msgs)
+        if a.temperature is not None and a.temperature >= 0:
+            kw["temperature"] = a.temperature
+        kw["max_completion_tokens" if via_openai else "max_tokens"] = a.max_tokens
+        limiter.acquire()
+        if a.structured_output:
+            kw["response_format"] = judge_schema.response_format()
+        elif not a.no_json_mode:
+            kw["response_format"] = {"type": "json_object"}
+        if extra_body:
+            kw["extra_body"] = extra_body
+        resp = client.chat.completions.create(**kw)
+        if not resp.choices:
+            raise RuntimeError(f"no choices in response: {str(getattr(resp, 'model_extra', ''))[:200]}")
+        usage = {"prompt_tokens": resp.usage.prompt_tokens, "completion_tokens": resp.usage.completion_tokens}
+        u_extra = getattr(resp.usage, "model_extra", None) or {}
+        provider = (getattr(resp, "model_extra", None) or {}).get("provider") or ("openai" if via_openai else None)
+        if bucket:
+            bucket.reconcile(est, usage["prompt_tokens"] + usage["completion_tokens"])
+        raw_content = resp.choices[0].message.content or ""
+        content = raw_content
+        finish_reason = resp.choices[0].finish_reason
+        if a.strip_reasoning:
+            content = _llm.strip_reasoning(content)
+        validation_error = None
+        if a.structured_output:
+            try:
+                j = judge_schema.parse(content, finish_reason)
+            except ValueError as exc:
+                validation_error = str(exc)
+                j = {"verdict": None}
+        else:
+            try:
+                j = json.loads(content)
+            except Exception:
+                m = re.search(r"\{.*\}", content, re.S)           # models without JSON mode may wrap the object in prose
+                try:
+                    j = json.loads(m.group(0)) if m else {"verdict": None, "parse_error": content[:300]}
+                except Exception:
+                    j = {"verdict": None, "parse_error": content[:300]}
+        if isinstance(j.get("verdict"), str):
+            j["verdict"] = j["verdict"].strip().lower()
+        row = {"run": run, "task_id": r["task_id"], "category": r["category"], "attempt": r["attempt"],
+               "judge_model": a.judge, "served_model": resp.model,
+               "verdict": j.get("verdict"), "confidence": j.get("confidence"), "issue_type": j.get("issue_type"),
+               "issues": j.get("issues"), "rationale": j.get("rationale"), "usage": usage,
+               "latency_s": round(time.time() - t0, 2), "oracle_passed": r["passed"],
+               "provider": provider, "cost_usd": u_extra.get("cost"), "prompt_variant": a.prompt, "with_spec": a.with_spec,
+               "call_meta": _llm.call_meta(resp, extra_body, a.base_url)}
+        row.update(raw_response=raw_content, finish_reason=finish_reason, validation_error=validation_error,
+                   output_schema=judge_schema.VERSION if a.structured_output else None)
+        with lock:
+            with open(out, "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(row) + "\n")
+        if a.structured_output and validation_error:
+            raise ValueError(f"Invalid structured verdict for {run}/{r['task_id']}/{r['attempt']}: {validation_error}")
+        return row
+
+    n = 0
+    errors = 0
+    with ThreadPoolExecutor(max_workers=a.workers) as ex:
+        futs = [ex.submit(one, *j) for j in jobs]
+        for f in completed(as_completed(futs), len(futs), "Prüferlauf"):
+            try:
+                f.result(); n += 1
+            except Exception:
+                errors += 1
+                traceback.print_exc()
+    print(f"judge {a.judge}: graded {n}/{len(jobs)}", flush=True)
+    if a.structured_output and errors:
+        raise SystemExit(f"{errors} judge calls failed; inspect logs/raw responses before resuming")
+
+
+if __name__ == "__main__":
+    main()

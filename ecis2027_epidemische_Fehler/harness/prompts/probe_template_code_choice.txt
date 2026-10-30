@@ -1,0 +1,4 @@
+TASK: {instruction}
+CONTEXT: {context}
+
+You will now search the EHR with GET {{api_base}}/Observation?code=<CODE>&patient=<MRN>. Which value should <CODE> take to find this patient's existing results? Reply with the code only.

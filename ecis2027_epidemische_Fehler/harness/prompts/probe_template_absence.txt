@@ -1,0 +1,10 @@
+TASK: {instruction}
+CONTEXT: {context}
+
+An assistant sent this request:
+{query}
+
+The EHR returned:
+{response}
+
+Can the assistant validly conclude from this response that the patient has no such record or result? Answer 'yes' or 'no' first, then give one sentence of reasoning.
