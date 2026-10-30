@@ -2,7 +2,6 @@
 
   python harness/run_pipeline.py --config harness/configs/paper.yaml --dry-run          # print the plan and costs
   python harness/run_pipeline.py --config harness/configs/paper.yaml --steps 0-2 --yes
-  python harness/run_pipeline.py --config harness/configs/chain_test_archived.yaml     # offline test, no API calls
 
 Steps (each resumable; outputs under runs/<config name>/):
   0 server      fetch and start the MedAgentBench FHIR server (pinned image; Windows no-Docker path with h2fix,

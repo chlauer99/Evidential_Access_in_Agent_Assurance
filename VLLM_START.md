@@ -1,3 +1,5 @@
+> Aktueller Umfang: Enthalten sind nur die Paper-Konfigurationen aus [harness/configs/README.md](harness/configs/README.md). Die unten historisch beschriebenen Smoke-Tests und Qwen-Vorläufer sind nicht mehr enthalten; für Qwen gilt `harness/configs/vllm_qwen3_8_27b_exp_3.yaml`.
+
 # Experiment mit GPT-OSS auf dem vLLM-Server
 
 Die vorhandene OpenAI-kompatible Schnittstelle wird für **alle Modellaufrufe** genutzt:

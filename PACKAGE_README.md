@@ -1,3 +1,5 @@
+> Configuration scope: only the paper configurations listed in [harness/configs/README.md](harness/configs/README.md) are included. Example and archived-chain configurations described in this historical package guide have been removed.
+
 > Code release note: Paper figure scripts have been removed. `reproduce.py` now runs table analyses only and skips figure verification. Figure-related descriptions below document the original full research package.
 
 # Reproducibility package: "No Results Found": Evidential Access and the Automated Assurance of Agentic Health Information Systems (ECIS 2027)

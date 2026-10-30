@@ -37,3 +37,5 @@ See [the package documentation](PACKAGE_README.md) and [third-party provenance n
 All 113 imported Python source files passed syntax parsing. A scan for common API-token and private-key patterns found no matches. The initial system-Python test run passed 20 of 23 discovered tests; two test modules could not load because `requests` and `httpx` were absent, and one historical comparison test requires the excluded archived dataset. Live model experiments were not rerun as part of this source import.
 
 Paper figure generation scripts are excluded from this repository. The analysis runner generates tables and skips figure verification.
+
+The retained paper configurations and their run mapping are listed in [harness/configs/README.md](harness/configs/README.md).
