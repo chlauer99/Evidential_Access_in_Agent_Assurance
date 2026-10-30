@@ -1,0 +1,44 @@
+{
+ "attempts": 1200,
+ "tasks": 300,
+ "mean_pass@1": 0.4908,
+ "mean_pass@8": null,
+ "by_category_pass@1": {
+  "task1": 0.108,
+  "task2": 0.967,
+  "task3": 0.992,
+  "task4": 0.8,
+  "task5": 0.583,
+  "task6": 0.508,
+  "task7": 0.0,
+  "task8": 0.917,
+  "task9": 0.025,
+  "task10": 0.008
+ },
+ "status_counts": {
+  "COMPLETED": 1197,
+  "TASK_LIMIT_REACHED": 3
+ },
+ "failure_types": {
+  "commission": 26,
+  "no_finish": 3,
+  "none": 589,
+  "omission": 25,
+  "wrong_answer": 495,
+  "wrong_order_or_answer": 62
+ },
+ "mean_rounds": 2.62,
+ "tokens_in": 13634703,
+ "tokens_out": 276904,
+ "mean_tokens_per_attempt": 11593,
+ "served_models": [
+  "openai/gpt-oss-120b"
+ ],
+ "providers": [
+  "192"
+ ],
+ "cost_usd_reported_by_gateway": null,
+ "api_error_rows_excluded": 0,
+ "cost_usd": 0.0,
+ "cost_per_attempt_usd": 0.0
+}

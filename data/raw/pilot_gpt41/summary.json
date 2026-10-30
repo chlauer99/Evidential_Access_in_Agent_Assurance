@@ -1,0 +1,37 @@
+{
+ "attempts": 240,
+ "tasks": 30,
+ "mean_pass@1": 0.6,
+ "mean_pass@8": 0.6333,
+ "by_category_pass@1": {
+  "task1": 1.0,
+  "task2": 1.0,
+  "task3": 1.0,
+  "task4": 0.667,
+  "task5": 0.333,
+  "task6": 0.667,
+  "task7": 0.0,
+  "task8": 1.0,
+  "task9": 0.0,
+  "task10": 0.333
+ },
+ "status_counts": {
+  "COMPLETED": 240
+ },
+ "failure_types": {
+  "none": 144,
+  "omission": 9,
+  "wrong_answer": 80,
+  "wrong_order_or_answer": 7
+ },
+ "mean_rounds": 2.13,
+ "tokens_in": 2071964,
+ "tokens_out": 20725,
+ "mean_tokens_per_attempt": 8720,
+ "served_models": [
+  "gpt-4.1-2025-04-14"
+ ],
+ "api_error_rows_excluded": 174,
+ "cost_usd": 4.31,
+ "cost_per_attempt_usd": 0.018
+}

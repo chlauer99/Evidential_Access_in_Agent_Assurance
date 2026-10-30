@@ -1,0 +1,14 @@
+{
+ "finished_utc": "2026-10-19T12:35:50Z",
+ "record_access": {
+  "gpt-oss-120b_access_status": {
+   "status": "completed_with_missing_verdicts",
+   "attempted": 4,
+   "valid_new": 0,
+   "missing_new": 4,
+   "fatal_errors": 0,
+   "continue_on_errors": true
+  }
+ },
+ "status": "completed_with_missing_verdicts"
+}

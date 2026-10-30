@@ -1,0 +1,12 @@
+# Level B: re-run the experiments (FHIR server + OpenAI-compatible model endpoints)
+name: ecis2027-harness
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - openjdk=17          # HAPI FHIR server (Windows no-Docker path; javac builds the h2fix provider)
+  - requests
+  - openai>=1.40        # OpenAI-compatible client for every model endpoint
+  - pandas
+  - numpy
+  - matplotlib          # step 9 (Level A analyses on the new run)
+  - pyyaml              # configs (a small built-in parser is used if PyYAML is missing)

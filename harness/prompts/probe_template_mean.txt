@@ -1,0 +1,1 @@
+Compute the arithmetic mean of these values: {values}. Reply with the number only, rounded to two decimals.

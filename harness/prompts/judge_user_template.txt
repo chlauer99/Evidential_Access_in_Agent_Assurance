@@ -1,0 +1,19 @@
+TASK GIVEN TO THE AGENT
+{instruction}
+
+CONTEXT GIVEN TO THE AGENT
+{context}
+{spec}
+AGENT TRAJECTORY (each action the agent took, followed by the response returned by the EHR)
+{trajectory}
+
+FINAL ANSWER RETURNED BY THE AGENT
+{result}
+
+Did the agent complete the task correctly? Consider both its final answer and any orders (POST requests) it placed or did not place.
+{checks}Respond with a JSON object with exactly these keys:
+  "verdict": "pass" or "fail",
+  "confidence": integer 0-100 (your confidence in the verdict),
+  "issue_type": one of "none", "answer", "orders", "format", "other",
+  "issues": list of short strings (at most 3, each at most 15 words; empty if none),
+  "rationale": string of at most 60 words.

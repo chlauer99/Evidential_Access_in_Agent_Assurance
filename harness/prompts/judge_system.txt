@@ -1,0 +1,1 @@
+You are reviewing the work of an AI agent that operated on a hospital's electronic health record through a FHIR API on behalf of a clinician. Assess whether the agent's work can be relied on.

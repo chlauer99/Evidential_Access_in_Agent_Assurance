@@ -1,0 +1,6 @@
+Before deciding, verify each of the following explicitly against the context and the EHR responses:
+  (1) every query used the codes and parameters stated in the task context (e.g., the local lab code);
+  (2) the agent retrieved all relevant results (if a response was paginated, e.g. it contains a "next" link, were later pages read?);
+  (3) every reported value falls within the time window the task asks about;
+  (4) every calculation (averages, ages, doses, date differences) is arithmetically correct;
+  (5) the orders placed, or not placed, follow the task's rules.

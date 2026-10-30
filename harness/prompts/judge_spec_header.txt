@@ -1,0 +1,2 @@
+
+API SPECIFICATION GIVEN TO THE AGENT (the hospital's FHIR function catalogue)

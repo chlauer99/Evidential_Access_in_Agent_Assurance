@@ -1,0 +1,1 @@
+full_deepseekv32 1200 {'': 566, 'false_absence': 237, 'format_only': 155, 'incomplete_retrieval': 110, 'order_content_error': 42, 'answer_error_other': 25, 'pass_without_acting': 23, 'no_action_on_detected_absence': 21, 'unnecessary_order': 8, 'time_window_error': 6, 'protocol_failure': 3, 'computation_error': 2, 'order_rule_omission': 1, 'unmapped': 1}

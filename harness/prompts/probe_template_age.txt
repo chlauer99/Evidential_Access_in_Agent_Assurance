@@ -1,0 +1,1 @@
+A patient was born on {birthdate}. Today is {today}. What is the patient's age in whole years, rounded down? Reply with the number only.

@@ -1,0 +1,205 @@
+run,served_model,task_id,category,attempt,status,official_pass,refined_class,mechanism,locus,evidence
+cue_deepseekv32,openai/gpt-oss-120b,task1_1,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Peter Stafford', 'birthdate': '1932-12-29'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_1,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Peter Stafford', 'birthdate': '1932-12-29'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_2,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_2,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_3,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Dana Sandoval', 'birthdate': '1989-04-19'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_3,task1,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_4,task1,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_4,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'James Snyder', 'birthdate': '1953-08-03'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_5,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Justin Gould', 'birthdate': '1943-05-19'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_5,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Justin Gould', 'birthdate': '1943-05-19'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_6,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Andrew Bishop', 'birthdate': '1963-01-29'}, {'name': 'Andrew Bishop', 'birthdate': '1963-01-29'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_6,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Andrew Bishop', 'birthdate': '1963-01-29'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_7,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Kevin Vasquez', 'birthdate': '1953-11-19'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_7,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Kevin Vasquez', 'birthdate': '1953-11-19'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_8,task1,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_8,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Brian Buchanan', 'birthdate': '1954-08-10'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_9,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Katrina Golden', 'birthdate': '1960-08-18'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_9,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Katrina Golden', 'birthdate': '1960-08-18'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_10,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Joshua Martinez', 'birthdate': '1967-03-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_10,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Joshua Martinez', 'birthdate': '1967-03-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_11,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Glenda Hall', 'birthdate': '1952-11-14'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_11,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Glenda Hall', 'birthdate': '1952-11-14'}, {'name': 'Glenda Hall', 'birthdate': '1952-11-14'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_12,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Margaret Kidd', 'birthdate': '1982-08-24'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_12,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Margaret Kidd', 'birthdate': '1982-08-24'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_13,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Emily Hicks', 'birthdate': '1942-05-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_13,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Emily Hicks', 'birthdate': '1942-05-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_14,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Pamela Merritt', 'birthdate': '1994-09-15'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_14,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Pamela Merritt', 'birthdate': '1994-09-15'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_15,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Denise Dunlap', 'birthdate': '1945-09-20'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_15,task1,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_16,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Debra Dunn', 'birthdate': '1969-05-12'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_16,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Debra Dunn', 'birthdate': '1969-05-12'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_17,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Shannon Palmer', 'birthdate': '1956-11-16'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_17,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Shannon Palmer', 'birthdate': '1956-11-16'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_18,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Melissa Nguyen', 'birthdate': '1973-08-14'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_18,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Melissa Nguyen', 'birthdate': '1973-08-14'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_19,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tim Ramos', 'birthdate': '1959-04-28'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_19,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tim Ramos', 'birthdate': '1959-04-28'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_20,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Christopher Cruz', 'birthdate': '1940-08-28'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_20,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Christopher Cruz', 'birthdate': '1940-08-28'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_21,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tina Anderson', 'birthdate': '1959-01-24'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_21,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tina Anderson', 'birthdate': '1959-01-24'}, {'name': 'Tina Anderson', 'birthdate': '1959-01-24'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_22,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Robert Gardner', 'birthdate': '1975-05-30'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_22,task1,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_23,task1,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_23,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Julie Rodriguez', 'birthdate': '1962-01-20'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_24,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Katherine Sutton', 'birthdate': '1943-02-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_24,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Katherine Sutton', 'birthdate': '1943-02-11'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_25,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Russell Shields', 'birthdate': '1964-01-02'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_25,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Russell Shields', 'birthdate': '1964-01-02'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_26,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Victoria Owens', 'birthdate': '2002-06-07'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_26,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Victoria Owens', 'birthdate': '2002-06-07'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_27,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tina Reid', 'birthdate': '1953-10-18'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_27,task1,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task1_28,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tracey Stanley', 'birthdate': '1988-12-04'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task1_28,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tracey Stanley', 'birthdate': '1988-12-04'}, {'name': 'Tracey Stanley', 'birthdate': '1988-12-04'}]"
+cue_deepseekv32,openai/gpt-oss-120b,task4_3,task4,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_3,task4,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 35 results read; true latest 2023-11-12T13:35:00+00:00 (2.7) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task4_5,task4,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_5,task4,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 70 results read; true latest 2023-11-12T11:47:00+00:00 (2.1) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task4_13,task4,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_13,task4,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_17,task4,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 106 results read; true latest 2023-11-12T13:41:00+00:00 (2.1) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task4_17,task4,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 106 results read; true latest 2023-11-12T13:41:00+00:00 (2.1) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task4_26,task4,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_26,task4,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_28,task4,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task4_28,task4,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task5_7,task5,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_7,task5,1,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_17,task5,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_17,task5,1,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_19,task5,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_19,task5,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level recorded in the last 24 hours is below the low thresh"
+cue_deepseekv32,openai/gpt-oss-120b,task5_21,task5,0,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.8; ordered [1.0] vs reference [1.0]
+cue_deepseekv32,openai/gpt-oss-120b,task5_21,task5,1,COMPLETED,False,omission,order_rule_omission,action,latest in-window Mg 1.8 requires replacement; no order
+cue_deepseekv32,openai/gpt-oss-120b,task5_25,task5,0,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.9; ordered [1.0] vs reference [1.0]
+cue_deepseekv32,openai/gpt-oss-120b,task5_25,task5,1,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.9; ordered [1.0] vs reference [1.0]
+cue_deepseekv32,openai/gpt-oss-120b,task5_27,task5,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task5_27,task5,1,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task6_2,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_2,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_4,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_4,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 211 results read; true latest 2023-11-13T07:16:00+00:00 (95.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_5,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 41 results read; true latest 2023-11-13T01:41:00+00:00 (93.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_5,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 41 results read; true latest 2023-11-13T01:41:00+00:00 (93.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_6,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_6,task6,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_7,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_7,task6,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,no Observation query issued; local code GLU has 4 results
+cue_deepseekv32,openai/gpt-oss-120b,task6_8,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_8,task6,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_10,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 142 results read; true latest 2023-11-13T06:45:00+00:00 (165.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_10,task6,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_12,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 633 results read; true latest 2023-11-13T06:59:00+00:00 (189.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_12,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 633 results read; true latest 2023-11-13T06:59:00+00:00 (189.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_13,task6,0,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 13 in-window values retrieved; true mean 116.15; answered 117.08
+cue_deepseekv32,openai/gpt-oss-120b,task6_13,task6,1,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 13 in-window values retrieved; true mean 116.15; answered 117.08
+cue_deepseekv32,openai/gpt-oss-120b,task6_20,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_20,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_21,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 82 results read; true latest 2023-11-13T03:43:00+00:00 (97.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_21,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 82 results read; true latest 2023-11-13T03:43:00+00:00 (97.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_23,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_23,task6,1,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 3 in-window values retrieved; true mean 89.67; answered 84
+cue_deepseekv32,openai/gpt-oss-120b,task6_24,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_24,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+cue_deepseekv32,openai/gpt-oss-120b,task6_25,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 585 results read; true latest 2023-11-13T06:36:00+00:00 (99.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_25,task6,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_27,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [271.25]
+cue_deepseekv32,openai/gpt-oss-120b,task6_27,task6,1,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_29,task6,0,COMPLETED,True,pass,,,
+cue_deepseekv32,openai/gpt-oss-120b,task6_29,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 479 results read; true latest 2023-11-13T04:12:00+00:00 (93.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_30,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T20:36:00+00:00 (126.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task6_30,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T20:36:00+00:00 (126.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_1,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T05:54:00+00:00 (123.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_1,task7,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"answer [""The most recent CBG (capillary blood glucose) observation for patient S2823623 could not be found; there are no Observation resources with code \""GLU\"" for this patient.""] vs reference [123.0]"
+cue_deepseekv32,openai/gpt-oss-120b,task7_6,task7,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task7_6,task7,1,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task7_10,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_10,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_12,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_12,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_13,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_13,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_14,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_14,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_15,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_15,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_16,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_16,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_18,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_18,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_19,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_19,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_23,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_23,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_24,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_24,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_27,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_27,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_30,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task7_30,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+cue_deepseekv32,openai/gpt-oss-120b,task9_1,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 62 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_1,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 62 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_2,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 51 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_2,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 51 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_3,task9,0,COMPLETED,False,omission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 46 results; upstream of omission
+cue_deepseekv32,openai/gpt-oss-120b,task9_3,task9,1,COMPLETED,False,omission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 46 results; upstream of omission
+cue_deepseekv32,openai/gpt-oss-120b,task9_4,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 17 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_4,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 17 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_5,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 67 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_5,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 67 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_6,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 23 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_6,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 23 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_7,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 73 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_7,task9,1,COMPLETED,True,pass_without_acting,pass_without_acting,grader,
+cue_deepseekv32,openai/gpt-oss-120b,task9_8,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 7 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_8,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 7 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_9,task9,0,COMPLETED,True,pass_without_acting,pass_without_acting,grader,
+cue_deepseekv32,openai/gpt-oss-120b,task9_9,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 618 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_10,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_10,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_11,task9,0,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 36 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_11,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 36 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_12,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 31 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_12,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 31 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_13,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 43 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_13,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 43 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_14,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 57 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_14,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 57 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_15,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 365 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_15,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 365 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_16,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 42 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_16,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 42 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_17,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 5 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_17,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 5 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_18,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 35 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_18,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 35 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_19,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_19,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_20,task9,0,AGENT_INVALID_ACTION,False,no_finish,protocol_failure,other,status AGENT_INVALID_ACTION
+cue_deepseekv32,openai/gpt-oss-120b,task9_20,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 59 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_21,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 105 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_21,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 105 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_22,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_22,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_23,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1261 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_23,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1261 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_24,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 3 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_24,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 3 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_25,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 47 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_25,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 47 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_26,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_26,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_27,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 5 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_27,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 5 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_28,task9,0,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_28,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_29,task9,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 25 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_29,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 25 results
+cue_deepseekv32,openai/gpt-oss-120b,task9_30,task9,0,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 69 results; upstream of commission
+cue_deepseekv32,openai/gpt-oss-120b,task9_30,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 69 results
+cue_deepseekv32,openai/gpt-oss-120b,task10_5,task10,0,COMPLETED,False,format_only,format_only,format,
+cue_deepseekv32,openai/gpt-oss-120b,task10_5,task10,1,COMPLETED,False,format_only,format_only,format,

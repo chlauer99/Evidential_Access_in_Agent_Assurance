@@ -1,0 +1,10 @@
+locus,mechanism,count
+action,no_action_on_detected_absence,4
+action,order_content_error,65
+action,order_rule_omission,4
+action,unnecessary_order,59
+conclusion,answer_error_other,92
+conclusion,computation_error,8
+conclusion,time_window_error,10
+evidence_gathering,false_absence,42
+evidence_gathering,incomplete_retrieval,133
