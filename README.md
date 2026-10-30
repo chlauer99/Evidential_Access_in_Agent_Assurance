@@ -18,7 +18,7 @@ This repository contains the MedAgentBench experiment pipeline, agent runners, r
 
 ## 1. Installation
 
-Use **Python 3.11** (the version specified by the original environment files). Run all commands below from the repository root. Examples use a macOS/Linux shell.
+Use **Python 3.11**, the recommended version for the experiment pipeline. Run all commands below from the repository root. Examples use a macOS/Linux shell.
 
 ```sh
 git clone https://github.com/chlauer99/Evidential_Access_in_Agent_Assurance.git
@@ -35,11 +35,11 @@ On Windows PowerShell, create the environment with `py -3.11 -m venv .venv` and 
 
 `requirements.txt` covers the Python packages used by the experiment and analysis code, including `tqdm` for progress reporting and `httpx` for request/retry tests. It specifies dependency lower bounds, not a locked copy of the historical execution environment.
 
-Alternatively, use Conda:
+Alternatively, create a Python environment with Conda and install the same requirements:
 
 ```sh
-conda env create -f environment-harness.yml
-conda activate ecis2027-harness
+conda create -n agent-assurance python=3.11
+conda activate agent-assurance
 python -m pip install -r requirements.txt
 ```
 
@@ -59,7 +59,7 @@ python -m pip install -r requirements.txt
 | `runs/` | The three selected open-weight experiment archives |
 | `data/raw/` | Available original GPT-4.1, GPT-4.1-mini and DeepSeek outputs |
 | `data/derived/` | Original-study outcome, mechanism and provenance tables |
-| `analysis/` | Original-study table analyses and historical comparative analysis |
+| `analysis/` | Original-study table analyses and shared analysis utilities |
 | `reproduce.py` / `verify.py` | Original-study table runner and verification tools |
 
 The identifiers `full_deepseekv32` and `cue_deepseekv32` are also used inside the Qwen and GPT-OSS runs as internal role names. In those directories they do **not** mean that DeepSeek was the model; the corresponding YAML and `run_config.json` identify the model used.
@@ -293,8 +293,6 @@ Add `--execute` to make model calls. Endpoint and run-location overrides are des
 
 - Original DeepSeek full-run trajectories and results are not available in the local source archive; judge verdicts and derived tables are included. The original cue directory contains configuration and documentation rather than raw cue trajectories. Original full-benchmark control outputs are also missing. See [runs/README.md](runs/README.md).
 - Published verification targets in `data/published/`, the manuscript and paper figures are excluded. The repository therefore does not support an unconditional claim that every original artefact can be verified from a fresh clone.
-- `analysis/a15_open_weight_runs.py` is a retained historical comparison script. It still expects the excluded `gpt_oss_120b_qwen_judge_exp_1` run, so it is **not an entry point for the selected three-run release**. Use the self-judge and cross-judge commands above.
-- `REPRO_REPORT.md` and parts of `VLLM_START.md` describe earlier versions of the full research package. This README is the central usage guide; directory READMEs provide local archive/configuration details.
 - Historical implementations under `harness/mab_harness/history/` document the original experiments. `original_medagentbench_task.py` is upstream reference code, not the standalone runner used by the pipeline.
 
 ## 8. Checks and provenance
@@ -319,7 +317,7 @@ python harness/tests/test_mock_endpoints.py
 
 The prompt check exits after its assertions, so the unit-test command explicitly selects the other test modules rather than importing it through discovery. Local mock-endpoint checks may require permission to bind a local port. These checks do not replace a live model/FHIR reproduction.
 
-The original agent implementations and other paper-era snapshots are retained under `harness/mab_harness/history/`; see `REPRO_REPORT.md` for their provenance. The current configurable runners and these historical snapshots serve different purposes. `harness/scripts/run_all_experiments.sh` and `.ps1` document the original manual execution sequence; the YAML-driven pipeline is the recommended entry point for new runs.
+The original agent implementations and other paper-era snapshots are retained under `harness/mab_harness/history/`; version identifiers are preserved in the snapshot filenames and archived run metadata. The current configurable runners and these historical snapshots serve different purposes. `harness/scripts/run_all_experiments.sh` and `.ps1` document the original manual execution sequence; the YAML-driven pipeline is the recommended entry point for new runs.
 
 See [LICENSE-NOTES.md](LICENSE-NOTES.md) for synthetic-data provenance, third-party components and the stated reuse conditions. The benchmark material derives from MedAgentBench; downloaded HAPI FHIR/H2 components have separate terms. Consult the provenance notes before redistributing third-party material. No API credentials, downloaded server/database binaries or local Python environments are included.
 
@@ -339,6 +337,5 @@ The documented GPT-OSS, Qwen and neutral cross-judge offline analyses completed 
 | `verify.py` cannot find published files | Use `--no-verify` for the included original-study analyses; full comparison requires separate `data/published/` targets. |
 | A new run skips work | Check its output root, configuration `name`, `DONE.json` markers and existing attempt files. Use a fresh output root to start independently of the archive. |
 | Rate limits, retries or incomplete verdict counts | Inspect stage logs, request settings and status files. Resume the same run for unfinished work, and report missing/invalid verdicts rather than treating them as passes. |
-| Historical comparison script cannot find a second GPT-OSS run | `a15_open_weight_runs.py` expects an excluded experiment. Use the supported self-judge and reciprocal cross-judge analysis commands in section 4. |
 
 Reanalysing fixed archived outputs and generating new model outputs are different reproducibility goals. Agent sampling, model-serving behaviour and upstream providers can yield different trajectories on a fresh run, even with the same configuration. Preserve the original archive and report any model, endpoint, reasoning, parsing or sampling changes alongside new results.
