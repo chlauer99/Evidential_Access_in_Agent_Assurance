@@ -1,6 +1,6 @@
 # Run new experiments
 
-This repository contains source code, prompts, configurations, all 300 benchmark task instructions and metadata, reference graders, Python requirements, and server setup sources. Selected paper model outputs and run results are included; see `runs/README.md` for the selection and missing original-study raw data.
+This repository contains source code, prompts, configurations, all 300 benchmark task instructions and metadata, reference graders, Python requirements, and server setup sources. Experiment outputs and saved runs are not included.
 
 ## Setup
 
@@ -26,8 +26,8 @@ Use a new configuration `name` for a new experiment. Model calls can incur costs
 ## Included and excluded files
 
 - Included: prompts (`harness/prompts/`), model/pipeline configurations, FHIR function catalogue (`funcs_v1.json`), benchmark instructions and task metadata, source code, dependency definitions and usage documentation.
-- Archived inputs: the three selected `runs/` directories and original-study inputs in `data/raw/` and `data/derived/`.
-- Excluded: other experiments, generated figure files, local environments, server downloads and compiled Java artifacts.
-- Original-study reproduction may require additional historical data missing from the local archive. The optional step 10 comparison also requires archived DeepSeek results; use steps 0–9 for new experiments without archived data (see pipeline `--help`).
+- Generated/external inputs: `runs/`, `data/`, `mab_runs/` and `outputs/` are excluded from Git. Generate them by running experiments or supply compatible data separately.
+- Excluded: all experiment results, trajectories, verdicts, logs, derived tables, manuscript-number results, generated figures, local environments, server downloads and compiled Java artifacts.
+- Original-study reanalysis requires separately supplied historical data. The optional step 10 comparison also requires archived DeepSeek results; use steps 0–9 for new experiments without archived data (see pipeline `--help`).
 
 See [README.md](README.md) for the full usage guide and [LICENSE-NOTES.md](LICENSE-NOTES.md) for third-party component provenance.

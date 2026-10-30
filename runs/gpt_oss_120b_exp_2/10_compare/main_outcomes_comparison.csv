@@ -1,5 +1,0 @@
-measure,current,archived_deepseek
-n_attempts,1200,1200
-n_tasks,300,300
-official_pass_rate,0.49083333333333334,0.5116666666666667
-substantive_error_rate,0.3775,0.34

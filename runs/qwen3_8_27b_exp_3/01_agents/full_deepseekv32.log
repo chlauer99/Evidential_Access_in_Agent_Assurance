@@ -1,735 +1,0 @@
-300 tasks x 4 attempts; 1200 to run (0 already done) -> /Users/chla04-admin/Library/CloudStorage/OneDrive-dfki.de/Paper/ECIS27/eoidemische_Fehler/ecis2027_epidemische_Fehler/runs/qwen3_8_27b_exp_3/mab_runs/full_deepseekv32
-
-Hauptlauf · full_deepseekv32 — 1200 ausstehende Einheiten
-Hauptlauf · full_deepseekv32:   0%|                                                         | 0/1200 [00:00<?]Hauptlauf · full_deepseekv32:   0%|                                                   | 1/1200 [00:05<1:51:02]Hauptlauf · full_deepseekv32:   0%|▏                                                    | 4/1200 [00:09<43:33]Hauptlauf · full_deepseekv32:   0%|▎                                                    | 6/1200 [00:11<30:18]Hauptlauf · full_deepseekv32:   1%|▎                                                    | 7/1200 [00:14<38:28]Hauptlauf · full_deepseekv32:   1%|▍                                                    | 9/1200 [00:16<30:28]Hauptlauf · full_deepseekv32:   1%|▍                                                   | 10/1200 [00:19<36:51]Hauptlauf · full_deepseekv32:   1%|▌                                                   | 12/1200 [00:21<30:26]Hauptlauf · full_deepseekv32:   1%|▌                                                   | 13/1200 [00:26<44:55]Hauptlauf · full_deepseekv32:   1%|▋                                                   | 16/1200 [00:31<39:47]Hauptlauf · full_deepseekv32:   2%|▊                                                   | 19/1200 [00:36<37:04]Hauptlauf · full_deepseekv32:   2%|▉                                                   | 22/1200 [00:40<33:56]Hauptlauf · full_deepseekv32:   2%|▉                                                   | 23/1200 [00:42<32:56]Hauptlauf · full_deepseekv32:   2%|█                                                   | 25/1200 [00:45<33:21]Hauptlauf · full_deepseekv32:   2%|█▏                                                  | 26/1200 [00:47<32:50]Hauptlauf · full_deepseekv32:   2%|█▏                                                  | 28/1200 [00:50<30:58]Hauptlauf · full_deepseekv32:   2%|█▎                                                  | 29/1200 [00:52<33:59]Hauptlauf · full_deepseekv32:   3%|█▎                                                  | 31/1200 [00:55<30:59]Hauptlauf · full_deepseekv32:   3%|█▍                                                  | 32/1200 [00:57<34:29]Hauptlauf · full_deepseekv32:   3%|█▍                                                  | 34/1200 [01:00<30:58]Hauptlauf · full_deepseekv32:   3%|█▌                                                  | 35/1200 [01:03<35:47]Hauptlauf · full_deepseekv32:   3%|█▌                                                  | 37/1200 [01:05<31:53]Hauptlauf · full_deepseekv32:   3%|█▋                                                  | 38/1200 [01:08<35:33]Hauptlauf · full_deepseekv32:   3%|█▋                                                  | 40/1200 [01:10<31:17]Hauptlauf · full_deepseekv32:   3%|█▊                                                  | 41/1200 [01:13<35:43]Hauptlauf · full_deepseekv32:   4%|█▊                                                  | 43/1200 [01:16<31:31]Hauptlauf · full_deepseekv32:   4%|█▉                                                  | 44/1200 [01:18<35:34]Hauptlauf · full_deepseekv32:   4%|█▉                                                  | 46/1200 [01:21<32:07]Hauptlauf · full_deepseekv32:   4%|██                                                  | 47/1200 [01:24<35:57]Hauptlauf · full_deepseekv32:   4%|██                                                  | 49/1200 [01:26<31:30]Hauptlauf · full_deepseekv32:   4%|██▏                                                 | 50/1200 [01:29<36:04]Hauptlauf · full_deepseekv32:   4%|██▎                                                 | 52/1200 [01:31<31:39]Hauptlauf · full_deepseekv32:   4%|██▎                                                 | 53/1200 [01:34<34:53]Hauptlauf · full_deepseekv32:   5%|██▍                                                 | 55/1200 [01:36<31:05]Hauptlauf · full_deepseekv32:   5%|██▍                                                 | 56/1200 [01:39<35:22]Hauptlauf · full_deepseekv32:   5%|██▌                                                 | 58/1200 [01:42<31:14]Hauptlauf · full_deepseekv32:   5%|██▌                                                 | 59/1200 [01:44<35:03]Hauptlauf · full_deepseekv32:   5%|██▋                                                 | 61/1200 [01:47<31:12]Hauptlauf · full_deepseekv32:   5%|██▋                                                 | 62/1200 [01:49<34:29]Hauptlauf · full_deepseekv32:   5%|██▊                                                 | 64/1200 [01:52<30:42]Hauptlauf · full_deepseekv32:   5%|██▊                                                 | 65/1200 [01:55<34:19]Hauptlauf · full_deepseekv32:   6%|██▉                                                 | 67/1200 [01:57<30:02]Hauptlauf · full_deepseekv32:   6%|██▉                                                 | 68/1200 [02:00<34:18]Hauptlauf · full_deepseekv32:   6%|███                                                 | 70/1200 [02:02<30:26]Hauptlauf · full_deepseekv32:   6%|███                                                 | 71/1200 [02:05<33:27]Hauptlauf · full_deepseekv32:   6%|███▏                                                | 73/1200 [02:07<30:06]Hauptlauf · full_deepseekv32:   6%|███▏                                                | 74/1200 [02:10<34:08]Hauptlauf · full_deepseekv32:   6%|███▎                                                | 76/1200 [02:12<30:25]Hauptlauf · full_deepseekv32:   6%|███▎                                                | 77/1200 [02:15<34:17]Hauptlauf · full_deepseekv32:   7%|███▍                                                | 79/1200 [02:18<30:18]Hauptlauf · full_deepseekv32:   7%|███▍                                                | 80/1200 [02:20<34:31]Hauptlauf · full_deepseekv32:   7%|███▌                                                | 82/1200 [02:23<30:47]Hauptlauf · full_deepseekv32:   7%|███▌                                                | 83/1200 [02:26<34:38]Hauptlauf · full_deepseekv32:   7%|███▋                                                | 85/1200 [02:28<30:34]Hauptlauf · full_deepseekv32:   7%|███▋                                                | 86/1200 [02:31<34:46]Hauptlauf · full_deepseekv32:   7%|███▊                                                | 88/1200 [02:33<30:25]Hauptlauf · full_deepseekv32:   7%|███▊                                                | 89/1200 [02:36<35:24]Hauptlauf · full_deepseekv32:   8%|███▉                                                | 91/1200 [02:39<30:13]Hauptlauf · full_deepseekv32:   8%|███▉                                                | 92/1200 [02:41<34:44]Hauptlauf · full_deepseekv32:   8%|████                                                | 94/1200 [02:44<29:59]Hauptlauf · full_deepseekv32:   8%|████                                                | 95/1200 [02:47<34:14]Hauptlauf · full_deepseekv32:   8%|████▏                                               | 97/1200 [02:49<30:37]Hauptlauf · full_deepseekv32:   8%|████▏                                               | 98/1200 [02:52<34:32]Hauptlauf · full_deepseekv32:   8%|████▎                                              | 100/1200 [02:55<30:26]Hauptlauf · full_deepseekv32:   8%|████▎                                              | 101/1200 [02:57<34:51]Hauptlauf · full_deepseekv32:   9%|████▍                                              | 103/1200 [03:00<30:13]Hauptlauf · full_deepseekv32:   9%|████▍                                              | 104/1200 [03:03<34:07]Hauptlauf · full_deepseekv32:   9%|████▌                                              | 106/1200 [03:05<30:00]Hauptlauf · full_deepseekv32:   9%|████▌                                              | 107/1200 [03:08<33:55]Hauptlauf · full_deepseekv32:   9%|████▋                                              | 109/1200 [03:10<29:17]Hauptlauf · full_deepseekv32:   9%|████▋                                              | 110/1200 [03:13<33:08]Hauptlauf · full_deepseekv32:   9%|████▊                                              | 112/1200 [03:15<29:22]Hauptlauf · full_deepseekv32:   9%|████▊                                              | 113/1200 [03:18<32:35]Hauptlauf · full_deepseekv32:  10%|████▉                                              | 115/1200 [03:20<28:58]Hauptlauf · full_deepseekv32:  10%|████▉                                              | 116/1200 [03:23<31:50]Hauptlauf · full_deepseekv32:  10%|█████                                              | 118/1200 [03:25<28:08]Hauptlauf · full_deepseekv32:  10%|█████                                              | 119/1200 [03:28<31:32]task2_1 [60] [60]
-Hauptlauf · full_deepseekv32:  10%|█████▏                                             | 121/1200 [03:30<28:33]task2_1 [60] [60]
-Hauptlauf · full_deepseekv32:  10%|█████▏                                             | 122/1200 [03:32<31:05]task2_1 [60] [60]
-task2_1 [60] [60]
-Hauptlauf · full_deepseekv32:  10%|█████▎                                             | 124/1200 [03:35<28:58]task2_2 [80] [80]
-Hauptlauf · full_deepseekv32:  10%|█████▎                                             | 125/1200 [03:38<31:24]task2_2 [80] [80]
-task2_2 [80] [80]
-Hauptlauf · full_deepseekv32:  11%|█████▍                                             | 127/1200 [03:40<29:04]task2_2 [80] [80]
-Hauptlauf · full_deepseekv32:  11%|█████▍                                             | 128/1200 [03:43<31:25]task2_3 [68] [68]
-task2_3 [68] [68]
-Hauptlauf · full_deepseekv32:  11%|█████▌                                             | 130/1200 [03:46<29:20]task2_3 [68] [68]
-Hauptlauf · full_deepseekv32:  11%|█████▌                                             | 131/1200 [03:48<31:25]task2_3 [68] [68]
-task2_4 [55] [55]
-Hauptlauf · full_deepseekv32:  11%|█████▋                                             | 133/1200 [03:51<28:52]task2_4 [55] [55]
-Hauptlauf · full_deepseekv32:  11%|█████▋                                             | 134/1200 [03:53<31:57]task2_4 [55] [55]
-task2_4 [55] [55]
-Hauptlauf · full_deepseekv32:  11%|█████▊                                             | 136/1200 [03:56<28:52]task2_5 [67] [67]
-Hauptlauf · full_deepseekv32:  11%|█████▊                                             | 137/1200 [03:58<31:26]task2_5 [67] [67]
-task2_5 [67] [67]
-Hauptlauf · full_deepseekv32:  12%|█████▉                                             | 139/1200 [04:01<28:46]task2_5 [67] [67]
-Hauptlauf · full_deepseekv32:  12%|█████▉                                             | 140/1200 [04:03<31:20]task2_6 [39] [39]
-task2_6 [39] [39]
-Hauptlauf · full_deepseekv32:  12%|██████                                             | 142/1200 [04:06<28:49]task2_6 [39] [39]
-Hauptlauf · full_deepseekv32:  12%|██████                                             | 143/1200 [04:08<30:58]task2_6 [39] [39]
-task2_7 [72] [72]
-Hauptlauf · full_deepseekv32:  12%|██████▏                                            | 145/1200 [04:12<33:08]task2_7 [72] [72]
-task2_7 [72] [72]
-Hauptlauf · full_deepseekv32:  12%|██████▏                                            | 147/1200 [04:14<25:18]task2_7 [72] [72]
-Hauptlauf · full_deepseekv32:  12%|██████▎                                            | 148/1200 [04:17<33:35]task2_8 [89] [89]
-task2_8 [89] [89]
-Hauptlauf · full_deepseekv32:  12%|██████▍                                            | 150/1200 [04:19<25:08]task2_8 [89] [89]
-Hauptlauf · full_deepseekv32:  13%|██████▍                                            | 151/1200 [04:23<34:13]task2_8 [89] [89]
-task2_9 [48] [48]
-Hauptlauf · full_deepseekv32:  13%|██████▌                                            | 153/1200 [04:24<25:14]task2_9 [48] [48]
-task2_9 [48] [48]
-Hauptlauf · full_deepseekv32:  13%|██████▌                                            | 155/1200 [04:28<30:02]task2_9 [48] [48]
-task2_10 [79] [79]
-Hauptlauf · full_deepseekv32:  13%|██████▋                                            | 157/1200 [04:33<33:10]task2_10 [79] [79]
-task2_10 [79] [80]
-Hauptlauf · full_deepseekv32:  13%|██████▊                                            | 159/1200 [04:34<25:28]task2_10 [79] [79]
-task2_11 [44] [44]
-Hauptlauf · full_deepseekv32:  13%|██████▊                                            | 161/1200 [04:38<29:24]task2_11 [44] [44]
-task2_11 [44] [44]
-Hauptlauf · full_deepseekv32:  14%|██████▉                                            | 163/1200 [04:43<32:23]task2_11 [44] [44]
-task2_12 [90] [90]
-Hauptlauf · full_deepseekv32:  14%|███████                                            | 165/1200 [04:44<25:35]task2_12 [90] [90]
-task2_12 [90] [90]
-Hauptlauf · full_deepseekv32:  14%|███████                                            | 167/1200 [04:48<29:13]task2_12 [90] [90]
-task2_13 [81] [81]
-Hauptlauf · full_deepseekv32:  14%|███████▏                                           | 169/1200 [04:53<32:17]task2_13 [81] [81]
-task2_13 [81] [81]
-Hauptlauf · full_deepseekv32:  14%|███████▎                                           | 171/1200 [04:54<25:28]task2_13 [81] [81]
-task2_14 [75] [75]
-Hauptlauf · full_deepseekv32:  14%|███████▎                                           | 173/1200 [04:59<29:13]task2_14 [75] [75]
-task2_14 [75] [75]
-Hauptlauf · full_deepseekv32:  15%|███████▍                                           | 175/1200 [05:03<31:52]task2_14 [75] [75]
-task2_15 [86] [86]
-Hauptlauf · full_deepseekv32:  15%|███████▌                                           | 177/1200 [05:04<25:22]task2_15 [86] [86]
-task2_15 [86] [86]
-Hauptlauf · full_deepseekv32:  15%|███████▌                                           | 179/1200 [05:09<29:05]task2_15 [86] [86]
-task2_16 [66] [66]
-Hauptlauf · full_deepseekv32:  15%|███████▋                                           | 181/1200 [05:14<33:00]task2_16 [66] [66]
-task2_16 [66] [67]
-task2_16 [66] [67]
-Hauptlauf · full_deepseekv32:  15%|███████▊                                           | 184/1200 [05:19<30:42]task2_17 [76] [76]
-task2_17 [76] [76]
-Hauptlauf · full_deepseekv32:  16%|███████▉                                           | 186/1200 [05:20<24:52]task2_17 [76] [76]
-task2_17 [76] [76]
-Hauptlauf · full_deepseekv32:  16%|███████▉                                           | 188/1200 [05:24<28:11]task2_18 [84] [84]
-task2_18 [84] [84]
-Hauptlauf · full_deepseekv32:  16%|████████                                           | 190/1200 [05:29<31:04]task2_18 [84] [84]
-task2_18 [84] [84]
-Hauptlauf · full_deepseekv32:  16%|████████▏                                          | 192/1200 [05:30<24:57]task2_19 [28] [28]
-task2_19 [28] ["28"]
-Hauptlauf · full_deepseekv32:  16%|████████▏                                          | 194/1200 [05:34<28:35]task2_19 [28] [28]
-task2_19 [28] [28]
-Hauptlauf · full_deepseekv32:  16%|████████▎                                          | 196/1200 [05:39<31:24]task2_20 [67] [67]
-task2_20 [67] [67]
-Hauptlauf · full_deepseekv32:  16%|████████▍                                          | 198/1200 [05:40<25:00]task2_20 [67] [67]
-task2_20 [67] [67]
-Hauptlauf · full_deepseekv32:  17%|████████▌                                          | 200/1200 [05:44<28:32]task2_21 [63] [63]
-task2_21 [63] [63]
-Hauptlauf · full_deepseekv32:  17%|████████▌                                          | 202/1200 [05:49<31:21]task2_21 [63] [63]
-task2_21 [63] [63]
-Hauptlauf · full_deepseekv32:  17%|████████▋                                          | 204/1200 [05:50<24:53]task2_22 [82] [82]
-task2_22 [82] [82]
-Hauptlauf · full_deepseekv32:  17%|████████▊                                          | 206/1200 [05:55<28:25]task2_22 [82] [82]
-task2_22 [82] [82]
-Hauptlauf · full_deepseekv32:  17%|████████▊                                          | 208/1200 [05:59<31:00]task2_23 [62] [62]
-task2_23 [62] [62]
-Hauptlauf · full_deepseekv32:  18%|████████▉                                          | 210/1200 [06:00<24:36]task2_23 [62] [62]
-task2_23 [62] [62]
-Hauptlauf · full_deepseekv32:  18%|█████████                                          | 212/1200 [06:05<28:00]task2_24 [54] [54]
-task2_24 [54] [54]
-Hauptlauf · full_deepseekv32:  18%|█████████                                          | 214/1200 [06:09<31:10]task2_24 [54] [54]
-task2_24 [54] [54]
-Hauptlauf · full_deepseekv32:  18%|█████████▏                                         | 216/1200 [06:11<24:47]task2_25 [51] [51]
-Hauptlauf · full_deepseekv32:  18%|█████████▏                                         | 217/1200 [06:15<31:32]task2_25 [51] [51]
-task2_25 [51] [51]
-Hauptlauf · full_deepseekv32:  18%|█████████▎                                         | 219/1200 [06:16<24:17]task2_25 [51] [51]
-task2_26 [69] [69]
-Hauptlauf · full_deepseekv32:  18%|█████████▍                                         | 221/1200 [06:20<27:53]task2_26 [69] [69]
-task2_26 [69] [69]
-Hauptlauf · full_deepseekv32:  19%|█████████▍                                         | 223/1200 [06:25<30:45]task2_26 [69] [69]
-task2_27 [70] [70]
-Hauptlauf · full_deepseekv32:  19%|█████████▌                                         | 225/1200 [06:26<24:15]task2_27 [70] [70]
-Hauptlauf · full_deepseekv32:  19%|█████████▌                                         | 226/1200 [06:30<31:07]task2_27 [70] ["70"]
-task2_27 [70] [70]
-Hauptlauf · full_deepseekv32:  19%|█████████▋                                         | 228/1200 [06:31<23:55]task2_28 [50] [50]
-task2_28 [50] [50]
-Hauptlauf · full_deepseekv32:  19%|█████████▊                                         | 230/1200 [06:35<27:41]task2_28 [50] [50]
-task2_28 [50] [50]
-Hauptlauf · full_deepseekv32:  19%|█████████▊                                         | 232/1200 [06:40<30:23]task2_29 [62] [62]
-task2_29 [62] [62]
-Hauptlauf · full_deepseekv32:  20%|█████████▉                                         | 234/1200 [06:41<23:58]task2_29 [62] [62]
-Hauptlauf · full_deepseekv32:  20%|█████████▉                                         | 235/1200 [06:45<31:08]task2_29 [62] [62]
-task2_30 [80] [80]
-Hauptlauf · full_deepseekv32:  20%|██████████                                         | 237/1200 [06:46<23:27]task2_30 [80] [80]
-task2_30 [80] [80]
-Hauptlauf · full_deepseekv32:  20%|██████████▏                                        | 239/1200 [06:51<27:11]task2_30 [80] [80]
-Hauptlauf · full_deepseekv32:  20%|██████████▏                                        | 241/1200 [06:57<34:57]Hauptlauf · full_deepseekv32:  20%|██████████▎                                        | 242/1200 [06:58<32:03]Hauptlauf · full_deepseekv32:  20%|██████████▎                                        | 243/1200 [07:00<33:00]Hauptlauf · full_deepseekv32:  20%|██████████▎                                        | 244/1200 [07:03<35:02]Hauptlauf · full_deepseekv32:  20%|██████████▍                                        | 245/1200 [07:05<33:18]Hauptlauf · full_deepseekv32:  20%|██████████▍                                        | 246/1200 [07:07<33:03]Hauptlauf · full_deepseekv32:  21%|██████████▍                                        | 247/1200 [07:11<41:21]Hauptlauf · full_deepseekv32:  21%|██████████▌                                        | 249/1200 [07:13<31:57]Hauptlauf · full_deepseekv32:  21%|██████████▋                                        | 250/1200 [07:17<39:06]Hauptlauf · full_deepseekv32:  21%|██████████▋                                        | 251/1200 [07:19<34:52]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  21%|██████████▊                                        | 253/1200 [07:23<32:52]Hauptlauf · full_deepseekv32:  21%|██████████▊                                        | 254/1200 [07:25<34:33]Hauptlauf · full_deepseekv32:  21%|██████████▉                                        | 256/1200 [07:29<31:58]
-Hauptlauf · full_deepseekv32:  21%|██████████▉                                        | 257/1200 [07:32<35:10]Hauptlauf · full_deepseekv32:  22%|███████████                                        | 259/1200 [07:35<32:34]Hauptlauf · full_deepseekv32:  22%|███████████                                        | 260/1200 [07:38<35:22]Hauptlauf · full_deepseekv32:  22%|███████████▏                                       | 262/1200 [07:42<34:20]
-Hauptlauf · full_deepseekv32:  22%|███████████▏                                       | 263/1200 [07:45<34:52]
-Hauptlauf · full_deepseekv32:  22%|███████████▎                                       | 265/1200 [07:48<32:01]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  22%|███████████▎                                       | 266/1200 [07:51<35:07]Hauptlauf · full_deepseekv32:  22%|███████████▍                                       | 268/1200 [07:55<32:01]Hauptlauf · full_deepseekv32:  22%|███████████▍                                       | 269/1200 [07:58<35:57]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  23%|███████████▌                                       | 271/1200 [08:01<31:01]
-Hauptlauf · full_deepseekv32:  23%|███████████▌                                       | 272/1200 [08:05<37:07]Hauptlauf · full_deepseekv32:  23%|███████████▌                                       | 273/1200 [08:06<32:07]Hauptlauf · full_deepseekv32:  23%|███████████▋                                       | 274/1200 [08:08<31:17]Hauptlauf · full_deepseekv32:  23%|███████████▋                                       | 275/1200 [08:11<36:57]Hauptlauf · full_deepseekv32:  23%|███████████▋                                       | 276/1200 [08:13<33:11]Hauptlauf · full_deepseekv32:  23%|███████████▊                                       | 277/1200 [08:15<32:53]
-Hauptlauf · full_deepseekv32:  23%|███████████▊                                       | 278/1200 [08:18<35:55]
-Hauptlauf · full_deepseekv32:  23%|███████████▊                                       | 279/1200 [08:19<32:50]Hauptlauf · full_deepseekv32:  23%|███████████▉                                       | 280/1200 [08:21<30:52]Hauptlauf · full_deepseekv32:  23%|███████████▉                                       | 281/1200 [08:25<39:39]Hauptlauf · full_deepseekv32:  24%|████████████                                       | 283/1200 [08:28<30:03]Hauptlauf · full_deepseekv32:  24%|████████████                                       | 284/1200 [08:32<38:15]
-Hauptlauf · full_deepseekv32:  24%|████████████▏                                      | 286/1200 [08:34<29:40]Hauptlauf · full_deepseekv32:  24%|████████████▏                                      | 287/1200 [08:39<40:19]
-Hauptlauf · full_deepseekv32:  24%|████████████▎                                      | 290/1200 [08:44<33:48]Hauptlauf · full_deepseekv32:  24%|████████████▍                                      | 292/1200 [08:47<29:17]Hauptlauf · full_deepseekv32:  24%|████████████▍                                      | 293/1200 [08:51<35:10]Hauptlauf · full_deepseekv32:  25%|████████████▌                                      | 295/1200 [08:54<29:53]Hauptlauf · full_deepseekv32:  25%|████████████▌                                      | 296/1200 [08:58<35:18]Hauptlauf · full_deepseekv32:  25%|████████████▋                                      | 298/1200 [09:00<29:40]Hauptlauf · full_deepseekv32:  25%|████████████▋                                      | 299/1200 [09:03<32:45]Hauptlauf · full_deepseekv32:  25%|████████████▊                                      | 300/1200 [09:06<34:41]Hauptlauf · full_deepseekv32:  25%|████████████▊                                      | 302/1200 [09:10<32:54]Hauptlauf · full_deepseekv32:  25%|████████████▉                                      | 303/1200 [09:13<34:11]Hauptlauf · full_deepseekv32:  25%|████████████▉                                      | 304/1200 [09:14<30:00]Hauptlauf · full_deepseekv32:  25%|████████████▉                                      | 305/1200 [09:17<36:20]Hauptlauf · full_deepseekv32:  26%|█████████████                                      | 307/1200 [09:20<29:57]Hauptlauf · full_deepseekv32:  26%|█████████████                                      | 308/1200 [09:24<35:39]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  26%|█████████████▏                                     | 309/1200 [09:25<32:25]
-
-Hauptlauf · full_deepseekv32:  26%|█████████████▏                                     | 311/1200 [09:29<29:47]
-Hauptlauf · full_deepseekv32:  26%|█████████████▎                                     | 312/1200 [09:32<33:14]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  26%|█████████████▎                                     | 314/1200 [09:35<29:46]Hauptlauf · full_deepseekv32:  26%|█████████████▍                                     | 315/1200 [09:39<33:44]Hauptlauf · full_deepseekv32:  26%|█████████████▍                                     | 317/1200 [09:42<31:05]Hauptlauf · full_deepseekv32:  26%|█████████████▌                                     | 318/1200 [09:45<34:05]Hauptlauf · full_deepseekv32:  27%|█████████████▌                                     | 320/1200 [09:49<32:06]
-Hauptlauf · full_deepseekv32:  27%|█████████████▋                                     | 321/1200 [09:52<32:16]Hauptlauf · full_deepseekv32:  27%|█████████████▋                                     | 322/1200 [09:55<35:24]Hauptlauf · full_deepseekv32:  27%|█████████████▋                                     | 323/1200 [09:56<32:16]list indices must be integers or slices, not str
-Hauptlauf · full_deepseekv32:  27%|█████████████▊                                     | 324/1200 [09:59<32:37]Hauptlauf · full_deepseekv32:  27%|█████████████▊                                     | 325/1200 [10:02<36:55]Hauptlauf · full_deepseekv32:  27%|█████████████▊                                     | 326/1200 [10:04<33:44]Hauptlauf · full_deepseekv32:  27%|█████████████▉                                     | 327/1200 [10:08<43:30]Hauptlauf · full_deepseekv32:  27%|█████████████▉                                     | 329/1200 [10:12<37:04]Hauptlauf · full_deepseekv32:  28%|██████████████                                     | 330/1200 [10:15<36:34]Hauptlauf · full_deepseekv32:  28%|██████████████                                     | 331/1200 [10:16<31:05]Hauptlauf · full_deepseekv32:  28%|██████████████                                     | 332/1200 [10:20<37:51]Hauptlauf · full_deepseekv32:  28%|██████████████▏                                    | 334/1200 [10:22<29:41]Hauptlauf · full_deepseekv32:  28%|██████████████▏                                    | 335/1200 [10:25<31:33]Hauptlauf · full_deepseekv32:  28%|██████████████▎                                    | 336/1200 [10:28<33:22]Hauptlauf · full_deepseekv32:  28%|██████████████▎                                    | 338/1200 [10:31<29:50]Hauptlauf · full_deepseekv32:  28%|██████████████▍                                    | 339/1200 [10:33<29:30]Hauptlauf · full_deepseekv32:  28%|██████████████▍                                    | 340/1200 [10:35<28:14]Hauptlauf · full_deepseekv32:  28%|██████████████▍                                    | 341/1200 [10:37<30:01]
-Hauptlauf · full_deepseekv32:  28%|██████████████▌                                    | 342/1200 [10:41<34:36]Hauptlauf · full_deepseekv32:  29%|██████████████▌                                    | 343/1200 [10:42<29:46]Hauptlauf · full_deepseekv32:  29%|██████████████▌                                    | 344/1200 [10:44<29:48]
-Hauptlauf · full_deepseekv32:  29%|██████████████▋                                    | 345/1200 [10:48<36:12]Hauptlauf · full_deepseekv32:  29%|██████████████▋                                    | 347/1200 [10:50<27:57]Hauptlauf · full_deepseekv32:  29%|██████████████▊                                    | 348/1200 [10:54<34:39]Hauptlauf · full_deepseekv32:  29%|██████████████▉                                    | 350/1200 [10:57<28:04]Hauptlauf · full_deepseekv32:  29%|██████████████▉                                    | 351/1200 [11:01<36:52]Hauptlauf · full_deepseekv32:  30%|███████████████                                    | 354/1200 [11:08<33:38]Hauptlauf · full_deepseekv32:  30%|███████████████▏                                   | 356/1200 [11:09<25:09]Hauptlauf · full_deepseekv32:  30%|███████████████▏                                   | 357/1200 [11:15<35:07]task4_1 task4_1[-1] [-1] [-1]
- [-1]
-Hauptlauf · full_deepseekv32:  30%|███████████████▎                                   | 360/1200 [11:19<29:19]task4_1 [-1] [2.3]
-Hauptlauf · full_deepseekv32:  30%|███████████████▍                                   | 362/1200 [11:24<29:19]task4_1 [-1] [2.3]
-Hauptlauf · full_deepseekv32:  30%|███████████████▍                                   | 363/1200 [11:25<28:40]task4_2 [-1] [-1]
-Hauptlauf · full_deepseekv32:  30%|███████████████▌                                   | 365/1200 [11:28<24:51]task4_2 [-1] [-1]
-Hauptlauf · full_deepseekv32:  30%|███████████████▌                                   | 366/1200 [11:30<25:07]task4_2 [-1] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▌                                   | 367/1200 [11:32<24:56]task4_2 [-1] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▋                                   | 368/1200 [11:33<23:29]task4_3 [2.7] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▋                                   | 369/1200 [11:37<31:23]task4_3 [2.7] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▋                                   | 370/1200 [11:41<38:00]task4_3 [2.7] [-1]
-task4_3 [2.7] [2.7]
-Hauptlauf · full_deepseekv32:  31%|███████████████▊                                   | 372/1200 [11:46<35:11]task4_4 [-1] [-1]
-task4_4 [-1] [-1]
-task4_4 [-1] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▉                                   | 375/1200 [11:50<28:25]task4_5 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  31%|███████████████▉                                   | 376/1200 [11:53<31:24]task4_4 [-1] [-1]
-task4_5 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████                                   | 378/1200 [12:00<35:09]task4_5 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████                                   | 379/1200 [12:03<36:31]task4_5 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▏                                  | 380/1200 [12:06<36:51]task4_6 [-1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▏                                  | 381/1200 [12:11<47:03]task4_6 [-1] [-1]
-task4_6 [-1] [-1]
-task4_6 [-1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▎                                  | 384/1200 [12:16<34:19]task4_7 [-1] [-1]
-task4_7 [-1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▍                                  | 386/1200 [12:17<25:56]task4_7 [-1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▍                                  | 387/1200 [12:23<35:57]task4_7 [-1] [-1]
-task4_8 [-1] [-1]
-task4_8 [-1] [-1]
-Hauptlauf · full_deepseekv32:  32%|████████████████▌                                  | 390/1200 [12:29<30:13]task4_8 [-1] [-1]
-task4_9 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|████████████████▋                                  | 392/1200 [12:33<29:59]task4_9 [-1] [-1]
-task4_8 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|████████████████▋                                  | 394/1200 [12:40<34:41]task4_9 [-1] [-1]
-task4_9 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|████████████████▊                                  | 396/1200 [12:41<26:34]task4_10 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|████████████████▊                                  | 397/1200 [12:44<30:14]task4_10 [-1] [-1]
-task4_10 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|████████████████▉                                  | 399/1200 [12:49<30:36]task4_10 [-1] [-1]
-task4_11 [-1] [-1]
-Hauptlauf · full_deepseekv32:  33%|█████████████████                                  | 401/1200 [12:51<24:07]task4_11 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████                                  | 402/1200 [12:55<29:51]task4_11 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▏                                 | 403/1200 [12:56<26:52]task4_11 [-1] [-1]
-task4_12 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▏                                 | 405/1200 [13:00<26:20]task4_12 [-1] [-1]
-task4_12 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▎                                 | 407/1200 [13:02<22:40]task4_12 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▎                                 | 408/1200 [13:04<22:59]task4_13 [2.2] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▍                                 | 409/1200 [13:07<25:15]task4_13 [2.2] [-1]
-task4_13 [2.2] ["2.2"]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▍                                 | 411/1200 [13:11<25:31]task4_14 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▌                                 | 412/1200 [13:13<27:49]task4_14 [-1] [-1]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▌                                 | 413/1200 [13:16<29:46]task4_13 [2.2] [2.2]
-Hauptlauf · full_deepseekv32:  34%|█████████████████▌                                 | 414/1200 [13:18<28:21]task4_14 [-1] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▋                                 | 415/1200 [13:20<28:50]task4_14 [-1] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▋                                 | 416/1200 [13:22<25:17]task4_15 [2.2] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▋                                 | 417/1200 [13:25<29:11]task4_15 [2.2] [-1]
-task4_15 [2.2] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▊                                 | 419/1200 [13:26<20:50]task4_16 [-1] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▊                                 | 420/1200 [13:31<29:42]task4_15 [2.2] [-1]
-task4_16 [-1] [-1]
-task4_16 [-1] [-1]
-Hauptlauf · full_deepseekv32:  35%|█████████████████▉                                 | 423/1200 [13:36<26:31]task4_16 [-1] [-1]
-Hauptlauf · full_deepseekv32:  35%|██████████████████                                 | 424/1200 [13:38<24:50]task4_17 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  35%|██████████████████                                 | 425/1200 [13:40<26:58]task4_17 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████                                 | 426/1200 [13:46<38:35]task4_17 [2.1] [-1]
-task4_17 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▏                                | 428/1200 [13:47<26:06]task4_18 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▏                                | 429/1200 [13:51<31:35]task4_18 [-1] [-1]
-task4_18 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▎                                | 431/1200 [13:53<22:29]task4_19 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▎                                | 432/1200 [13:57<30:12]task4_18 [-1] [-1]
-task4_19 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▍                                | 434/1200 [13:59<21:55]task4_19 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▍                                | 435/1200 [14:03<29:49]task4_20 [2.0] [-1]
-task4_19 [-1] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▌                                | 437/1200 [14:04<21:25]task4_20 [2.0] [-1]
-Hauptlauf · full_deepseekv32:  36%|██████████████████▌                                | 438/1200 [14:07<24:53]task4_20 [2.0] [2.1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▋                                | 439/1200 [14:09<24:28]task4_20 [2.0] [-1]
-task4_21 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▋                                | 441/1200 [14:15<30:37]task4_21 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▊                                | 442/1200 [14:18<31:08]task4_21 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▊                                | 443/1200 [14:21<32:54]task4_22 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▊                                | 444/1200 [14:24<34:43]task4_21 [-1] [-1]
-task4_22 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▉                                | 446/1200 [14:27<26:12]task4_22 [-1] [-1]
-Hauptlauf · full_deepseekv32:  37%|██████████████████▉                                | 447/1200 [14:29<27:41]task4_22 [-1] [-1]
-task4_23 [1.6] [1.6]
-Hauptlauf · full_deepseekv32:  37%|███████████████████                                | 449/1200 [14:34<28:31]task4_23 [1.6] [1.6]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▏                               | 450/1200 [14:36<28:40]task4_23 [1.6] [1.6]
-task4_23 [1.6] [1.6]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▏                               | 452/1200 [14:43<33:20]task4_24 [-1] [-1]
-task4_24 [-1] [-1]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▎                               | 454/1200 [14:44<24:00]task4_24 [-1] [-1]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▎                               | 455/1200 [14:48<29:13]task4_25 [2.0] [2.0]
-task4_24 [-1] [-1]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▍                               | 457/1200 [14:49<21:28]task4_25 [2.0] [2.0]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▍                               | 458/1200 [14:53<26:02]task4_25 [2.0] [2.0]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▌                               | 459/1200 [14:54<22:55]task4_25 [2.0] [2.0]
-task4_26 [2.5] [2.5]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▌                               | 461/1200 [14:58<24:36]task4_26 [2.5] [2.5]
-Hauptlauf · full_deepseekv32:  38%|███████████████████▋                               | 462/1200 [15:00<22:31]task4_26 [2.5] [-1]
-task4_27 [1.8] ["1.8"]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▋                               | 464/1200 [15:07<30:01]task4_27 [1.8] [1.8]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▊                               | 465/1200 [15:09<29:24]task4_26 [2.5] [-1]
-task4_27 [1.8] [1.8]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▊                               | 467/1200 [15:15<33:41]task4_28 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▉                               | 468/1200 [15:18<34:13]task4_28 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▉                               | 469/1200 [15:24<41:09]task4_28 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  39%|███████████████████▉                               | 470/1200 [15:25<34:46]task4_27 [1.8] [1.8]
-Hauptlauf · full_deepseekv32:  39%|████████████████████                               | 471/1200 [15:29<38:37]task4_28 [2.1] [-1]
-Hauptlauf · full_deepseekv32:  39%|████████████████████                               | 472/1200 [15:31<33:46]task4_29 [-1] [1.8]
-Hauptlauf · full_deepseekv32:  39%|████████████████████                               | 473/1200 [15:34<35:50]task4_29 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▏                              | 474/1200 [15:39<42:53]task4_29 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▏                              | 475/1200 [15:42<39:04]task4_29 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▏                              | 476/1200 [15:44<37:06]task4_30 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▎                              | 477/1200 [15:47<37:05]task4_30 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▎                              | 478/1200 [15:51<38:22]task4_30 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▎                              | 479/1200 [15:54<36:53]task4_30 [-1] [-1]
-Hauptlauf · full_deepseekv32:  40%|████████████████████▍                              | 481/1200 [15:57<30:17]Hauptlauf · full_deepseekv32:  40%|████████████████████▌                              | 483/1200 [16:00<24:19]Hauptlauf · full_deepseekv32:  40%|████████████████████▌                              | 484/1200 [16:04<30:17]Hauptlauf · full_deepseekv32:  40%|████████████████████▋                              | 486/1200 [16:08<25:47]Hauptlauf · full_deepseekv32:  41%|████████████████████▋                              | 487/1200 [16:11<29:59]task5_3 [2.0] ["The last serum magnesium level for patient S0636132 within the last 24 hours was 2.0 mg/dL, recorded on 2023-11-13T00:36:00+00:00. Since this level is within the normal range (≥2.0 mg/dL), no IV magnesium replacement is needed."]
-Hauptlauf · full_deepseekv32:  41%|████████████████████▊                              | 489/1200 [16:16<28:30]task5_3 [2.0] ["No serum magnesium level recorded in the last 24 hours. No order placed."]
-Hauptlauf · full_deepseekv32:  41%|████████████████████▊                              | 490/1200 [16:18<27:37]task5_3 [2.0] ["No magnesium level recorded in the last 24 hours. No order placed."]
-task5_3 [2.0] ["No serum magnesium level was found in the last 24 hours, so no replacement IV magnesium order was placed."]
-Hauptlauf · full_deepseekv32:  41%|████████████████████▉                              | 492/1200 [16:21<24:05]Hauptlauf · full_deepseekv32:  41%|████████████████████▉                              | 493/1200 [16:23<25:05]Hauptlauf · full_deepseekv32:  41%|█████████████████████                              | 495/1200 [16:27<24:12]Hauptlauf · full_deepseekv32:  41%|█████████████████████                              | 496/1200 [16:29<23:14]Hauptlauf · full_deepseekv32:  42%|█████████████████████▏                             | 498/1200 [16:32<21:51]Hauptlauf · full_deepseekv32:  42%|█████████████████████▏                             | 499/1200 [16:35<23:10]Hauptlauf · full_deepseekv32:  42%|█████████████████████▎                             | 500/1200 [16:38<26:21]task5_6 [2.1] ["The last serum magnesium level for patient S2075210 within the last 24 hours was 2.1 mg/dL recorded at 2023-11-13T02:16:00+00:00. Since this value is not low (normal range is typically 1.7-2.2 mg/dL and deficiency thresholds are <1.9 mg/dL), no replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▎                             | 501/1200 [16:43<35:28]task5_6 [2.1] ["Patient S2075210's last serum magnesium level within the last 24 hours was 2.1 mg/dL, recorded on 2023-11-13T02:16:00+00:00. This is within the normal range, so no IV magnesium replacement is needed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▎                             | 502/1200 [16:46<35:14]task5_6 [2.1] ["Patient S2075210's last serum magnesium level within the last 24 hours was 2.1 mg/dL, taken at 2023-11-13T02:16:00+00:00. This level is within the normal range (not low), so no IV magnesium replacement is needed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▍                             | 503/1200 [16:50<38:18]task5_6 [2.1] ["The last serum magnesium level was 2.1 mg/dL recorded on 2023-11-13T02:16:00+00:00, which is within the last 24 hours and not low. No IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▍                             | 504/1200 [16:55<41:05]task5_7 [2.1] ["No magnesium level has been recorded in the last 24 hours, so no order was placed."]
-task5_7 [2.1] ["No magnesium level recorded in the last 24 hours (most recent was 2023-10-17). No order placed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▌                             | 506/1200 [16:59<35:34]task5_7 [2.1] ["No magnesium level recorded in the last 24 hours (most recent was 2023-10-17), so no order placed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▌                             | 507/1200 [17:07<47:25]task5_7 [2.1] ["No magnesium level recorded in the last 24 hours. The most recent magnesium level was on 2023-10-17, which is outside the 24-hour window from 2023-11-13T10:15:00+00:00. No medication order placed."]
-Hauptlauf · full_deepseekv32:  42%|█████████████████████▋                             | 509/1200 [17:09<34:01]Hauptlauf · full_deepseekv32:  42%|█████████████████████▋                             | 510/1200 [17:12<33:52]Hauptlauf · full_deepseekv32:  43%|█████████████████████▊                             | 512/1200 [17:15<26:53]Hauptlauf · full_deepseekv32:  43%|█████████████████████▊                             | 513/1200 [17:17<26:11]Hauptlauf · full_deepseekv32:  43%|█████████████████████▊                             | 514/1200 [17:20<27:23]Hauptlauf · full_deepseekv32:  43%|█████████████████████▉                             | 515/1200 [17:23<27:46]task5_10 [2.0] ["No magnesium level has been recorded in the last 24 hours. The most recent magnesium level was recorded on 2023-11-12T12:50:00+00:00 with a value of 2.0 mg/dL. No medication order has been placed."]
-Hauptlauf · full_deepseekv32:  43%|█████████████████████▉                             | 517/1200 [17:28<30:22]task5_10 [2.0] ["No magnesium level recorded within the last 24 hours. No order placed."]
-task5_10 [2.0] ["Patient S2874099's last serum magnesium level within the last 24 hours was 2.0 mg/dL, which is normal. No replacement IV magnesium order was needed."]
-Hauptlauf · full_deepseekv32:  43%|██████████████████████                             | 519/1200 [17:30<22:54]task5_11 [2.1] ["Patient S6537563's last serum magnesium level within the last 24 hours was 2.1 mg/dL (taken on 2023-11-13T04:24:00+00:00). This level is within the normal range (not low), so no IV magnesium replacement is ordered."]
-Hauptlauf · full_deepseekv32:  43%|██████████████████████                             | 520/1200 [17:36<30:21]task5_10 [2.0] ["Patient S2874099's last serum magnesium level was 2.0 mg/dL, which is within the normal range. No magnesium replacement is needed."]
-task5_11 [2.1] ["The last serum magnesium level was 2.1 mg/dL at 2023-11-13T04:24:00+00:00, which is not low. No magnesium replacement order was placed."]
-Hauptlauf · full_deepseekv32:  44%|██████████████████████▏                            | 522/1200 [17:37<21:12]task5_11 [2.1] ["The last serum magnesium level within the last 24 hours (taken at 2023-11-13T04:24:00+00:00) was 2.1 mg/dL, which is within the normal range (not low). No magnesium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  44%|██████████████████████▏                            | 523/1200 [17:42<29:18]task5_11 [2.1] ["Patient S6537563's last serum magnesium level within the last 24 hours was 2.2 mg/dL, recorded on 2023-11-12 at 13:09. This level is within the normal range (not low), so no magnesium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  44%|██████████████████████▎                            | 524/1200 [17:43<25:09]Hauptlauf · full_deepseekv32:  44%|██████████████████████▎                            | 525/1200 [17:46<27:13]Hauptlauf · full_deepseekv32:  44%|██████████████████████▎                            | 526/1200 [17:49<27:59]Hauptlauf · full_deepseekv32:  44%|██████████████████████▍                            | 528/1200 [17:51<22:43]Hauptlauf · full_deepseekv32:  44%|██████████████████████▍                            | 529/1200 [17:55<26:57]Hauptlauf · full_deepseekv32:  44%|██████████████████████▌                            | 531/1200 [17:59<25:06]Hauptlauf · full_deepseekv32:  44%|██████████████████████▌                            | 532/1200 [18:02<26:40]task5_14 [2.1] ["The last serum magnesium level for patient S0658561 within the last 24 hours was 2.1 mg/dL, which is within normal range. No IV magnesium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  44%|██████████████████████▋                            | 533/1200 [18:04<24:16]task5_14 [2.1] ["The last serum magnesium level was 2.1 mg/dL on 2023-11-12, which is within the last 24 hours and not low. No magnesium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  44%|██████████████████████▋                            | 534/1200 [18:06<23:59]task5_14 [2.1] ["Patient S0658561's last serum magnesium level was 2.1 mg/dL on 2023-11-12T12:50:00+00:00, which is within the last 24 hours. Since the level is not low (≥2.0 mg/dL), no magnesium replacement was ordered."]
-Hauptlauf · full_deepseekv32:  45%|██████████████████████▋                            | 535/1200 [18:13<39:20]task5_14 [2.1] ["Patient S0658561's last serum magnesium level within the last 24 hours (as of 2023-11-13T10:15:00+00:00) was 2.1 mg/dL, recorded on 2023-11-12T12:50:00+00:00. Since 2.1 mg/dL is within the normal range (not low), no replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  45%|██████████████████████▊                            | 536/1200 [18:14<31:32]Hauptlauf · full_deepseekv32:  45%|██████████████████████▊                            | 537/1200 [18:15<25:55]Hauptlauf · full_deepseekv32:  45%|██████████████████████▊                            | 538/1200 [18:20<33:28]Hauptlauf · full_deepseekv32:  45%|██████████████████████▉                            | 539/1200 [18:24<36:15]task5_16 [2.0] ["No serum magnesium level has been recorded in the last 24 hours for patient S1023381, so no replacement IV magnesium order was placed."]
-Hauptlauf · full_deepseekv32:  45%|██████████████████████▉                            | 541/1200 [18:31<37:04]task5_16 [2.0] ["No magnesium level has been recorded in the last 24 hours for patient S1023381, so no replacement IV magnesium was ordered."]
-task5_17 [2.3] ["No serum magnesium level recorded in the last 24 hours. No medication ordered."]
-Hauptlauf · full_deepseekv32:  45%|███████████████████████                            | 543/1200 [18:35<32:35]task5_17 [2.3] ["No magnesium level has been recorded in the last 24 hours, so no order was placed."]
-Hauptlauf · full_deepseekv32:  45%|███████████████████████                            | 544/1200 [18:41<39:16]Hauptlauf · full_deepseekv32:  45%|███████████████████████▏                           | 545/1200 [18:43<33:34]task5_17 [2.3] ["No magnesium level recorded in the last 24 hours, so no order was placed."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▏                           | 546/1200 [18:45<30:40]Hauptlauf · full_deepseekv32:  46%|███████████████████████▏                           | 547/1200 [18:50<37:07]task5_18 [2.0] ["No serum magnesium level was recorded in the last 24 hours, so no order was placed."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▎                           | 548/1200 [18:52<33:38]task5_18 [2.0] ["Patient's last serum magnesium level within the last 24 hours was 2.0 mg/dL (taken on 2023-11-12T15:27:00+00:00). This is within the normal range (not low), so no replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▎                           | 549/1200 [18:56<35:50]task5_18 [2.0] ["Patient S6534835's last serum magnesium level within the last 24 hours was 2.0 mg/dL, which is not low. No magnesium replacement order was placed."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▍                           | 550/1200 [18:57<29:54]task5_18 [2.0] ["Patient S6534835's last serum magnesium level was 2.0 mg/dL on 2023-11-12T15:27:00+00:00, which is within normal range. No IV magnesium replacement was ordered."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▍                           | 551/1200 [19:03<38:35]Hauptlauf · full_deepseekv32:  46%|███████████████████████▍                           | 552/1200 [19:05<32:55]task5_19 [2.2] ["No serum magnesium level was recorded in the last 24 hours, so no replacement IV magnesium was ordered."]
-task5_19 [2.2] ["No magnesium level has been recorded in the last 24 hours for patient S3057899. No replacement IV magnesium ordered."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▌                           | 554/1200 [19:10<32:01]task5_19 [2.2] ["The last serum magnesium level within the last 24 hours for patient S3057899 is 2.2 mg/dL (taken at 2023-11-12T23:31:00+00:00). Since the level is not low, no replacement IV magnesium order was placed."]
-task5_19 [2.2] ["The last serum magnesium level for patient S3057899 within the last 24 hours was 2.2 mg/dL (taken at 2023-11-12T23:31:00+00:00). Since this value is not low (it is above the threshold for mild deficiency which is <1.9 mg/dL), no replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  46%|███████████████████████▋                           | 556/1200 [19:12<22:53]Hauptlauf · full_deepseekv32:  46%|███████████████████████▋                           | 557/1200 [19:15<24:29]Hauptlauf · full_deepseekv32:  47%|███████████████████████▊                           | 559/1200 [19:17<20:28]Hauptlauf · full_deepseekv32:  47%|███████████████████████▊                           | 560/1200 [19:20<22:43]Hauptlauf · full_deepseekv32:  47%|███████████████████████▊                           | 561/1200 [19:24<26:46]
-Hauptlauf · full_deepseekv32:  47%|███████████████████████▉                           | 562/1200 [19:28<31:33]
-Hauptlauf · full_deepseekv32:  47%|███████████████████████▉                           | 563/1200 [19:31<31:25]Hauptlauf · full_deepseekv32:  47%|███████████████████████▉                           | 564/1200 [19:33<27:36]Hauptlauf · full_deepseekv32:  47%|████████████████████████                           | 565/1200 [19:38<35:18]Hauptlauf · full_deepseekv32:  47%|████████████████████████                           | 566/1200 [19:40<30:58]
-Hauptlauf · full_deepseekv32:  47%|████████████████████████▏                          | 568/1200 [19:46<30:58]Hauptlauf · full_deepseekv32:  47%|████████████████████████▏                          | 569/1200 [19:50<32:30]Hauptlauf · full_deepseekv32:  48%|████████████████████████▎                          | 571/1200 [19:51<21:30]Hauptlauf · full_deepseekv32:  48%|████████████████████████▎                          | 572/1200 [19:55<27:21]Hauptlauf · full_deepseekv32:  48%|████████████████████████▎                          | 573/1200 [19:57<24:30]Hauptlauf · full_deepseekv32:  48%|████████████████████████▍                          | 574/1200 [19:59<24:43]Hauptlauf · full_deepseekv32:  48%|████████████████████████▍                          | 576/1200 [20:02<21:12]Hauptlauf · full_deepseekv32:  48%|████████████████████████▌                          | 577/1200 [20:05<22:42]Hauptlauf · full_deepseekv32:  48%|████████████████████████▌                          | 578/1200 [20:08<23:13]Hauptlauf · full_deepseekv32:  48%|████████████████████████▌                          | 579/1200 [20:09<22:07]Hauptlauf · full_deepseekv32:  48%|████████████████████████▋                          | 580/1200 [20:13<25:28]
-Hauptlauf · full_deepseekv32:  48%|████████████████████████▋                          | 582/1200 [20:16<22:30]Hauptlauf · full_deepseekv32:  49%|████████████████████████▊                          | 583/1200 [20:19<22:24]task5_27 [2.7] ["No magnesium level recorded in the last 24 hours, so no order was placed."]
-Hauptlauf · full_deepseekv32:  49%|████████████████████████▊                          | 585/1200 [20:24<25:42]task5_27 [2.7] ["No magnesium level recorded in the last 24 hours. No action taken."]
-Hauptlauf · full_deepseekv32:  49%|████████████████████████▉                          | 586/1200 [20:26<23:21]task5_27 [2.7] ["Patient S6547257's last serum magnesium level was 2.7 mg/dL on 2023-11-12T13:35:00+00:00, which is high (normal range typically 1.7-2.2 mg/dL). No magnesium replacement order is needed as the level is not low."]
-Hauptlauf · full_deepseekv32:  49%|████████████████████████▉                          | 587/1200 [20:30<28:00]task5_27 [2.7] ["No magnesium level recorded in the last 24 hours. No order placed."]
-task5_28 [2.0] ["Patient S2703270's last serum magnesium level was 2.0 mg/dL on 2023-11-12, which is within normal range. No replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  49%|█████████████████████████                          | 589/1200 [20:34<23:36]task5_28 [2.0] ["The patient's last serum magnesium level was 2.0 mg/dL recorded on 2023-11-12T14:29:00+00:00, which is within the normal range. No replacement IV magnesium order is needed."]
-Hauptlauf · full_deepseekv32:  49%|█████████████████████████                          | 590/1200 [20:37<26:24]task5_28 [2.0] ["Patient S2703270's last serum magnesium level within the last 24 hours is 2.0 mg/dL, which is within normal range. No magnesium replacement is needed."]
-task5_28 [2.0] ["Patient S2703270's last serum magnesium level was 2.0 mg/dL on 2023-11-12, which is within normal range. No magnesium replacement ordered."]
-Hauptlauf · full_deepseekv32:  49%|█████████████████████████▏                         | 592/1200 [20:39<19:34]Hauptlauf · full_deepseekv32:  49%|█████████████████████████▏                         | 593/1200 [20:42<22:22]Hauptlauf · full_deepseekv32:  50%|█████████████████████████▎                         | 595/1200 [20:45<18:49]Hauptlauf · full_deepseekv32:  50%|█████████████████████████▎                         | 596/1200 [20:50<25:54]Hauptlauf · full_deepseekv32:  50%|█████████████████████████▎                         | 597/1200 [20:52<23:43]task6_1 [97.0] [-1]
-Hauptlauf · full_deepseekv32:  50%|█████████████████████████▍                         | 599/1200 [20:58<26:44]task6_1 [97.0] [-1]
-Hauptlauf · full_deepseekv32:  50%|█████████████████████████▌                         | 602/1200 [21:04<24:10]task6_1 [97.0] [-1]
-task6_1 [97.0] [-1]
-task6_2 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  50%|█████████████████████████▋                         | 605/1200 [21:11<23:40]task6_2 [90.0] [90.0]
-task6_2 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  51%|█████████████████████████▊                         | 607/1200 [21:15<22:20]task6_2 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  51%|█████████████████████████▊                         | 608/1200 [21:20<27:14]task6_3 [100.0] [-1]
-task6_3 [100.0] [-1]
-Hauptlauf · full_deepseekv32:  51%|█████████████████████████▉                         | 610/1200 [21:23<22:13]task6_3 [100.0] [-1]
-Hauptlauf · full_deepseekv32:  51%|█████████████████████████▉                         | 611/1200 [21:25<22:32]task6_3 [100.0] [-1]
-task6_4 [89.88888888888889] [-1]
-Hauptlauf · full_deepseekv32:  51%|██████████████████████████                         | 613/1200 [21:28<19:30]task6_4 [89.88888888888889] [-1]
-Hauptlauf · full_deepseekv32:  51%|██████████████████████████                         | 614/1200 [21:31<20:55]task6_4 [89.88888888888889] [-1]
-task6_4 [89.88888888888889] [-1]
-Hauptlauf · full_deepseekv32:  51%|██████████████████████████▏                        | 616/1200 [21:34<18:06]task6_5 [93.0] [-1]
-Hauptlauf · full_deepseekv32:  51%|██████████████████████████▏                        | 617/1200 [21:36<19:35]task6_5 [93.0] [-1]
-task6_5 [93.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▎                        | 619/1200 [21:42<23:20]task6_6 [100.0] ["100"]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▎                        | 620/1200 [21:44<22:36]task6_6 [100.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▍                        | 621/1200 [21:47<23:58]task6_5 [93.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▍                        | 622/1200 [21:50<24:13]task6_6 [100.0] [100]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▍                        | 623/1200 [21:53<26:18]task6_6 [100.0] [-1]
-task6_7 [123.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▌                        | 625/1200 [21:57<22:24]task6_7 [123.0] [123]
-task6_7 [123.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▋                        | 627/1200 [22:00<18:43]task6_7 [123.0] [-1]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▋                        | 628/1200 [22:02<18:52]task6_8 [115.0] [115.0]
-Hauptlauf · full_deepseekv32:  52%|██████████████████████████▋                        | 629/1200 [22:04<20:10]task6_8 [115.0] [-1]
-task6_8 [115.0] [-1]
-Hauptlauf · full_deepseekv32:  53%|██████████████████████████▊                        | 631/1200 [22:09<21:05]task6_9 [108.0] [108]
-Hauptlauf · full_deepseekv32:  53%|██████████████████████████▊                        | 632/1200 [22:12<21:59]task6_8 [115.0] [-1]
-task6_9 [108.0] [-1]
-Hauptlauf · full_deepseekv32:  53%|██████████████████████████▉                        | 634/1200 [22:14<18:08]task6_9 [108.0] [108.0]
-Hauptlauf · full_deepseekv32:  53%|██████████████████████████▉                        | 635/1200 [22:18<21:02]task6_9 [108.0] [-1]
-task6_10 [161.8] [-1]
-Hauptlauf · full_deepseekv32:  53%|███████████████████████████                        | 637/1200 [22:23<22:31]task6_10 [161.8] [-1]
-Hauptlauf · full_deepseekv32:  53%|███████████████████████████                        | 638/1200 [22:25<21:24]task6_10 [161.8] [165.2]
-Hauptlauf · full_deepseekv32:  53%|███████████████████████████▏                       | 639/1200 [22:27<20:00]task6_10 [161.8] [-1]
-Hauptlauf · full_deepseekv32:  53%|███████████████████████████▏                       | 640/1200 [22:32<27:06]task6_11 [118.0] [128.5]
-Hauptlauf · full_deepseekv32:  53%|███████████████████████████▏                       | 641/1200 [22:34<25:56]task6_11 [118.0] ["-1"]
-Hauptlauf · full_deepseekv32:  54%|███████████████████████████▎                       | 642/1200 [22:36<22:32]task6_11 [118.0] ["-1"]
-Hauptlauf · full_deepseekv32:  54%|███████████████████████████▎                       | 643/1200 [22:40<28:19]task6_11 [118.0] [125.0]
-Hauptlauf · full_deepseekv32:  54%|███████████████████████████▎                       | 644/1200 [22:43<26:19]task6_12 [188.0] ["-1"]
-Hauptlauf · full_deepseekv32:  54%|███████████████████████████▍                       | 645/1200 [22:46<26:44]task6_12 [188.0] [-1]
-Hauptlauf · full_deepseekv32:  54%|██████████████████████████▍                      | 646/1200 [23:03<1:05:19]task6_12 [188.0] [188]
-Hauptlauf · full_deepseekv32:  54%|██████████████████████████▍                      | 647/1200 [23:31<2:03:35]Hauptlauf · full_deepseekv32:  54%|██████████████████████████▍                      | 648/1200 [23:37<1:42:23]task6_13 [116.15384615384616] [-1]
-Hauptlauf · full_deepseekv32:  54%|██████████████████████████▌                      | 649/1200 [23:47<1:38:19]task6_13 [116.15384615384616] [119.6]
-Hauptlauf · full_deepseekv32:  54%|██████████████████████████▌                      | 650/1200 [23:50<1:18:04]Hauptlauf · full_deepseekv32:  54%|██████████████████████████▌                      | 651/1200 [24:04<1:33:49]task6_13 [116.15384615384616] [-1]
-Hauptlauf · full_deepseekv32:  54%|██████████████████████████▌                      | 652/1200 [24:08<1:15:38]task6_14 [-1] [-1]
-task6_14 [-1] [-1]
-Hauptlauf · full_deepseekv32:  55%|███████████████████████████▊                       | 654/1200 [24:12<49:40]task6_14 [-1] [144]
-Hauptlauf · full_deepseekv32:  55%|███████████████████████████▊                       | 655/1200 [24:14<40:50]task6_14 [-1] [144]
-task6_15 [-1] [-1]
-Hauptlauf · full_deepseekv32:  55%|███████████████████████████▉                       | 657/1200 [24:19<32:22]task6_15 [-1] [-1]
-task6_15 [-1] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████                       | 659/1200 [24:20<22:07]task6_15 [-1] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████                       | 660/1200 [24:24<25:35]task6_16 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████                       | 661/1200 [24:27<26:50]task6_16 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████▏                      | 662/1200 [24:30<25:16]task6_16 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████▏                      | 663/1200 [24:35<31:48]task6_16 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  55%|████████████████████████████▏                      | 664/1200 [24:37<27:56]task6_17 [105.0] [105.0]
-task6_17 [105.0] ["105.0"]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▎                      | 666/1200 [24:41<21:58]task6_17 [105.0] [-1]
-task6_17 [105.0] [105]Hauptlauf · full_deepseekv32:  56%|████████████████████████████▎                      | 667/1200 [24:44<24:35]
-task6_18 [127.0] [-1]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▍                      | 669/1200 [24:46<17:52]task6_18 [127.0] [-1]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▍                      | 670/1200 [24:50<20:32]task6_18 [127.0] [-1]
-task6_18 [127.0] [-1]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▌                      | 672/1200 [24:51<14:52]task6_19 [87.0] [-1]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▌                      | 673/1200 [24:55<18:56]task6_19 [87.0] [-1]
-task6_19 [87.0] [87.0]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▋                      | 675/1200 [25:00<19:43]task6_19 [87.0] [-1]
-task6_20 [168.85714285714286] [-1]
-task6_20 [168.85714285714286] [-1]
-Hauptlauf · full_deepseekv32:  56%|████████████████████████████▊                      | 678/1200 [25:07<20:03]task6_20 [168.85714285714286] [-1]
-task6_20 [168.85714285714286] [-1]
-Hauptlauf · full_deepseekv32:  57%|████████████████████████████▉                      | 680/1200 [25:08<15:36]task6_21 [102.0] [-1]
-Hauptlauf · full_deepseekv32:  57%|████████████████████████████▉                      | 681/1200 [25:15<22:58]task6_21 [102.0] [-1]
-task6_22 [97.0] [97]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████                      | 683/1200 [25:23<28:00]task6_21 [102.0] [102]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████                      | 684/1200 [25:29<31:48]task6_21 [102.0] [-1]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████                      | 685/1200 [25:32<29:33]task6_22 [97.0] [97.0]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████▏                     | 686/1200 [25:34<27:42]task6_22 [97.0] [-1]
-task6_22 [97.0] [-1]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████▏                     | 688/1200 [25:38<22:44]task6_23 [89.66666666666667] [-1]
-Hauptlauf · full_deepseekv32:  57%|█████████████████████████████▎                     | 689/1200 [25:41<24:12]task6_23 [89.66666666666667] [-1]
-task6_23 [89.66666666666667] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▎                     | 691/1200 [25:46<23:26]task6_23 [89.66666666666667] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▍                     | 692/1200 [25:48<21:55]task6_24 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▍                     | 693/1200 [25:53<25:20]task6_24 [90.0] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▍                     | 694/1200 [25:57<27:24]task6_24 [90.0] [-1]
-task6_24 [90.0] ["-1"]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▌                     | 696/1200 [26:03<25:58]task6_25 [94.33333333333333] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▌                     | 697/1200 [26:08<30:27]task6_25 [94.33333333333333] [85.0]
-task6_25 [94.33333333333333] [-1]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▋                     | 699/1200 [26:12<24:59]task6_26task6_26  [104.0][104.0] [-1]
- [104]
-Hauptlauf · full_deepseekv32:  58%|█████████████████████████████▊                     | 700/1200 [26:20<33:40]task6_25 [94.33333333333333] [-1]
-task6_26 [104.0] [104.0]
-Hauptlauf · full_deepseekv32:  59%|█████████████████████████████▉                     | 703/1200 [26:25<23:43]task6_26 [104.0] [104]
-Hauptlauf · full_deepseekv32:  59%|█████████████████████████████▉                     | 704/1200 [26:26<21:04]task6_27 [245.0] [271.5]
-Hauptlauf · full_deepseekv32:  59%|█████████████████████████████▉                     | 705/1200 [26:29<21:53]task6_27 [245.0] [-1]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████                     | 706/1200 [26:32<22:48]task6_27 [245.0] [-1]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████                     | 707/1200 [26:34<22:00]task6_27 [245.0] [244.0]
-task6_28 [108.0] [108]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████▏                    | 709/1200 [26:39<20:40]task6_28 [108.0] [134]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████▏                    | 710/1200 [26:44<24:30]task6_28 [108.0] [108.0]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████▏                    | 711/1200 [26:46<23:21]task6_29 [166.0] [-1]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████▎                    | 712/1200 [26:52<28:58]task6_29 [166.0] [166.0]
-Hauptlauf · full_deepseekv32:  59%|██████████████████████████████▎                    | 713/1200 [26:53<24:28]task6_28 [108.0] [108.0]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▎                    | 714/1200 [26:58<27:42]task6_29 [166.0] [-1]
-task6_30 [126.0] [-1]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▍                    | 716/1200 [27:02<23:44]task6_30 [126.0] [-1]
-task6_29 [166.0] [-1]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▌                    | 718/1200 [27:09<25:36]task6_30 [126.0] [-1]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▌                    | 719/1200 [27:12<25:17]task6_30 [126.0] [-1]
-task7_1 [123.0] ["191 mg/dL"]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▋                    | 721/1200 [27:19<26:01]task7_1 [123.0] ["The most recent CBG of the patient S2823623 is 191.0 mg/dL, recorded on 2023-11-13T03:35:00+00:00."]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▋                    | 722/1200 [27:25<29:38]task7_1 [123.0] ["The most recent CBG of the patient S2823623 is 191.0 mg/dL, taken at 2023-11-13T03:35:00+00:00."]
-task7_1 [123.0] ["191 mg/dL"]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▊                    | 724/1200 [27:29<25:25]task7_2 [87.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▊                    | 725/1200 [27:32<24:55]task7_2 [87.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  60%|██████████████████████████████▊                    | 726/1200 [27:34<22:22]task7_2 [87.0] ["The most recent CBG (GLU) for patient S2197736 is 87.0 mg/dL, taken on 2023-11-13T01:45:00+00:00."]
-task7_2 [87.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|██████████████████████████████▉                    | 728/1200 [27:37<17:32]task7_3 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|██████████████████████████████▉                    | 729/1200 [27:43<23:57]task7_3 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████                    | 730/1200 [27:46<23:21]task7_3 [134.0] ["The most recent CBG of the patient S6265496 is 134.0 mg/dL, recorded at 2023-11-13T02:09:00+00:00."]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████                    | 731/1200 [27:49<23:29]task7_3 [134.0] ["134 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████                    | 732/1200 [27:53<26:38]task7_4 [215.0] ["The most recent CBG of the patient S6530532 is 215.0 mg/dL, recorded on 2023-11-13T06:42:00+00:00."]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████▏                   | 733/1200 [27:57<28:30]task7_4 [215.0] ["215.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████▏                   | 734/1200 [28:01<28:06]task7_4 [215.0] ["The most recent CBG of the patient S6530532 is 215.0 mg/dL, recorded on 2023-11-13T06:42:00+00:00."]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████▏                   | 735/1200 [28:05<27:56]task7_5 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  61%|███████████████████████████████▎                   | 736/1200 [28:11<35:24]task7_4 [215.0] ["The most recent CBG of the patient S6530532 is 215.0 mg/dL, recorded on 2023-11-13T06:42:00+00:00."]
-task7_5 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▎                   | 738/1200 [28:16<27:20]task7_5 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▍                   | 739/1200 [28:21<29:03]task7_5 [134.0] ["134.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▍                   | 740/1200 [28:23<26:47]task7_6 [73.0] ["73.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▍                   | 741/1200 [28:27<26:22]task7_6 [73.0] ["73.0 mg/dL"]
-task7_6 [73.0] ["73.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▌                   | 743/1200 [28:29<19:15]task7_6 [73.0] ["73.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▌                   | 744/1200 [28:33<21:25]task7_7 [110.0] ["110.0 mg/dL"]
-task7_7 [110.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▋                   | 746/1200 [28:34<14:33]task7_7 [110.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▋                   | 747/1200 [28:38<18:26]task7_7 [110.0] ["110.0 mg/dL"]
-task7_8 [97.0] ["97.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▊                   | 749/1200 [28:41<15:34]task7_8 [97.0] ["97.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  62%|███████████████████████████████▉                   | 750/1200 [28:46<20:11]task7_8 [97.0] ["The most recent CBG of the patient S6307599 is 97 mg/dL, taken on 2023-11-12T13:40:00+00:00."]
-Hauptlauf · full_deepseekv32:  63%|███████████████████████████████▉                   | 751/1200 [28:51<22:45]task7_8 [97.0] ["The most recent CBG (code GLU) for patient S6307599 was 97.0 mg/dL, measured on 2023-11-12T13:40:00+00:00."]
-task7_9 [109.0] ["109.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████                   | 753/1200 [28:54<18:00]task7_9 [109.0] ["109.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████                   | 754/1200 [28:57<19:07]task7_9 [109.0] ["109.0 mg/dL"]
-task7_9 [109.0] ["109 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████▏                  | 756/1200 [29:00<15:53]task7_10 [94.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████▏                  | 757/1200 [29:08<26:30]task7_10task7_10  [94.0] ["The most recent CBG of the patient S0674240 is 87.0 mg/dL, recorded on 2023-11-09T12:13:00+00:00."]
-[94.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████▏                  | 758/1200 [29:10<23:33]task7_10 [94.0] ["87.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████▎                  | 760/1200 [29:15<20:50]task7_11 [107.0] ["107.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  63%|████████████████████████████████▎                  | 761/1200 [29:22<27:05]task7_11 [107.0] ["The most recent CBG for patient S0658561 is 107.0 mg/dL, recorded on 2023-11-12T12:50:00+00:00."]
-task7_11 [107.0] ["107.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▍                  | 763/1200 [29:26<22:55]task7_11 [107.0] ["107 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▍                  | 764/1200 [29:31<25:16]task7_12 [79.0] ["The most recent CBG of the patient S1891852 is 86.0 mg/dL, recorded on 2023-11-12T15:41:00+00:00."]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▌                  | 765/1200 [29:37<29:59]task7_12 [79.0] ["86 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▌                  | 766/1200 [29:38<24:45]task7_12 [79.0] ["The most recent CBG of patient S1891852 is 86.0 mg/dL, measured on 2023-11-12T15:41:00+00:00."]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▌                  | 767/1200 [29:42<24:25]task7_12 [79.0] ["86.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▋                  | 768/1200 [29:47<27:58]task7_13 [161.0] ["158 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▋                  | 769/1200 [29:50<25:45]task7_13 [161.0] ["158.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▋                  | 770/1200 [29:55<28:50]task7_13 [161.0] ["158.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▊                  | 771/1200 [29:58<26:23]task7_13 [161.0] ["253.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▊                  | 772/1200 [30:05<33:07]task7_14 [90.0] ["99 mg/dL"]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▊                  | 773/1200 [30:07<27:24]task7_14 [90.0] ["The most recent CBG (GLU) of patient S6539215 is 99.0 mg/dL, taken on 2023-11-10T14:02:00+00:00."]
-Hauptlauf · full_deepseekv32:  64%|████████████████████████████████▉                  | 774/1200 [30:10<26:01]task7_14 [90.0] ["The most recent CBG of the patient S6539215 is 99.0 mg/dL, taken on 2023-11-10T14:02:00+00:00."]
-Hauptlauf · full_deepseekv32:  65%|████████████████████████████████▉                  | 775/1200 [30:17<32:49]task7_14 [90.0] ["The most recent CBG of the patient S6539215 is 99.0 mg/dL, taken on 2023-11-10T14:02:00+00:00."]
-task7_15 [81.0] ["80.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████                  | 777/1200 [30:26<33:18]task7_15 [81.0] ["The most recent CBG of the patient S6550473 is 80 mg/dL, recorded on 2023-11-10T14:29:00+00:00."]
-task7_15 [81.0] ["80.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████                  | 779/1200 [30:29<23:40]task7_16 [97.0] ["204 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████▏                 | 780/1200 [30:38<31:50]task7_16 [97.0] ["204 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████▏                 | 781/1200 [30:40<27:30]task7_15 [81.0] ["The most recent CBG of the patient S6550473 is 80.0 mg/dL, taken on 2023-11-10T14:29:00+00:00."]
-task7_16 [97.0] ["204 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████▎                 | 783/1200 [30:44<22:39]task7_16 [97.0] ["204.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████▎                 | 784/1200 [30:49<24:40]task7_17 [107.0] ["The most recent CBG (GLU) of patient S1353305 is 107.0 mg/dL, taken on 2023-11-12T13:35:00+00:00."]
-Hauptlauf · full_deepseekv32:  65%|█████████████████████████████████▎                 | 785/1200 [30:54<27:28]task7_17 [107.0] ["The most recent CBG (GLU) of patient S1353305 is 107.0 mg/dL, taken on 2023-11-12T13:35:00+00:00."]
-task7_17 [107.0] ["The most recent CBG of the patient S1353305 is 107.0 mg/dL on 2023-11-12T13:35:00+00:00."]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▍                 | 787/1200 [30:55<17:32]task7_17 [107.0] ["107.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▍                 | 788/1200 [30:58<18:39]task7_18 [94.0] ["120.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▌                 | 789/1200 [31:04<23:55]task7_18 [94.0] ["120 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▌                 | 790/1200 [31:07<22:22]task7_18 [94.0] ["120 mg/dL on 2023-10-21"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▌                 | 791/1200 [31:10<21:23]task7_18 [94.0] ["120 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▋                 | 792/1200 [31:15<25:33]task7_19 [190.0] ["94.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▋                 | 793/1200 [31:19<25:06]task7_19 [190.0] ["94 mg/dL on 2023-11-09"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▋                 | 794/1200 [31:21<22:45]task7_19 [190.0] ["94.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▊                 | 795/1200 [31:27<26:39]task7_19 [190.0] ["94 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▊                 | 796/1200 [31:30<24:55]task7_20 [85.0] ["79.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▊                 | 797/1200 [31:33<23:24]task7_20 [85.0] ["The most recent CBG of the patient S2380121 is 85 mg/dL, taken at 2023-11-12T12:28:00+00:00."]
-Hauptlauf · full_deepseekv32:  66%|█████████████████████████████████▉                 | 798/1200 [31:43<36:02]task7_20 [85.0] ["The most recent CBG of the patient S2380121 is 85.0 mg/dL, taken on 2023-11-12T12:28:00+00:00."]
-task7_20 [85.0] ["The most recent CBG of the patient S2380121 is 85.0 mg/dL, recorded on 2023-11-12T12:28:00+00:00."]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████                 | 800/1200 [31:44<22:13]task7_21 [108.0] ["108.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████                 | 801/1200 [31:48<23:22]task7_21 [108.0] ["The most recent CBG of the patient S2874099 is 108.0 mg/dL, recorded on 2023-11-12T12:50:00+00:00."]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████                 | 802/1200 [31:50<19:52]task7_21 [108.0] ["108.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████▏                | 803/1200 [31:52<17:18]task7_21 [108.0] ["108 mg/dL"]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████▏                | 804/1200 [31:55<19:23]task7_22 [111.0] ["111.0 mg/dL"]
-task7_22 [111.0] ["111.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████▎                | 806/1200 [31:58<14:40]task7_22 task7_22[111.0] ["111.0 mg/dL"]
- [111.0] Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████▎                | 807/1200 [32:02<16:57]["111.0 mg/dL"]
-task7_23 [102.0] ["126.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  67%|██████████████████████████████████▍                | 809/1200 [32:07<16:19]task7_23 [102.0] ["126.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▍                | 810/1200 [32:11<18:52]task7_23 [102.0] ["126 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▍                | 811/1200 [32:13<18:25]task7_23 [102.0] ["126.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▌                | 812/1200 [32:19<23:04]task7_24 [129.0] ["143.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▌                | 813/1200 [32:23<23:20]task7_24 [129.0] ["143.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▌                | 814/1200 [32:25<20:29]task7_24 [129.0] ["143.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▋                | 815/1200 [32:31<25:13]task7_24 [129.0] ["108 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▋                | 816/1200 [32:33<22:54]task7_25 [109.0] ["109.0 mg/dL"]
-task7_25 [109.0] ["109.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▊                | 818/1200 [32:36<16:20]task7_25 [109.0] [109.0]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▊                | 819/1200 [32:38<15:50]task7_25 [109.0] ["109.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▊                | 820/1200 [32:39<13:26]task7_26 [110.0] ["133.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▉                | 821/1200 [32:46<20:34]task7_26 [110.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  68%|██████████████████████████████████▉                | 822/1200 [32:48<18:40]task7_26 [110.0] ["133 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|██████████████████████████████████▉                | 823/1200 [32:51<18:31]task7_27 [94.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████                | 824/1200 [32:59<28:41]task7_26 [110.0] ["The most recent CBG of the patient S2199765 is 110.0 mg/dL taken on 2023-11-12T15:41:00+00:00."]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████                | 825/1200 [33:02<24:14]task7_27 [94.0] ["110.0 mg/dL"]
-task7_27 [94.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▏               | 827/1200 [33:06<19:45]task7_27 [94.0] ["110 mg/dL on 2023-11-11"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▏               | 828/1200 [33:11<22:33]task7_28 [140.0] ["The most recent CBG of the patient S6534835 is 140.0 mg/dL, recorded on 2023-11-13T02:15:00+00:00."]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▏               | 829/1200 [33:14<20:16]task7_28 [140.0] ["140 mg/dL"]
-task7_28 [140.0] ["140 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▎               | 831/1200 [33:17<15:57]task7_28 [140.0] ["140.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▎               | 832/1200 [33:20<16:15]task7_29 [110.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  69%|███████████████████████████████████▍               | 833/1200 [33:23<16:37]task7_29 [110.0] ["110.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▍               | 834/1200 [33:28<20:07]task7_29 [110.0] ["110 mg/dL"]
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▍               | 835/1200 [33:30<17:55]task7_29 [110.0] ["The most recent CBG of the patient S1374652 is 110.0 mg/dL, recorded on 2023-11-12T11:48:00+00:00."]
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▌               | 836/1200 [33:37<24:37]task7_30 [85.0] ["129.0 mg/dL"]
-task7_30 [85.0] ["The most recent CBG of the patient S6531922 is 105.0 mg/dL, recorded on 2023-08-08T20:23:00+00:00."]
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▌               | 838/1200 [33:42<20:43]task7_30 [85.0] ["129.0 mg/dL"]
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▋               | 839/1200 [33:49<25:20]task7_30 [85.0] ["The most recent CBG (GLU) for patient S6531922 is 105.0 mg/dL, taken on 2023-08-08T20:23:00+00:00."]
-
-Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▋               | 841/1200 [33:53<20:36]Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▊               | 842/1200 [33:56<19:22]Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▊               | 844/1200 [34:00<16:36]Hauptlauf · full_deepseekv32:  70%|███████████████████████████████████▉               | 845/1200 [34:03<16:46]Hauptlauf · full_deepseekv32:  71%|███████████████████████████████████▉               | 847/1200 [34:07<15:04]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████               | 848/1200 [34:10<15:24]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████               | 849/1200 [34:11<13:09]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▏              | 850/1200 [34:15<14:54]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▏              | 851/1200 [34:17<14:31]
-Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▏              | 852/1200 [34:18<13:02]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▎              | 853/1200 [34:22<14:33]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▎              | 854/1200 [34:25<15:33]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▍              | 856/1200 [34:29<13:39]Hauptlauf · full_deepseekv32:  71%|████████████████████████████████████▍              | 857/1200 [34:32<14:55]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▌              | 859/1200 [34:36<12:58]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▌              | 860/1200 [34:39<14:32]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▋              | 862/1200 [34:43<12:50]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▋              | 863/1200 [34:46<14:18]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▊              | 865/1200 [34:51<13:16]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▊              | 866/1200 [34:54<13:49]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▉              | 868/1200 [34:58<13:01]Hauptlauf · full_deepseekv32:  72%|████████████████████████████████████▉              | 869/1200 [35:01<13:24]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████              | 871/1200 [35:05<12:31]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████              | 872/1200 [35:08<13:17]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▏             | 874/1200 [35:12<12:31]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▏             | 875/1200 [35:15<13:01]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▎             | 877/1200 [35:19<12:31]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▎             | 878/1200 [35:22<13:16]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▎             | 879/1200 [35:23<11:30]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▍             | 880/1200 [35:26<12:42]Hauptlauf · full_deepseekv32:  73%|█████████████████████████████████████▍             | 881/1200 [35:28<12:31]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▍             | 882/1200 [35:30<11:38]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▌             | 883/1200 [35:33<11:56]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▌             | 884/1200 [35:35<12:39]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▌             | 885/1200 [35:38<12:08]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▋             | 886/1200 [35:40<12:13]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▋             | 887/1200 [35:43<13:16]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▋             | 888/1200 [35:45<12:01]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▊             | 889/1200 [35:47<12:10]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▊             | 890/1200 [35:51<14:09]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▊             | 891/1200 [35:52<11:49]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▉             | 892/1200 [35:54<11:45]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▉             | 893/1200 [35:57<12:58]Hauptlauf · full_deepseekv32:  74%|█████████████████████████████████████▉             | 894/1200 [35:59<11:58]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████             | 895/1200 [36:01<11:28]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████             | 896/1200 [36:05<13:12]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████             | 897/1200 [36:07<11:49]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▏            | 898/1200 [36:09<11:23]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▏            | 899/1200 [36:12<12:59]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▎            | 900/1200 [36:14<11:38]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▎            | 901/1200 [36:16<11:01]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▎            | 902/1200 [36:20<14:34]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▍            | 904/1200 [36:23<10:40]Hauptlauf · full_deepseekv32:  75%|██████████████████████████████████████▍            | 905/1200 [36:27<13:43]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▌            | 907/1200 [36:30<10:29]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▌            | 908/1200 [36:34<12:59]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▋            | 909/1200 [36:36<11:20]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▋            | 911/1200 [36:41<12:00]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▊            | 913/1200 [36:44<09:52]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▊            | 914/1200 [36:49<12:47]Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▉            | 916/1200 [36:51<09:27]
-Hauptlauf · full_deepseekv32:  76%|██████████████████████████████████████▉            | 917/1200 [36:56<12:59]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████            | 920/1200 [37:01<10:35]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▏           | 921/1200 [37:04<10:56]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▏           | 923/1200 [37:08<10:13]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▎           | 924/1200 [37:11<11:08]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▎           | 926/1200 [37:15<10:26]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▍           | 927/1200 [37:18<10:52]Hauptlauf · full_deepseekv32:  77%|███████████████████████████████████████▍           | 929/1200 [37:23<11:02]
-Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▌           | 930/1200 [37:24<09:40]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▌           | 931/1200 [37:26<09:10]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▌           | 932/1200 [37:30<10:53]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▋           | 933/1200 [37:32<11:09]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▋           | 934/1200 [37:34<09:37]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▋           | 935/1200 [37:37<10:52]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▊           | 936/1200 [37:40<11:37]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▊           | 938/1200 [37:43<09:51]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▉           | 939/1200 [37:47<11:20]Hauptlauf · full_deepseekv32:  78%|███████████████████████████████████████▉           | 941/1200 [37:51<09:43]Hauptlauf · full_deepseekv32:  78%|████████████████████████████████████████           | 942/1200 [37:54<11:05]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████           | 944/1200 [37:58<09:41]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▏          | 945/1200 [38:02<10:58]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▏          | 947/1200 [38:05<09:31]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▎          | 948/1200 [38:09<10:46]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▍          | 950/1200 [38:12<09:23]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▍          | 951/1200 [38:15<09:34]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▍          | 952/1200 [38:17<09:05]Hauptlauf · full_deepseekv32:  79%|████████████████████████████████████████▌          | 953/1200 [38:20<09:51]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▌          | 954/1200 [38:23<10:59]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▋          | 956/1200 [38:27<09:53]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▋          | 957/1200 [38:30<10:11]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▊          | 959/1200 [38:40<13:56]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▊          | 960/1200 [38:42<12:38]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▊          | 961/1200 [39:25<50:34]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▉          | 962/1200 [39:30<43:26]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▉          | 963/1200 [39:40<42:07]Hauptlauf · full_deepseekv32:  80%|████████████████████████████████████████▉          | 964/1200 [40:06<58:16]Hauptlauf · full_deepseekv32:  80%|█████████████████████████████████████████          | 965/1200 [40:14<50:20]task9_2 [3.8] ["The most recent potassium level for patient S1023381 is 3.8 mmol/L, recorded on 2023-11-12 at 13:31. Since this value is above the threshold of 3.5, no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  80%|█████████████████████████████████████████          | 966/1200 [40:15<37:32]Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████          | 967/1200 [40:23<35:29]'dict' object has no attribute 'lower'
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▏         | 968/1200 [40:49<53:46]'dict' object has no attribute 'lower'
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▏         | 969/1200 [40:58<48:18]Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▏         | 970/1200 [41:00<35:35]task9_4 [4.2] ["The most recent potassium level for patient S1374652 is 4.2 mmol/L (dated 2023-11-12), which is not low. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▎         | 971/1200 [41:10<36:36]task9_4 [4.2] ["The most recent potassium level for patient S1374652 is 4.2 mmol/L (taken on 2023-11-12), which is not low, so no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▎         | 972/1200 [41:15<31:16]'dict' object has no attribute 'lower'
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▎         | 973/1200 [41:25<33:23]task9_4 [4.2] ["The most recent potassium level is 4.2 mmol/L (dated 2023-11-12), which is within normal range. No replacement potassium order is needed."]
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▍         | 974/1200 [41:26<24:27]'dict' object has no attribute 'lower'
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▍         | 975/1200 [41:35<26:37]Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▍         | 976/1200 [42:07<54:10]task9_5 [5.1] ["The most recent potassium level for patient S1796597 was 4.7 mmol/L on 2023-11-12, which is within normal range (goal is 3.5). No potassium replacement order is needed as the level is not low."]
-Hauptlauf · full_deepseekv32:  81%|█████████████████████████████████████████▌         | 977/1200 [42:17<49:12]Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▌         | 979/1200 [42:20<28:29]task9_6 [4.3] ["Patient S6550473's most recent potassium level was 4.3 mmol/L on 2023-11-12, which is within the normal range (≥3.5 mmol/L). No potassium replacement order or follow-up lab was required."]
-Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▋         | 980/1200 [42:25<26:26]task9_6 [4.3] ["Patient S6550473's most recent potassium level was 4.3 mmol/L on 2023-11-12, which is not low. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▋         | 981/1200 [42:29<23:01]task9_6 [4.3] ["The most recent potassium level for patient S6550473 is 4.6 mmol/L, which is not low (goal is 3.5 mmol/L). No potassium replacement or follow-up lab order is needed."]
-Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▋         | 982/1200 [42:34<21:52]task9_6 [4.3] ["The most recent potassium level for patient S6550473 is 4.3 mmol/L, taken on 2023-11-12. This is within the normal range (above the threshold of 3.5), so no potassium replacement is needed and no follow-up lab order was placed."]
-Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▊         | 983/1200 [42:40<21:45]Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▊         | 984/1200 [42:49<24:03]Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▊         | 985/1200 [43:09<38:01]Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▉         | 986/1200 [43:17<35:18]task9_7 [5.4] ["The most recent potassium level for patient S6268253 is 4.7 mmol/L, obtained on 2023-11-11. This level is not low (it is above the 3.5 threshold), so no potassium replacement order is necessary."]
-Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▉         | 987/1200 [43:21<28:36]Hauptlauf · full_deepseekv32:  82%|█████████████████████████████████████████▉         | 988/1200 [43:31<31:04]task9_8 [3.8] ["Patient S1635224's most recent potassium level was 4.5 mmol/L taken on 2023-11-11, which is within normal range. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  82%|██████████████████████████████████████████         | 989/1200 [43:39<30:26]Hauptlauf · full_deepseekv32:  82%|██████████████████████████████████████████         | 990/1200 [43:46<27:46]Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████         | 991/1200 [43:51<25:24]task9_9 [3.8] ["Patient S6309742 has no recorded potassium levels available in the system, so no replacement order or follow-up lab can be placed based on current data."]
-Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▏        | 992/1200 [43:57<22:57]Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▏        | 993/1200 [44:06<26:13]Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▏        | 994/1200 [44:13<24:56]task9_9 [3.8] ["No recent potassium level found for patient S6309742. No action taken as no lab result was available to evaluate. No medication order or service request was created."]
-task9_10 [4.0] []
-Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▎        | 996/1200 [44:20<18:51]task9_10 [4.0] ["Patient S3084624's most recent potassium level is 4.0 mmol/L, which is within the normal range (goal 3.5+). No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▎        | 997/1200 [44:21<14:59]task9_10 [4.0] ["Patient S3084624's most recent potassium level is 4.0 mmol/L, which is not low (threshold is 3.5 mmol/L). No potassium replacement order or follow-up lab order is needed."]
-Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▍        | 998/1200 [44:28<16:52]Hauptlauf · full_deepseekv32:  83%|██████████████████████████████████████████▍        | 999/1200 [44:29<13:42]Hauptlauf · full_deepseekv32:  83%|█████████████████████████████████████████▋        | 1000/1200 [44:49<27:47]Hauptlauf · full_deepseekv32:  83%|█████████████████████████████████████████▋        | 1001/1200 [45:01<31:43]Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▊        | 1002/1200 [45:18<38:19]Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▊        | 1003/1200 [45:33<41:42]task9_12 [4.0] ["No recent potassium level found for patient S6541353. Unable to determine if potassium is low or calculate replacement dose without a current lab value. No orders placed."]
-Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▊        | 1004/1200 [45:37<32:52]Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▉        | 1005/1200 [45:42<27:55]Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▉        | 1006/1200 [45:50<27:01]task9_12 [4.0] ["The most recent potassium level for patient S6541353 is 4.0 mmol/L, taken on 2023-11-13T01:41:00+00:00. Since this level is not below the threshold of 3.5, no potassium replacement order is needed. No additional lab order is required."]
-Hauptlauf · full_deepseekv32:  84%|█████████████████████████████████████████▉        | 1007/1200 [46:11<39:36]task9_13 [4.5] ["The most recent potassium level for patient S3057899 is 4.5 mmol/L (obtained on 2023-11-12T23:31:00+00:00), which is within the normal range (≥3.5 mmol/L). Therefore, no potassium replacement order or follow-up lab order is needed."]
-Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████        | 1008/1200 [46:23<38:43]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████        | 1009/1200 [46:28<32:02]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████        | 1010/1200 [46:41<34:24]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████▏       | 1011/1200 [46:53<35:38]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████▏       | 1012/1200 [47:04<35:05]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████▏       | 1013/1200 [47:26<45:02]Hauptlauf · full_deepseekv32:  84%|██████████████████████████████████████████▎       | 1014/1200 [47:32<36:23]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▎       | 1015/1200 [47:47<39:04]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▎       | 1016/1200 [47:59<38:47]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▍       | 1017/1200 [48:01<28:14]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▍       | 1018/1200 [48:12<29:37]task9_16 [4.1] ["The most recent potassium level for patient S2823623 is 4.4 mmol/L (taken on 2023-11-12). This level is not low (threshold for replacement is below 3.5 mEq/L), so no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▍       | 1019/1200 [48:29<36:25]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▌       | 1020/1200 [48:34<29:32]Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▌       | 1021/1200 [48:35<21:40]task9_16 [4.1] ["Patient S2823623's most recent potassium level is 4.4 mmol/L (from 2023-11-12T11:19:00+00:00), which is within the normal range. No potassium replacement is needed."]
-Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▌       | 1022/1200 [48:49<27:21]task9_16 [4.1] ["The most recent potassium level for patient S2823623 is 4.4 mmol/L, recorded on 2023-11-12T11:19:00+00:00. Since this value is not low (normal range is typically 3.5-5.0 mmol/L), no potassium replacement order is needed and no follow-up lab is required."]
-Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▋       | 1023/1200 [48:54<23:17]task9_16 [4.1] ["Patient S2823623's most recent potassium level is 4.1 mmol/L (taken on 2023-11-13T03:35:00+00:00). This level is not below the 3.5 mEq/L threshold, so no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▋       | 1024/1200 [49:01<23:02]task9_17 [4.5] ["Patient S6537563's most recent potassium level is 4.5 mmol/L (as of 2023-11-12T13:09:00+00:00). Since this is above the threshold of 3.5, no potassium replacement order is needed. No service request for a morning potassium level was created."]
-Hauptlauf · full_deepseekv32:  85%|██████████████████████████████████████████▋       | 1025/1200 [49:03<17:09]task9_17 [4.5] ["Patient S6537563's most recent potassium level is 4.5 mmol/L (taken on 2023-11-12), which is not low. No potassium replacement order is needed. No follow-up potassium lab order is needed."]
-Hauptlauf · full_deepseekv32:  86%|██████████████████████████████████████████▊       | 1026/1200 [49:09<17:21]task9_17 [4.5] ["Patient S6537563's most recent potassium level is 4.5 mmol/L (dated 2023-11-12), which is within the normal range and not low. Therefore, no potassium replacement order is required."]
-Hauptlauf · full_deepseekv32:  86%|██████████████████████████████████████████▊       | 1028/1200 [49:18<15:07]Hauptlauf · full_deepseekv32:  86%|██████████████████████████████████████████▉       | 1029/1200 [49:37<24:53]task9_19 [3.5] ["Patient S6329254's most recent potassium level is 3.5 mmol/L, which is at the goal level. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  86%|██████████████████████████████████████████▉       | 1031/1200 [49:44<18:38]Hauptlauf · full_deepseekv32:  86%|███████████████████████████████████████████       | 1032/1200 [49:49<17:25]Hauptlauf · full_deepseekv32:  86%|███████████████████████████████████████████       | 1033/1200 [50:00<20:38]Hauptlauf · full_deepseekv32:  86%|███████████████████████████████████████████       | 1034/1200 [50:07<20:00]task9_19 [3.5] ["Potassium level is 3.5 mmol/L, which is at the goal level. No replacement potassium order needed."]
-Hauptlauf · full_deepseekv32:  86%|███████████████████████████████████████████▏      | 1037/1200 [50:42<26:05]Hauptlauf · full_deepseekv32:  86%|███████████████████████████████████████████▎      | 1038/1200 [50:44<21:49]Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▎      | 1040/1200 [51:15<28:31]task9_21 [4.6] ["The most recent potassium level for patient S6426560 is 4.2 mmol/L taken on 2023-11-11, which is within normal range. No potassium replacement order is needed.", "No additional lab order was placed as the potassium level was not low."]
-Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▍      | 1041/1200 [51:30<31:06]Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▍      | 1042/1200 [51:40<29:46]task9_21 [4.6] ["The most recent potassium level for patient S6426560 was 4.2 mmol/L on 2023-11-11, which is within the normal range (goal is 3.5). No replacement potassium order is needed."]
-Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▌      | 1044/1200 [51:42<18:52]task9_22 [3.9] ["The most recent potassium level for patient S6474456 is 3.9 mmol/L (dated 2023-11-12T14:07:00+00:00), which is within the normal range (goal of 3.5). No potassium replacement is needed, and no additional serum potassium level order is required."]
-Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▌      | 1045/1200 [51:48<17:40]task9_22 [3.9] ["Patient S6474456's most recent potassium level is 3.9 mmol/L (taken on 2023-11-12T14:07:00+00:00), which is within normal range (goal 3.5). No potassium replacement order is needed. No follow-up lab order was created as the level is not low."]
-Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▌      | 1046/1200 [51:49<14:14]Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▋      | 1047/1200 [52:04<20:17]Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▋      | 1048/1200 [52:14<21:24]Hauptlauf · full_deepseekv32:  87%|███████████████████████████████████████████▋      | 1049/1200 [52:16<16:35]Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▊      | 1050/1200 [52:47<33:57]task9_24 [4.3] ["The most recent potassium level for patient S2090974 is 4.3 mmol/L, which is within the normal range. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▊      | 1051/1200 [52:53<28:07]Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▊      | 1052/1200 [52:58<23:47]task9_24 [4.3] ["The most recent potassium level for patient S2090974 is 4.3 mmol/L (obtained on 2023-11-13), which is within the normal range (≥3.5). No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▉      | 1053/1200 [53:03<19:52]task9_24 [4.3] ["Patient S2090974's most recent potassium level is 4.3 mmol/L, which is within the normal range and not low. Therefore, no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▉      | 1054/1200 [53:07<16:42]task9_24 [4.3] ["Patient S2090974's most recent potassium level is 4.3 mmol/L, which is not low (above the 3.5 threshold). No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  88%|███████████████████████████████████████████▉      | 1055/1200 [53:08<12:43]Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████      | 1056/1200 [53:20<17:34]Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████      | 1057/1200 [53:39<25:48]Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████      | 1058/1200 [53:45<22:01]Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████▏     | 1059/1200 [53:51<19:12]task9_26 [4.1] ["Patient S6352985's most recent potassium level is 4.1 mmol/L (as of 2023-11-13T04:55:00+00:00), which is within the normal range and not low. No potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████▏     | 1060/1200 [53:57<18:05]task9_26 [4.1] ["Patient S6352985's most recent potassium level is 4.1 mmol/L, which is within normal range (not low). No potassium replacement or follow-up lab order is needed."]
-Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████▏     | 1061/1200 [54:01<15:25]Hauptlauf · full_deepseekv32:  88%|████████████████████████████████████████████▎     | 1062/1200 [54:07<14:31]task9_26 [4.1] ["Patient S6352985's most recent potassium level is 4.1 mmol/L (obtained on 2023-11-13T04:55:00+00:00), which is within the normal range and not low. No replacement potassium order is needed."]
-Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▎     | 1063/1200 [54:09<11:45]Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▎     | 1064/1200 [54:11<09:20]Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▍     | 1065/1200 [54:28<17:56]Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▍     | 1066/1200 [54:31<14:40]task9_27 [3.5] ["Patient S1311412's most recent potassium level is 3.5 mmol/L (drawn 2023-11-12T12:59:00+00:00). This is at the goal threshold of 3.5, so no potassium replacement is required. No orders were placed."]
-Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▌     | 1068/1200 [54:37<10:41]task9_28 [4.7] ["Patient S3228213's most recent potassium level is 4.7 mmol/L, which is within normal range (not low). No potassium replacement or follow-up lab order is needed."]
-task9_28 [4.7] ["Patient S3228213's most recent potassium level is 4.7 mmol/L (obtained on 2023-11-12T19:13:00+00:00). This level is within normal range and not low, so no potassium replacement order is needed."]
-Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▌     | 1070/1200 [54:42<08:31]task9_28 [4.7] ["Patient S3228213's most recent potassium level is 4.7 mmol/L (obtained on 2023-11-12T19:13:00+00:00), which is within the normal range and not low. No potassium replacement order is needed, and no follow-up potassium level order is required."]
-Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▋     | 1071/1200 [54:43<07:14]Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▋     | 1072/1200 [55:04<16:03]Hauptlauf · full_deepseekv32:  89%|████████████████████████████████████████████▋     | 1073/1200 [55:16<18:27]Hauptlauf · full_deepseekv32:  90%|████████████████████████████████████████████▊     | 1075/1200 [55:36<19:19]Hauptlauf · full_deepseekv32:  90%|████████████████████████████████████████████▊     | 1076/1200 [55:53<22:28]Hauptlauf · full_deepseekv32:  90%|████████████████████████████████████████████▉     | 1078/1200 [56:10<20:14]task10_1 [-1] [-1, "No HbA1C value found in the chart. A new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  90%|████████████████████████████████████████████▉     | 1079/1200 [56:27<23:27]Hauptlauf · full_deepseekv32:  90%|█████████████████████████████████████████████     | 1080/1200 [56:28<18:12]Hauptlauf · full_deepseekv32:  90%|█████████████████████████████████████████████     | 1081/1200 [56:30<14:22]
-Hauptlauf · full_deepseekv32:  90%|█████████████████████████████████████████████     | 1082/1200 [56:36<13:36]
-
-Hauptlauf · full_deepseekv32:  90%|█████████████████████████████████████████████▏    | 1084/1200 [56:39<08:38]task10_2 [5.9, '2023-11-09T03:05:00+00:00'] ["The last HbA1C value is 5.9% recorded on 2023-11-09. The lab value is less than 1 year old, so no new order is needed."]
-Hauptlauf · full_deepseekv32:  90%|█████████████████████████████████████████████▏    | 1085/1200 [56:43<08:24]task10_2 [5.9, '2023-11-09T03:05:00+00:00'] ["The last HbA1C value for patient S1635224 is 5.9%, recorded on 2023-11-09T03:05:00+00:00."]
-task10_2 [5.9, '2023-11-09T03:05:00+00:00'] ["The last HbA1C value in the chart for patient S1635224 is 5.9% recorded on 2023-11-09. Since the lab result date is not greater than 1 year old, no new HbA1C lab test was ordered."]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▎    | 1087/1200 [56:45<05:39]task10_2 [5.9, '2023-11-09T03:05:00+00:00'] ["The last HbA1C value is 5.9%, recorded on 2023-11-09T03:05:00+00:00. Since the lab value result date is less than 1 year old, no new HbA1C lab test is needed."]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▎    | 1088/1200 [56:49<06:00]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▍    | 1089/1200 [56:53<06:14]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▍    | 1090/1200 [56:54<05:28]task10_3 [-1] [-1, "No HbA1C value found in the chart. A new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▍    | 1091/1200 [56:59<06:09]task10_3 [-1] [-1]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▌    | 1092/1200 [57:03<06:21]Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▌    | 1093/1200 [57:06<05:50]Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▌    | 1094/1200 [57:11<07:06]Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▋    | 1095/1200 [57:17<07:45]task10_5 [6.6, '2023-11-04T14:54:00+00:00'] ["The last HbA1C value is 6.6%, recorded on 2023-11-04. No new order is needed as it is less than 1 year old."]
-Hauptlauf · full_deepseekv32:  91%|█████████████████████████████████████████████▋    | 1096/1200 [57:18<05:56]task10_5 [6.6, '2023-11-04T14:54:00+00:00'] ["The last HbA1C value is 6.6%, recorded on 2023-11-04T14:54:00+00:00."]
-Hauptlauf · full_deepseekv32:  92%|█████████████████████████████████████████████▊    | 1098/1200 [57:25<05:50]task10_5 [6.6, '2023-11-04T14:54:00+00:00'] ["The last HbA1C value is 6.6% recorded on 2023-11-04T14:54:00+00:00. Since the lab value is less than 1 year old from the current date (2023-11-13), no new order is needed."]
-Hauptlauf · full_deepseekv32:  92%|█████████████████████████████████████████████▊    | 1100/1200 [57:30<05:16]
-Hauptlauf · full_deepseekv32:  92%|█████████████████████████████████████████████▉    | 1101/1200 [57:35<05:40]task10_6 [-1] [-1, "HbA1C lab order created as no previous result was found in the chart"]
-Hauptlauf · full_deepseekv32:  92%|█████████████████████████████████████████████▉    | 1103/1200 [57:39<04:54]task10_6 [-1] [-1, "New HbA1C lab test ordered on 2023-11-13T10:15:00+00:00 as no previous HbA1C value was found in the chart."]
-Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████    | 1104/1200 [57:41<04:21]
-Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████    | 1105/1200 [57:45<04:37]
-Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████    | 1106/1200 [57:48<04:42]
-Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████▏   | 1107/1200 [57:51<04:46]
-Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████▏   | 1108/1200 [57:53<04:20]Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████▏   | 1109/1200 [58:00<05:48]Hauptlauf · full_deepseekv32:  92%|██████████████████████████████████████████████▎   | 1110/1200 [58:04<05:52]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▎   | 1111/1200 [58:05<04:44]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▎   | 1112/1200 [58:13<06:34]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▍   | 1113/1200 [58:16<05:57]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▍   | 1114/1200 [58:21<06:16]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▍   | 1115/1200 [58:29<07:37]
-Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▌   | 1116/1200 [58:32<06:37]Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▌   | 1117/1200 [58:34<05:20]
-Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▌   | 1118/1200 [58:39<05:54]
-
-Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▋   | 1120/1200 [58:45<04:45]task10_11 [-1] [-1]
-Hauptlauf · full_deepseekv32:  93%|██████████████████████████████████████████████▋   | 1121/1200 [58:47<04:10]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▊   | 1122/1200 [58:51<04:32]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▊   | 1123/1200 [58:54<04:25]task10_11 [-1] [-1, "No HbA1C value found in chart. A new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▊   | 1124/1200 [58:56<03:52]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▉   | 1125/1200 [58:59<03:39]task10_12 [-1] [-1]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▉   | 1126/1200 [59:03<04:07]
-Hauptlauf · full_deepseekv32:  94%|██████████████████████████████████████████████▉   | 1127/1200 [59:07<04:09]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████   | 1128/1200 [59:09<03:32]task10_13 [5.8, '2022-09-09T15:33:00+00:00'] ["The last HbA1C value was 5.8% recorded on 2022-09-09. Since this date is more than 1 year before the current date (2023-11-13), a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████   | 1129/1200 [59:16<04:55]task10_13 [5.8, '2022-09-09T15:33:00+00:00'] ["The last HbA1C value for patient S6521727 is 5.8% recorded on 2022-09-09T15:33:00+00:00. Since this result is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████   | 1130/1200 [59:17<03:50]task10_13 [5.8, '2022-09-09T15:33:00+00:00'] ["The last HbA1C value was 5.8% recorded on 2022-09-09. Since the result date is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████▏  | 1131/1200 [59:21<03:52]task10_13 [5.8, '2022-09-09T15:33:00+00:00'] ["5.8%", "2022-09-09T15:33:00+00:00"]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████▏  | 1132/1200 [59:27<04:52]task10_14 [4.8, '2022-05-18T22:03:00+00:00'] ["The last HbA1C value is 4.8% recorded on 2022-05-18T22:03:00+00:00. Since the result date is more than 1 year old, a new HbA1C lab test has been ordered."]
-task10_14 [4.8, '2022-05-18T22:03:00+00:00'] ["The last HbA1C value was 4.8% recorded on 2022-05-18. A new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  94%|███████████████████████████████████████████████▎  | 1134/1200 [59:33<03:56]task10_14 [4.8, '2022-05-18T22:03:00+00:00'] ["The last HbA1C value was 4.8% recorded on 2022-05-18. A new HbA1C lab test has been ordered as the last result is more than 1 year old."]
-Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▎  | 1135/1200 [59:38<04:30]task10_14 [4.8, '2022-05-18T22:03:00+00:00'] ["The last HbA1C value is 4.8% recorded on 2022-05-18T22:03:00+00:00. A new HbA1C lab test has been ordered as the last result is more than 1 year old."]
-Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▍  | 1137/1200 [59:44<03:45]task10_15 [5.7, '2023-07-07T11:27:00+00:00'] ["The last HbA1C value in the chart for patient S6545016 is 5.7%, recorded on 2023-07-07T11:27:00+00:00. This result is less than 1 year old from the current date (2023-11-13), so a new HbA1C lab test is not required."]
-Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▍  | 1138/1200 [59:48<03:49]Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▍  | 1139/1200 [59:52<03:49]Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▌  | 1141/1200 [59:56<03:00]
-Hauptlauf · full_deepseekv32:  95%|███████████████████████████████████████████████▌  | 1142/1200 [59:59<02:53]
-Hauptlauf · full_deepseekv32:  95%|█████████████████████████████████████████████▋  | 1143/1200 [1:00:03<03:00]
-Hauptlauf · full_deepseekv32:  95%|█████████████████████████████████████████████▊  | 1144/1200 [1:00:05<02:39]task10_17 [5.0, '2023-11-09T10:06:00+00:00'] ["The last HbA1C value is 5.0% recorded on 2023-11-09. Since the result date is less than 1 year old (current date 2023-11-13), no new lab order is needed."]
-task10_17 [5.0, '2023-11-09T10:06:00+00:00'] ["5.0% recorded on 2023-11-09T10:06:00+00:00"]
-task10_17 [5.0, '2023-11-09T10:06:00+00:00'] ["The last HbA1C value for patient S2823623 is 5.0%, recorded on 2023-11-09. Since this date is not greater than 1 year old (current date is 2023-11-13), no new HbA1C lab test is ordered."]
-Hauptlauf · full_deepseekv32:  96%|█████████████████████████████████████████████▊  | 1146/1200 [1:00:10<02:28]task10_17 [5.0, '2023-11-09T10:06:00+00:00'] ["The last HbA1C value is 5.0% and it was recorded on 2023-11-09T10:06:00+00:00. Since the lab value is less than 1 year old, no new HbA1C lab test was ordered."]
-task10_18 [5.9, '2023-11-12T06:19:00+00:00'] ["The last HbA1C value is 5.9% recorded on 2023-11-12. The lab value is less than 1 year old, so no new order is needed."]
-Hauptlauf · full_deepseekv32:  96%|█████████████████████████████████████████████▉  | 1149/1200 [1:00:17<02:11]task10_18 [5.9, '2023-11-12T06:19:00+00:00'] ["The last HbA1C value for patient S1311412 is 5.9%, recorded on 2023-11-12. Since this result is less than 1 year old, no new lab order is needed."]
-task10_18 [5.9, '2023-11-12T06:19:00+00:00'] ["The last HbA1C value is 5.9% recorded on 2023-11-12T06:19:00+00:00. Since the result date is not greater than 1 year old (current date is 2023-11-13), no new lab test is needed."]
-task10_18 [5.9, '2023-11-12T06:19:00+00:00'] ["The last HbA1C value for patient S1311412 was 5.9% recorded on 2023-11-12T06:19:00+00:00."]
-Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████  | 1152/1200 [1:00:25<02:06]Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████  | 1153/1200 [1:00:33<02:46]Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████▏ | 1154/1200 [1:00:34<02:21]Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████▏ | 1155/1200 [1:00:46<03:37]task10_20 [6.5, '2022-03-08T08:14:00+00:00'] ["The last HbA1C value for patient S0722219 was 6.5% recorded on 2022-03-08T08:14:00+00:00. Since this result is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████▏ | 1156/1200 [1:00:47<02:57]Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████▎ | 1157/1200 [1:00:49<02:33]task10_20 [6.5, '2022-03-08T08:14:00+00:00'] ["The last HbA1C value for patient S0722219 is 6.5% recorded on 2022-03-08T08:14:00+00:00. Since this value is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  96%|██████████████████████████████████████████████▎ | 1158/1200 [1:00:56<03:05]task10_20 [6.5, '2022-03-08T08:14:00+00:00'] ["The last HbA1C value was 6.5% recorded on 2022-03-08. Since the lab value result date is greater than 1 year old, a new HbA1C lab test has been ordered."]
-task10_20 [6.5, '2022-03-08T08:14:00+00:00'] ["6.5", "2022-03-08T08:14:00+00:00"]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▍ | 1160/1200 [1:00:59<02:07]Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▍ | 1161/1200 [1:01:01<01:54]task10_21 [-1] [-1]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▍ | 1162/1200 [1:01:08<02:26]
-task10_21 [-1] [-1]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▌ | 1164/1200 [1:01:09<01:31]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▌ | 1165/1200 [1:01:16<02:01]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▋ | 1166/1200 [1:01:20<02:00]
-task10_22 [-1] [-1]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▋ | 1168/1200 [1:01:25<01:44]task10_23 [-1] [-1]
-Hauptlauf · full_deepseekv32:  97%|██████████████████████████████████████████████▊ | 1169/1200 [1:01:27<01:31]Hauptlauf · full_deepseekv32:  98%|██████████████████████████████████████████████▊ | 1170/1200 [1:01:30<01:25]
-
-Hauptlauf · full_deepseekv32:  98%|██████████████████████████████████████████████▉ | 1172/1200 [1:01:38<01:36]task10_24 [5.2, '2022-08-09T15:33:00+00:00'] ["The last HbA1C value was 5.2% recorded on 2022-08-09. Since this is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  98%|██████████████████████████████████████████████▉ | 1173/1200 [1:01:46<01:58]task10_24 [5.2, '2022-08-09T15:33:00+00:00'] ["The last HbA1C value is 5.2% recorded on 2022-08-09. A new HbA1C lab test has been ordered as the last result is greater than 1 year old."]
-Hauptlauf · full_deepseekv32:  98%|██████████████████████████████████████████████▉ | 1174/1200 [1:01:47<01:32]task10_24 [5.2, '2022-08-09T15:33:00+00:00'] ["5.2", "2022-08-09T15:33:00+00:00"]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████ | 1175/1200 [1:01:54<01:49]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████ | 1176/1200 [1:01:59<01:47]task10_24 [5.2, '2022-08-09T15:33:00+00:00'] ["The last HbA1C value for patient S6500497 was 5.5% recorded on 2021-10-11. Since this is more than 1 year old, a new HbA1C lab test has been ordered."]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████ | 1177/1200 [1:02:00<01:25]task10_25 [-1] [-1]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████ | 1178/1200 [1:02:04<01:22]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████▏| 1179/1200 [1:02:08<01:22]task10_26 [-1] [-1]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████▏| 1180/1200 [1:02:10<01:06]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████▏| 1181/1200 [1:02:12<00:52]
-Hauptlauf · full_deepseekv32:  98%|███████████████████████████████████████████████▎| 1182/1200 [1:02:18<01:10]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▎| 1183/1200 [1:02:20<00:56]task10_26 [-1] [-1, "2023-11-13T10:15:00+00:00", "A new HbA1C lab test has been ordered."]
-task10_27 [5.4, '2023-11-02T06:53:00+00:00'] ["The last HbA1C value for patient S0658561 is 5.4%, recorded on 2023-11-02T06:53:00+00:00. Since the date is less than 1 year old from the current date (2023-11-13), no new lab order is needed."]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▍| 1185/1200 [1:02:25<00:44]task10_27 [5.4, '2023-11-02T06:53:00+00:00'] ["The last HbA1C value is 5.4%, recorded on 2023-11-02. Since the result date is within 1 year, no new lab order is needed."]
-task10_27 [5.4, '2023-11-02T06:53:00+00:00'] ["The last HbA1C value for patient S0658561 is 5.4%, recorded on 2023-11-02T06:53:00+00:00. Since the result date is less than 1 year old from the current date (2023-11-13), no new HbA1C lab test is needed."]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▍| 1187/1200 [1:02:27<00:28]task10_27 [5.4, '2023-11-02T06:53:00+00:00'] ["The last HbA1C value in the chart for patient S0658561 is 5.4%, recorded on 2023-11-02. Since the date is not greater than 1 year old, no new HbA1C lab test was ordered."]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▌| 1188/1200 [1:02:32<00:31]Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▌| 1189/1200 [1:02:37<00:37]Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▌| 1190/1200 [1:02:41<00:34]task10_29 [6.2, '2023-11-09T00:17:00+00:00'] ["The last HbA1C value is 6.2%, recorded on 2023-11-09."]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▋| 1191/1200 [1:02:44<00:30]task10_29 [6.2, '2023-11-09T00:17:00+00:00'] ["6.2%", "2023-11-09"]
-Hauptlauf · full_deepseekv32:  99%|███████████████████████████████████████████████▋| 1193/1200 [1:02:49<00:20]task10_29 [6.2, '2023-11-09T00:17:00+00:00'] ["The last HbA1C value is 6.2% recorded on 2023-11-09T00:17:00+00:00. Since the lab value result date is not greater than 1 year old, no new order is needed."]
-Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▊| 1194/1200 [1:02:50<00:15]task10_29 [6.2, '2023-11-09T00:17:00+00:00'] ["The last HbA1C value is 6.2%, recorded on 2023-11-09."]
-Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▊| 1195/1200 [1:02:52<00:12]Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▊| 1196/1200 [1:02:55<00:09]Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▉| 1197/1200 [1:03:01<00:10]Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▉| 1198/1200 [1:03:02<00:05]Hauptlauf · full_deepseekv32: 100%|███████████████████████████████████████████████▉| 1199/1200 [1:03:05<00:02]Hauptlauf · full_deepseekv32: 100%|████████████████████████████████████████████████| 1200/1200 [1:03:08<00:00]Hauptlauf · full_deepseekv32: 100%|████████████████████████████████████████████████| 1200/1200 [1:03:08<00:00]
-{
- "attempts": 1200,
- "tasks": 300,
- "mean_pass@1": 0.5092,
- "mean_pass@8": null,
- "by_category_pass@1": {
-  "task1": 0.758,
-  "task2": 0.958,
-  "task3": 0.833,
-  "task4": 0.733,
-  "task5": 0.533,
-  "task6": 0.217,
-  "task7": 0.008,
-  "task8": 0.967,
-  "task9": 0.008,
-  "task10": 0.075
- },
- "status_counts": {
-  "AGENT_CONTEXT_LIMIT": 1,
-  "AGENT_INVALID_ACTION": 1,
-  "COMPLETED": 1198
- },
- "failure_types": {
-  "commission": 104,
-  "no_finish": 2,
-  "none": 611,
-  "omission": 8,
-  "wrong_answer": 388,
-  "wrong_order_or_answer": 87
- },
- "mean_rounds": 2.28,
- "tokens_in": 14361022,
- "tokens_out": 179946,
- "mean_tokens_per_attempt": 12117,
- "served_models": [
-  "Qwen/Qwen3.8-27B"
- ],
- "providers": [
-  "192"
- ],
- "cost_usd_reported_by_gateway": null,
- "api_error_rows_excluded": 0,
- "cost_usd": 0.0,
- "cost_per_attempt_usd": 0.0
-}

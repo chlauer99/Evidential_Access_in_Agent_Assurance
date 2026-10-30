@@ -1,18 +1,18 @@
 # Evidential Access in Agent Assurance
 
-Code and selected experiment archives for **“No Results Found”: Evidential Access and the Automated Assurance of Agentic Health Information Systems** (ECIS 2027).
+Experiment and analysis source code for **“No Results Found”: Evidential Access and the Automated Assurance of Agentic Health Information Systems** (ECIS 2027).
 
-This repository contains the MedAgentBench experiment pipeline, agent runners, reference grading, LLM judges, knowledge probes, analysis code, and the selected paper runs. All benchmark patient records are synthetic. Paper figure scripts and manuscript files are not included.
+This repository contains the MedAgentBench experiment pipeline, agent runners, reference grading, LLM judges, knowledge probes, analysis code, and configurations for the selected paper experiments. Experiment trajectories, verdicts, run logs, derived tables and manuscript-number results are not included. All benchmark patient records are synthetic. Paper figure scripts and manuscript files are not included.
 
 ## Contents
 
 1. [Installation](#1-installation)
 2. [Repository layout](#2-repository-layout)
-3. [Included experiments, protocol and metrics](#3-which-experiments-are-included)
-4. [Offline analysis](#4-analyse-existing-results-offline)
+3. [Experiment configurations, protocol and metrics](#3-which-experiments-are-included)
+4. [Analysis of your own or separately supplied data](#4-analyse-existing-results-offline)
 5. [New experiments and configuration](#5-run-new-experiments)
 6. [Cross-judge evaluation](#6-run-cross-judge-evaluations)
-7. [Archive limitations](#7-limits-of-this-archive)
+7. [Code-only scope](#7-code-only-scope)
 8. [Checks and provenance](#8-checks-and-provenance)
 9. [Troubleshooting](#9-troubleshooting)
 
@@ -56,9 +56,9 @@ python -m pip install -r requirements.txt
 | `harness/prompts/` | Exported experiment prompts |
 | `harness/mab_tasks/` | Benchmark instructions, metadata and shared reference-grading code |
 | `harness/tests/` | Existing checks for protocol handling, judges and pipeline behaviour |
-| `runs/` | The three selected open-weight experiment archives |
-| `data/raw/` | Available original GPT-4.1, GPT-4.1-mini and DeepSeek outputs |
-| `data/derived/` | Original-study outcome, mechanism and provenance tables |
+| `runs/` (generated, ignored) | Default experiment output directories |
+| `data/raw/` (external, ignored) | Optional original-study raw inputs supplied separately |
+| `data/derived/` (external, ignored) | Optional original-study coded tables supplied separately |
 | `analysis/` | Original-study table analyses and shared analysis utilities |
 | `reproduce.py` / `verify.py` | Original-study table runner and verification tools |
 
@@ -66,18 +66,20 @@ The identifiers `full_deepseekv32` and `cue_deepseekv32` are also used inside th
 
 ## 3. Which experiments are included?
 
-| Experiment | Configuration | Archived inputs and results |
+Only the configurations and implementation are included. The run-directory names below identify expected output locations, not checked-in results.
+
+| Experiment | Configuration | Expected output/input location (not included) |
 |---|---|---|
 | GPT-4.1, GPT-4.1-mini and DeepSeek V3.2 | `harness/configs/paper.yaml` | `data/raw/` and `data/derived/` |
 | GPT-OSS 120B agents with GPT-OSS self-judge | `harness/configs/gpt_oss_120b_exp_2.yaml` | `runs/gpt_oss_120b_exp_2/` |
 | Qwen3.8 27B agents with Qwen self-judge | `harness/configs/qwen3_8_27b_exp_3.yaml` | `runs/qwen3_8_27b_exp_3/` |
 | Reciprocal judging of those saved GPT-OSS and Qwen attempts | `harness/configs/cross_judge_exp_1/` | `runs/cross_judge_exp_1/` |
 
-The self-judge experiments include trajectory-only, API-specification, checklist and read-only record-access conditions, plus controls, probes and verification-cue runs. The cross-judge analysis described below compares the trajectory-only condition. A separate script can add specification, checklist and record-access verdicts.
+The self-judge configurations cover trajectory-only, API-specification, checklist and read-only record-access conditions, plus controls, probes and verification-cue runs. The cross-judge analysis described below compares the trajectory-only condition. A separate script can add specification, checklist and record-access verdicts.
 
-Smoke runs, superseded Qwen configurations and the separate fresh GPT-OSS-agent/Qwen-judge experiment are excluded. See [the configuration mapping](harness/configs/README.md) and [archive details](runs/README.md).
+Smoke runs, superseded Qwen configurations and the separate fresh GPT-OSS-agent/Qwen-judge experiment are excluded. See [the configuration mapping](harness/configs/README.md).
 
-Typical files within an archived run:
+Typical files created by an experiment (not checked in):
 
 - `mab_runs/<role>/results.jsonl`: attempt results; `answers/`: saved trajectories.
 - `mab_runs/<role>/run_config.json`: recorded execution settings.
@@ -115,7 +117,7 @@ Missing and invalid verdicts are reported separately. Open-weight self-judge and
 
 ## 4. Analyse existing results offline
 
-The commands in this section write to `outputs/`, keeping the archived results intact.
+**Prerequisite:** first execute the experiments or supply compatible data separately at the paths shown below. These commands do not work against a fresh clone without those inputs. They write analyses to ignored `outputs/` directories and do not make model calls.
 
 ### GPT-OSS self-judge
 
@@ -137,7 +139,7 @@ python harness/pipeline/analyse_single.py \
   --out outputs/qwen3_8_27b_exp_3
 ```
 
-These analyses produce descriptive outcome tables, judge metrics, paired condition comparisons and reports. They use the existing graded outcomes and verdicts; no model calls or regrading against the server are needed.
+These analyses produce descriptive outcome tables, judge metrics, paired condition comparisons and reports. They require the corresponding `mab_runs/` trajectories/verdicts and `derived/` graded tables. Once those inputs exist, no model calls or regrading against the server are needed.
 
 ### Reciprocal cross-judge analysis
 
@@ -151,7 +153,7 @@ This joins saved self-judge and cross-judge verdicts on the same attempts and re
 
 ### Original GPT-4.1 / GPT-4.1-mini / DeepSeek analyses
 
-Start with the attempt and outcome tables:
+Supply the original-study inputs under `data/raw/` and `data/derived/`, or point `--raw` and `--derived` at a completed original-design run. Then start with the attempt and outcome tables:
 
 ```sh
 python reproduce.py --level A --only a01 a02 --out outputs/original-study --no-verify
@@ -165,7 +167,7 @@ python reproduce.py --level A --out outputs/original-study --no-verify
 
 The full table sequence includes bootstrap calculations and can take several minutes. `--only` selects script prefixes, for example `--only a03 a05`. Figure generation is removed. The open-weight and cross-judge analyses above are separate and are not run by `reproduce.py`.
 
-Use `--no-verify` with the included archive: `verify.py` expects published comparison files under `data/published/`, which are not included. It remains available if those reference files are supplied separately.
+Use `--no-verify` unless you have also supplied the original published comparison files. `verify.py` expects reference CSVs under `data/published/` and, for manuscript-number checks, a separately supplied `paper_numbers.csv`. Neither is included.
 
 ### Original-study analysis map
 
@@ -189,13 +191,13 @@ These scripts belong to the original GPT-4.1 / GPT-4.1-mini / DeepSeek analysis 
 
 Input/output overrides are `--raw`, `--derived`, `--out` and optional `--study` (display-name mapping). For example, a completed new original-design run can be analysed using its `mab_runs/` and `derived/` directories. For Qwen/GPT-OSS use `analyse_single.py`, as shown above, because those runs have one agent cohort rather than the original pilot/full-run combination.
 
-`paper_numbers.csv` records original manuscript quantities, source tables, row filters and tolerances. If the missing published CSV targets have been restored, original-study verification without figures can be requested with:
+The optional `paper_numbers.csv` input records original manuscript quantities, source tables, row filters and tolerances. After supplying that file and the published CSV targets separately, verification without figures can be requested with:
 
 ```sh
 python verify.py --outputs outputs/original-study --published data/published --skip-figures
 ```
 
-This is an optional verification path requiring those additional files, not a command supported by the included archive alone. The old claim of a fixed number of fully passing checks from the complete package does not describe this reduced release.
+This is an optional verification path requiring those additional files, not a command supported by this code-only repository alone. No fixed number of successful reproduction checks is claimed for a fresh clone.
 
 ## 5. Run new experiments
 
@@ -205,7 +207,7 @@ Choose one of the three YAML configurations. Set `models.<identifier>.base_url`,
 
 For `paper.yaml`, supply `OPENAI_API_KEY` and `OPENROUTER_API_KEY` through your environment. Never put keys in YAML files or commit them. Keep the recorded task counts, generation settings and judge settings unchanged when reproducing the paper setup; changes define a different experiment.
 
-Use a separate output root for new runs. The pipeline resumes existing attempts and skips stages with `DONE.json`, so running against the archive would not start a clean experiment.
+Use a separate output root for independent experiments. The pipeline resumes existing attempts and skips stages with `DONE.json`, so reusing an output directory resumes work instead of starting a clean experiment.
 
 ### Configuration fields
 
@@ -271,15 +273,15 @@ The example runs steps 0–9. Step 10 is a comparison stage, not a requirement f
 
 ## 6. Run cross-judge evaluations
 
-Cross-judging reuses saved agent trajectories rather than starting new agent attempts. For a fresh experiment, prepare copies of the source `results.jsonl` and `answers/` in the two cross-judge target directories. The checked-in archive already contains these copies.
+Cross-judging reuses saved agent trajectories rather than starting new agent attempts. For a fresh experiment, prepare copies of the source `results.jsonl` and `answers/` in the two cross-judge target directories. No saved attempts or copied trajectories are included. Both source experiments must have been completed, or their outputs supplied separately, before cross-judging.
 
-The original neutral-condition commands and request settings are in [harness/configs/cross_judge_exp_1/](harness/configs/cross_judge_exp_1/). After adapting their endpoint addresses, execute them with:
+The neutral-condition commands and request settings are in [harness/configs/cross_judge_exp_1/](harness/configs/cross_judge_exp_1/). After adapting their endpoint addresses, execute them with:
 
 ```sh
 bash harness/configs/cross_judge_exp_1/neutral_commands.sh
 ```
 
-These commands call the model endpoints and use the archived cross-judge output paths. Work on a separate copy when preserving the archive. Existing valid results may be reused rather than regenerated.
+These commands call the model endpoints and write to the expected cross-judge output paths under `runs/cross_judge_exp_1/`. Existing valid results may be reused rather than regenerated. The commands themselves are retained as experiment instructions; they contain no saved verdicts.
 
 For additional specification, checklist and record-access conditions, first inspect the plan:
 
@@ -289,11 +291,15 @@ python harness/scripts/backfill_cross_judge.py
 
 Add `--execute` to make model calls. Endpoint and run-location overrides are described in [BACKFILL_CROSS_JUDGE.md](harness/scripts/BACKFILL_CROSS_JUDGE.md). Record access additionally requires the source record-access selections and the benchmark FHIR server. Adding these verdicts does not automatically extend the neutral-only cross-judge analysis.
 
-## 7. Limits of this archive
+## 7. Code-only scope
 
-- Original DeepSeek full-run trajectories and results are not available in the local source archive; judge verdicts and derived tables are included. The original cue directory contains configuration and documentation rather than raw cue trajectories. Original full-benchmark control outputs are also missing. See [runs/README.md](runs/README.md).
-- Published verification targets in `data/published/`, the manuscript and paper figures are excluded. The repository therefore does not support an unconditional claim that every original artefact can be verified from a fresh clone.
-- Historical implementations under `harness/mab_harness/history/` document the original experiments. `original_medagentbench_task.py` is upstream reference code, not the standalone runner used by the pipeline.
+Included: source code, experiment YAML files, request-setting JSON files, prompts, the FHIR function catalogue, benchmark task instructions/metadata/reference graders, historical code snapshots, dependency requirements and documentation.
+
+Excluded: all saved experiment runs, agent trajectories, judge verdicts, probe answers, controls, result summaries, derived tables, logs, execution markers, manuscript-number tables, paper figures, server binaries and local Python environments. `runs/`, `data/`, `mab_runs/` and `outputs/` are ignored by Git.
+
+Benchmark tasks and reference solutions are experiment inputs, not results generated by this study. They remain in `harness/mab_tasks/`. Historical source code remains in `harness/mab_harness/history/` as requested; the historical cross-model comparison script that required an excluded experiment has been removed.
+
+Original archived data would need to be obtained separately for exact reanalysis of the paper's outputs. Running the configurations produces new model outputs, which need not match the original trajectories or paper numbers.
 
 ## 8. Checks and provenance
 
@@ -304,26 +310,26 @@ python -m unittest -v \
   harness.tests.test_fhir_urls \
   harness.tests.test_judge_schema \
   harness.tests.test_progress \
-  harness.tests.test_request_retry \
-  harness.tests.test_single_model
+  harness.tests.test_request_retry
 ```
 
-Two additional script-style checks are run directly:
+The single-model test module additionally contains a historical comparison test that requires `data/derived/full_deepseekv32_mechanisms.csv`; supply that input separately before running the full module.
+
+The prompt check can be run directly:
 
 ```sh
 python harness/tests/test_prompts.py
-python harness/tests/test_mock_endpoints.py
 ```
 
-The prompt check exits after its assertions, so the unit-test command explicitly selects the other test modules rather than importing it through discovery. Local mock-endpoint checks may require permission to bind a local port. These checks do not replace a live model/FHIR reproduction.
+The prompt check exits after its assertions, so the unit-test command selects modules explicitly. `harness/tests/test_mock_endpoints.py` replays historical pilot trajectories and probe outputs; it requires the corresponding separately supplied data under `data/raw/` and permission to bind local ports. It is not a self-contained test of a fresh code-only clone. These checks do not replace a live model/FHIR reproduction.
 
-The original agent implementations and other paper-era snapshots are retained under `harness/mab_harness/history/`; version identifiers are preserved in the snapshot filenames and archived run metadata. The current configurable runners and these historical snapshots serve different purposes. `harness/scripts/run_all_experiments.sh` and `.ps1` document the original manual execution sequence; the YAML-driven pipeline is the recommended entry point for new runs.
+The original agent implementations and other paper-era snapshots are retained under `harness/mab_harness/history/`; version identifiers are preserved in the snapshot filenames. The current configurable runners and these historical snapshots serve different purposes. `harness/scripts/run_all_experiments.sh` and `.ps1` document the original manual execution sequence; the YAML-driven pipeline is the recommended entry point for new runs.
 
 See [LICENSE-NOTES.md](LICENSE-NOTES.md) for synthetic-data provenance, third-party components and the stated reuse conditions. The benchmark material derives from MedAgentBench; downloaded HAPI FHIR/H2 components have separate terms. Consult the provenance notes before redistributing third-party material. No API credentials, downloaded server/database binaries or local Python environments are included.
 
-### Documentation checks for this release
+### Validation scope
 
-The documented GPT-OSS, Qwen and neutral cross-judge offline analyses completed successfully against the included archives. The original-study `a01` and `a02` quick-start analyses also completed. Dry-run plans were checked for all three YAML configurations. These checks used existing local Python environments; a fresh installation from `requirements.txt`, the full original-study analysis sequence, and live model/FHIR experiments were not executed for this documentation update.
+Configuration dry-runs can be checked without experiment data or live model calls. Offline analysis examples require user-generated or separately supplied outputs. Earlier analysis checks used data that are no longer included in this code-only release; they are not proof that a fresh clone contains everything needed for exact paper reproduction. A fresh dependency installation and live model/FHIR experiments have not been performed for this documentation update.
 
 ## 9. Troubleshooting
 
@@ -333,9 +339,9 @@ The documented GPT-OSS, Qwen and neutral cross-judge offline analyses completed 
 | Model endpoint cannot be reached | Replace the archived private-network URLs with your endpoint. Check its model identifier and use `python harness/scripts/check_endpoint.py --config <yaml>` for a live preflight; this may make model calls. |
 | Structured-output/schema error | Verify endpoint support for the configured judge schemas. A successful ordinary chat request does not establish schema support. |
 | FHIR server cannot be reached | Check Docker/Java, port 8080, `fhir.base_url`, and the selected server mode. Record-access and online grading need the populated benchmark server. |
-| Missing DeepSeek trajectories or full controls | These original-study inputs are not in the archive. Use the included derived tables for offline analysis, obtain the missing original archive, or run a new experiment. |
-| `verify.py` cannot find published files | Use `--no-verify` for the included original-study analyses; full comparison requires separate `data/published/` targets. |
-| A new run skips work | Check its output root, configuration `name`, `DONE.json` markers and existing attempt files. Use a fresh output root to start independently of the archive. |
+| Missing trajectories, verdicts or derived tables | No experiment outputs are shipped. Run the appropriate experiment first or supply compatible data separately; check the analysis input paths. |
+| `verify.py` cannot find reference files | Use `--no-verify` for analysis only. Full verification requires separately supplied `data/published/` targets and manuscript-number inputs. |
+| A new run skips work | Check its output root, configuration `name`, `DONE.json` markers and existing attempt files. Use a fresh output root to start independently of previous work. |
 | Rate limits, retries or incomplete verdict counts | Inspect stage logs, request settings and status files. Resume the same run for unfinished work, and report missing/invalid verdicts rather than treating them as passes. |
 
-Reanalysing fixed archived outputs and generating new model outputs are different reproducibility goals. Agent sampling, model-serving behaviour and upstream providers can yield different trajectories on a fresh run, even with the same configuration. Preserve the original archive and report any model, endpoint, reasoning, parsing or sampling changes alongside new results.
+Reanalysing fixed archived outputs and generating new model outputs are different reproducibility goals. Agent sampling, model-serving behaviour and upstream providers can yield different trajectories on a fresh run, even with the same configuration. Keep separately supplied original data unchanged and report any model, endpoint, reasoning, parsing or sampling changes alongside new results.
