@@ -7,7 +7,7 @@ These are the archived neutral-condition judge commands and request settings fro
 | `runs/cross_judge_exp_1/on_gpt_oss_attempts/mab_runs/full_deepseekv32/` | `runs/gpt_oss_120b_exp_2/mab_runs/full_deepseekv32/` | Qwen |
 | `runs/cross_judge_exp_1/on_qwen_attempts/mab_runs/full_deepseekv32/` | `runs/qwen3_8_27b_exp_3/mab_runs/full_deepseekv32/` | GPT-OSS |
 
-The selected historical outputs and target attempt copies are included in this repository. For fresh source runs, copy `results.jsonl` and `answers/` from each source to its target directory before running the commands. Configure the model endpoint addresses for your deployment.
+No historical outputs or target attempt copies are included. First execute the two source experiments or supply their outputs separately, then copy `results.jsonl` and `answers/` from each source to its target directory before running the commands. Configure the model endpoint addresses for your deployment.
 
 From the repository root, `bash harness/configs/cross_judge_exp_1/neutral_commands.sh` executes the original neutral-condition calls and incurs model usage. For specification, checklist and record-access conditions, see [the backfill instructions](../../scripts/BACKFILL_CROSS_JUDGE.md). Those additionally require source record-access selections and a running FHIR server.
 

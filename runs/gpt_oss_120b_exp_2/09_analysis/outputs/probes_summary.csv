@@ -1,8 +1,0 @@
-source,family,n_answers,accuracy
-probes_deepseekv32.jsonl,absence,216,0.1111111111111111
-probes_deepseekv32.jsonl,code_choice,240,0.43333333333333335
-probes_deepseekv32.jsonl,completeness,57,0.9473684210526315
-probes_deepseekv32.jsonl,mean,3,1
-probes_deepseekv32.jsonl,window,9,0.8888888888888888
-probes_deepseekv32_controls.jsonl,absence,78,1
-probes_deepseekv32_controls.jsonl,completeness,63,0.9047619047619048

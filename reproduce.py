@@ -38,7 +38,7 @@ def main():
     if a.level == "B":
         print("Level B re-runs the experiments (FHIR server + model APIs). Start with a dry run:\n"
               "  python harness/run_pipeline.py --config harness/configs/paper.yaml --dry-run\n"
-              "See PACKAGE_README.md, section 'Level B: re-run with other LLMs'.")
+              "See README.md, section '5. Run new experiments'.")
         return 0
     env = dict(os.environ)
     for k, v in [("REPRO_RAW", a.raw), ("REPRO_DERIVED", a.derived), ("REPRO_OUT", a.out), ("REPRO_STUDY", a.study)]:

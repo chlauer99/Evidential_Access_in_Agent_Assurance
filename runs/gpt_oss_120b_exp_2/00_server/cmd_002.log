@@ -1,5 +1,0 @@
-WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
-3b6e68c2c4ad6b6bfc7d79b6fffff77f4c127038faf630c788303afdb02e0655
-docker: Error response from daemon: Conflict. The container name "/medagentbench-fhir" is already in use by container "3b6e68c2c4ad6b6bfc7d79b6fffff77f4c127038faf630c788303afdb02e0655". You have to remove (or rename) that container to be able to reuse that name.
-
-Run 'docker run --help' for more information
