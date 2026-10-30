@@ -4,6 +4,18 @@ Code and selected experiment archives for **“No Results Found”: Evidential A
 
 This repository contains the MedAgentBench experiment pipeline, agent runners, reference grading, LLM judges, knowledge probes, analysis code, and the selected paper runs. All benchmark patient records are synthetic. Paper figure scripts and manuscript files are not included.
 
+## Contents
+
+1. [Installation](#1-installation)
+2. [Repository layout](#2-repository-layout)
+3. [Included experiments, protocol and metrics](#3-which-experiments-are-included)
+4. [Offline analysis](#4-analyse-existing-results-offline)
+5. [New experiments and configuration](#5-run-new-experiments)
+6. [Cross-judge evaluation](#6-run-cross-judge-evaluations)
+7. [Archive limitations](#7-limits-of-this-archive)
+8. [Checks and provenance](#8-checks-and-provenance)
+9. [Troubleshooting](#9-troubleshooting)
+
 ## 1. Installation
 
 Use **Python 3.11** (the version specified by the original environment files). Run all commands below from the repository root. Examples use a macOS/Linux shell.
@@ -11,12 +23,13 @@ Use **Python 3.11** (the version specified by the original environment files). R
 ```sh
 git clone https://github.com/chlauer99/Evidential_Access_in_Agent_Assurance.git
 cd Evidential_Access_in_Agent_Assurance
-git switch codex/publish-experiment-code
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
+
+Until this release is merged into `main`, run `git switch codex/publish-experiment-code` after cloning to use the publication branch.
 
 On Windows PowerShell, create the environment with `py -3.11 -m venv .venv` and activate it with `.venv\Scripts\Activate.ps1`.
 
@@ -73,6 +86,33 @@ Typical files within an archived run:
 - `09_analysis/outputs/`: saved summary tables and reports.
 - `pipeline_commands.txt`, stage logs and `DONE.json`: execution records and completion markers.
 
+### Task protocol and evidence conditions
+
+The runner uses the original MedAgentBench text-action protocol and function catalogue (`harness/mab_harness/funcs_v1.json`). Each turn contains one `GET`, `POST` or `FINISH(...)` action, with at most eight rounds under the paper configurations. The agent receives the task context, question, instructions and function catalogue. The strict parser rejects actions that do not start in the expected form.
+
+`GET` actions query the benchmark FHIR server. `POST` actions are validated and acknowledged but **are not persisted to the database**, following the original protocol. Consequently, a record-access judge cannot establish that an order was placed simply by looking for a newly stored order. Replay and null controls provide reference-answer and do-nothing baselines.
+
+| Judge condition | Evidence supplied | Verdict suffix |
+|---|---|---|
+| Trajectory only | Task and saved agent trajectory | no condition suffix |
+| API specification | Trajectory plus the API specification | `_spec` |
+| Checklist | Trajectory plus the verification checklist | `_verify` |
+| Record access | Read-only FHIR queries in addition to the supplied task/trajectory evidence | `_access` |
+
+The conditions actually applied to each model/run are specified by its YAML; the original three-model study does not evaluate every possible combination. Record-access samples use seed 2027 and a maximum of four queries in the retained configurations.
+
+### How outcome and judge measures are defined
+
+The reference grader evaluates the task result; the analysis further distinguishes outcome classes and error mechanisms. In the selected self-judge analyses, `pass` and `format_only` count as correct work for judge discrimination; `substantive_answer_error`, `omission` and `commission` count as errors. `wrong_order`, `pass_without_acting` and `no_finish` are excluded from those judge measures. Descriptive error rates also include `wrong_order`, so their denominator and meaning differ from judge discrimination.
+
+- **Error discovery:** the fraction of eligible erroneous attempts rejected by the judge.
+- **Correct certification:** the fraction of eligible correct attempts accepted by the judge.
+- **Youden's J:** error discovery + correct certification − 1.
+- **Paired condition contrasts:** differences on attempts with valid verdicts under both conditions.
+- **Cross-judge dependence:** joint acceptance of errors and agreement of judge-error indicators on the same attempts.
+
+Missing and invalid verdicts are reported separately. Open-weight self-judge and cross-judge uncertainty estimates resample tasks, using 1,000 bootstrap draws and seed 2027. Original-study scripts have their own fixed seeds and bootstrap settings in `analysis/config.py`; they should not be assumed to use the same procedure for every measure.
+
 ## 4. Analyse existing results offline
 
 The commands in this section write to `outputs/`, keeping the archived results intact.
@@ -127,6 +167,36 @@ The full table sequence includes bootstrap calculations and can take several min
 
 Use `--no-verify` with the included archive: `verify.py` expects published comparison files under `data/published/`, which are not included. It remains available if those reference files are supplied separately.
 
+### Original-study analysis map
+
+These scripts belong to the original GPT-4.1 / GPT-4.1-mini / DeepSeek analysis path, not the separate open-weight summaries. Run them through `reproduce.py` so input/output overrides are passed consistently.
+
+| Script | Purpose | Main output files |
+|---|---|---|
+| `a01_attempts_table.py` | Join attempts, judge conditions and outcome labels | `attempts_by_judge.csv`, `judge_attempts.csv` |
+| `a02_outcome_classes.py` | Denominators, outcome classes and task bimodality | `analysis_denominators.csv`, `outcome_classes.csv`, `task_bimodality.csv` |
+| `a03_judge_discrimination.py` | Judge acceptance, discrimination and rationale coding | `judge_summary.csv`, `judge_discrimination.csv`, `judge_reason_validity.csv` |
+| `a04_record_access.py` | Record-access verdicts, discrimination and sample checks | `agentic_judge_verdicts.csv`, `agentic_judge_discrimination.csv`, `agentic_judge_readonly.csv` |
+| `a05_judge_conditions.py` | Compare evidence conditions | `judge_conditions_summary.csv` |
+| `a06_paired_contrasts.py` | Paired evidence-condition effects | `paired_condition_contrasts.csv`, `paired_condition_contrasts_pooled.csv` |
+| `a07_error_dependence.py` | Shared errors and joint acceptance | `judge_error_sharing.csv`, `judge_error_kappa_ci.csv`, `joint_acceptance.csv` |
+| `a08_probes.py` | Knowledge-probe performance | `probe_summary.csv` |
+| `a09_cue_effects.py` | Verification-cue effects | `cue_effects.csv` |
+| `a10_provenance.py` | Grounded/fabricated/unclassified provenance | `provenance_summary.csv`, `provenance_recoded.csv` |
+| `a11_capability_gradient.py` | Descriptive capability/error comparison | `capability_gradient.csv` |
+| `a12_mechanism_table.py` | Error-mechanism table | `table3_mechanisms.csv` |
+| `a13_paper_extras.py` | Additional manuscript quantities | `paper_extras.csv` |
+
+Input/output overrides are `--raw`, `--derived`, `--out` and optional `--study` (display-name mapping). For example, a completed new original-design run can be analysed using its `mab_runs/` and `derived/` directories. For Qwen/GPT-OSS use `analyse_single.py`, as shown above, because those runs have one agent cohort rather than the original pilot/full-run combination.
+
+`paper_numbers.csv` records original manuscript quantities, source tables, row filters and tolerances. If the missing published CSV targets have been restored, original-study verification without figures can be requested with:
+
+```sh
+python verify.py --outputs outputs/original-study --published data/published --skip-figures
+```
+
+This is an optional verification path requiring those additional files, not a command supported by the included archive alone. The old claim of a fixed number of fully passing checks from the complete package does not describe this reduced release.
+
 ## 5. Run new experiments
 
 ### Configure the model and output location
@@ -136,6 +206,32 @@ Choose one of the three YAML configurations. Set `models.<identifier>.base_url`,
 For `paper.yaml`, supply `OPENAI_API_KEY` and `OPENROUTER_API_KEY` through your environment. Never put keys in YAML files or commit them. Keep the recorded task counts, generation settings and judge settings unchanged when reproducing the paper setup; changes define a different experiment.
 
 Use a separate output root for new runs. The pipeline resumes existing attempts and skips stages with `DONE.json`, so running against the archive would not start a clean experiment.
+
+### Configuration fields
+
+| YAML field | Meaning |
+|---|---|
+| `name` | Run directory name under the selected output root |
+| `design: single_model` | One full agent cohort and one judge; used for GPT-OSS and Qwen |
+| `fhir.mode`, `fhir.base_url` | Docker, automatic/non-Docker or external benchmark server configuration |
+| `models.<id>.model`, `base_url`, `api_key_env` | Model identifier, OpenAI-compatible endpoint and environment variable containing its key |
+| `temperature`, `max_output_tokens`, `extra_body` | Agent generation budget and provider/model-specific request settings |
+| `workers`, `tpm`, `rpm` | Concurrency and optional token/request throttles |
+| `lenient_actions`, `strip_reasoning` | Optional parsing behaviour; changing these can alter the protocol |
+| `agents` | Model, task subset and number of attempts for each role |
+| `controls` | Replay/null control cohorts |
+| `judges` | Judge model, evidence conditions, verdict token budget and structured-output settings |
+| `record_access` | Judge, query limit, sample seed and concurrency |
+| `probes`, `cue` | Knowledge-probe sampling and verification-cue reruns |
+| `expect_paper` | Optional reference-comparison behaviour; not a guarantee that new stochastic runs match archived numbers |
+
+`paper.yaml` uses 30 pilot tasks (three per category, seed 2026) with eight attempts each for GPT-4.1 and GPT-4.1-mini, and all 300 tasks with four attempts each for DeepSeek. GPT-OSS and Qwen each use all 300 tasks with four attempts and no pilot cohort.
+
+GPT-OSS retains `reasoning_effort: low`; Qwen retains `chat_template_kwargs: {enable_thinking: false}` and its configured context-capacity requirement. The judge and agent token budgets are distinct. Follow the retained YAML rather than substituting a generic model recipe.
+
+The local model endpoints use an empty `api_key_env`; the client supplies a dummy key for an endpoint that does not require authentication. If your deployment requires a key, configure a named environment variable instead. Endpoints must support the structured-output settings requested by the judge code. API aliases, provider routing and model-serving versions can change outputs; inspect recorded served-model/provider metadata when comparing runs.
+
+The `price_in` / `price_out` values and pipeline estimates are historical configuration values. Zero prices in local-model configurations do not measure hardware or hosting cost. Runtime depends on serving capacity, rate limits and retries; no historical dollar estimate is a current price guarantee.
 
 ### Inspect the plan
 
@@ -198,7 +294,7 @@ Add `--execute` to make model calls. Endpoint and run-location overrides are des
 - Original DeepSeek full-run trajectories and results are not available in the local source archive; judge verdicts and derived tables are included. The original cue directory contains configuration and documentation rather than raw cue trajectories. Original full-benchmark control outputs are also missing. See [runs/README.md](runs/README.md).
 - Published verification targets in `data/published/`, the manuscript and paper figures are excluded. The repository therefore does not support an unconditional claim that every original artefact can be verified from a fresh clone.
 - `analysis/a15_open_weight_runs.py` is a retained historical comparison script. It still expects the excluded `gpt_oss_120b_qwen_judge_exp_1` run, so it is **not an entry point for the selected three-run release**. Use the self-judge and cross-judge commands above.
-- `PACKAGE_README.md`, `REPRO_REPORT.md` and parts of `VLLM_START.md` describe earlier versions of the full research package. This README and the current configuration mapping describe the release contents.
+- `REPRO_REPORT.md` and parts of `VLLM_START.md` describe earlier versions of the full research package. This README is the central usage guide; directory READMEs provide local archive/configuration details.
 - Historical implementations under `harness/mab_harness/history/` document the original experiments. `original_medagentbench_task.py` is upstream reference code, not the standalone runner used by the pipeline.
 
 ## 8. Checks and provenance
@@ -223,8 +319,26 @@ python harness/tests/test_mock_endpoints.py
 
 The prompt check exits after its assertions, so the unit-test command explicitly selects the other test modules rather than importing it through discovery. Local mock-endpoint checks may require permission to bind a local port. These checks do not replace a live model/FHIR reproduction.
 
-See [LICENSE-NOTES.md](LICENSE-NOTES.md) for synthetic-data provenance, third-party components and the stated reuse conditions. No API credentials, downloaded server/database binaries or local Python environments are included.
+The original agent implementations and other paper-era snapshots are retained under `harness/mab_harness/history/`; see `REPRO_REPORT.md` for their provenance. The current configurable runners and these historical snapshots serve different purposes. `harness/scripts/run_all_experiments.sh` and `.ps1` document the original manual execution sequence; the YAML-driven pipeline is the recommended entry point for new runs.
+
+See [LICENSE-NOTES.md](LICENSE-NOTES.md) for synthetic-data provenance, third-party components and the stated reuse conditions. The benchmark material derives from MedAgentBench; downloaded HAPI FHIR/H2 components have separate terms. Consult the provenance notes before redistributing third-party material. No API credentials, downloaded server/database binaries or local Python environments are included.
 
 ### Documentation checks for this release
 
 The documented GPT-OSS, Qwen and neutral cross-judge offline analyses completed successfully against the included archives. The original-study `a01` and `a02` quick-start analyses also completed. Dry-run plans were checked for all three YAML configurations. These checks used existing local Python environments; a fresh installation from `requirements.txt`, the full original-study analysis sequence, and live model/FHIR experiments were not executed for this documentation update.
+
+## 9. Troubleshooting
+
+| Symptom | Check / action |
+|---|---|
+| `ModuleNotFoundError` | Activate the intended environment and run `python -m pip install -r requirements.txt` using that interpreter. `tqdm` is needed for progress output. |
+| Model endpoint cannot be reached | Replace the archived private-network URLs with your endpoint. Check its model identifier and use `python harness/scripts/check_endpoint.py --config <yaml>` for a live preflight; this may make model calls. |
+| Structured-output/schema error | Verify endpoint support for the configured judge schemas. A successful ordinary chat request does not establish schema support. |
+| FHIR server cannot be reached | Check Docker/Java, port 8080, `fhir.base_url`, and the selected server mode. Record-access and online grading need the populated benchmark server. |
+| Missing DeepSeek trajectories or full controls | These original-study inputs are not in the archive. Use the included derived tables for offline analysis, obtain the missing original archive, or run a new experiment. |
+| `verify.py` cannot find published files | Use `--no-verify` for the included original-study analyses; full comparison requires separate `data/published/` targets. |
+| A new run skips work | Check its output root, configuration `name`, `DONE.json` markers and existing attempt files. Use a fresh output root to start independently of the archive. |
+| Rate limits, retries or incomplete verdict counts | Inspect stage logs, request settings and status files. Resume the same run for unfinished work, and report missing/invalid verdicts rather than treating them as passes. |
+| Historical comparison script cannot find a second GPT-OSS run | `a15_open_weight_runs.py` expects an excluded experiment. Use the supported self-judge and reciprocal cross-judge analysis commands in section 4. |
+
+Reanalysing fixed archived outputs and generating new model outputs are different reproducibility goals. Agent sampling, model-serving behaviour and upstream providers can yield different trajectories on a fresh run, even with the same configuration. Preserve the original archive and report any model, endpoint, reasoning, parsing or sampling changes alongside new results.
