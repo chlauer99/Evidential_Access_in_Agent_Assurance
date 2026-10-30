@@ -1,3 +1,5 @@
+> Archive scope: selected paper run outputs and original-study inputs are now included. See [runs/README.md](runs/README.md) for the exact selection and missing original-study raw data.
+
 > Configuration scope: only the paper configurations listed in [harness/configs/README.md](harness/configs/README.md) are included. Example and archived-chain configurations described in this historical package guide have been removed.
 
 > Code release note: Paper figure scripts have been removed. `reproduce.py` now runs table analyses only and skips figure verification. Figure-related descriptions below document the original full research package.

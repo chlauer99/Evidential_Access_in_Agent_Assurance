@@ -1,0 +1,2 @@
+instances {'code_choice': 80, 'absence': 31, 'completeness': 25, 'window': 5, 'mean': 4, 'age': 2}
+controls {'absence': 26, 'completeness': 21}

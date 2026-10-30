@@ -1,0 +1,1 @@
+{('cue_deepseekv32', 'task10'): 1.0, ('cue_deepseekv32', 'task4'): 1.0, ('cue_deepseekv32', 'task5'): 1.0, ('cue_deepseekv32', 'task7'): 1.0, ('cue_deepseekv32', 'task9'): 0.0, ('full_deepseekv32', 'task10'): 0.983, ('full_deepseekv32', 'task4'): 0.95, ('full_deepseekv32', 'task5'): 0.925, ('full_deepseekv32', 'task7'): 0.975, ('full_deepseekv32', 'task9'): 0.017}

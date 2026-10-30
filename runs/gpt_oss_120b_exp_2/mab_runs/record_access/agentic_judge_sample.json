@@ -1,0 +1,7184 @@
+[
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task10_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task1_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task2_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task3_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task4_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task5_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task6_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task7_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task8_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_1",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_1",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_1",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_1",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_10",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_10",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_10",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_10",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_11",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_11",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_11",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_11",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_12",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_12",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_12",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_12",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_13",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_13",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_13",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_13",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_14",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_14",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_14",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_14",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_15",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_15",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_15",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_15",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_16",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_16",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_16",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_16",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_17",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_17",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_17",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_17",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_18",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_18",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_18",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_18",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_19",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_19",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_19",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_19",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_2",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_2",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_2",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_2",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_20",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_20",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_20",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_20",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_21",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_21",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_21",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_21",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_22",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_22",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_22",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_22",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_23",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_23",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_23",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_23",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_24",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_24",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_24",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_24",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_25",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_25",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_25",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_25",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_26",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_26",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_26",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_26",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_27",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_27",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_27",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_27",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_28",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_28",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_28",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_28",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_29",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_29",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_29",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_29",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_3",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_3",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_3",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_3",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_30",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_30",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_30",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_30",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_4",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_4",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_4",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_4",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_5",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_5",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_5",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_5",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_6",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_6",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_6",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_6",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_7",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_7",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_7",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_7",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_8",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_8",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_8",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_8",
+  "attempt": 3,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_9",
+  "attempt": 0,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_9",
+  "attempt": 1,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_9",
+  "attempt": 2,
+  "stratum": "all_completed"
+ },
+ {
+  "run": "full_deepseekv32",
+  "task_id": "task9_9",
+  "attempt": 3,
+  "stratum": "all_completed"
+ }
+]

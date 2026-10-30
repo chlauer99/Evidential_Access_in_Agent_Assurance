@@ -1,0 +1,178 @@
+102 tasks x 2 attempts; 204 to run (0 already done) -> /Users/chla04-admin/Library/CloudStorage/OneDrive-dfki.de/Paper/ECIS27/eoidemische_Fehler/ecis2027_epidemische_Fehler/runs/gpt_oss_120b_exp_2/mab_runs/cue_deepseekv32
+
+Verifikationshinweis-Experiment · cue_deepseekv32 — 204 ausstehende Einheiten
+Verifikationshinweis-Experiment · cue_deepseekv32:   0%|                                     | 0/204 [00:00<?]Verifikationshinweis-Experiment · cue_deepseekv32:   0%|▏                                | 1/204 [00:01<04:18]Verifikationshinweis-Experiment · cue_deepseekv32:   1%|▍                                | 3/204 [00:02<03:01]Verifikationshinweis-Experiment · cue_deepseekv32:   2%|▊                                | 5/204 [00:04<02:46]Verifikationshinweis-Experiment · cue_deepseekv32:   3%|█▏                               | 7/204 [00:06<02:47]Verifikationshinweis-Experiment · cue_deepseekv32:   4%|█▍                               | 9/204 [00:07<02:41]Verifikationshinweis-Experiment · cue_deepseekv32:   5%|█▋                              | 11/204 [00:10<03:06]Verifikationshinweis-Experiment · cue_deepseekv32:   6%|██                              | 13/204 [00:11<02:52]Verifikationshinweis-Experiment · cue_deepseekv32:   7%|██▎                             | 15/204 [00:13<02:59]Verifikationshinweis-Experiment · cue_deepseekv32:   8%|██▋                             | 17/204 [00:15<02:55]Verifikationshinweis-Experiment · cue_deepseekv32:   9%|██▉                             | 19/204 [00:17<02:48]Verifikationshinweis-Experiment · cue_deepseekv32:  10%|███▎                            | 21/204 [00:19<02:47]Verifikationshinweis-Experiment · cue_deepseekv32:  11%|███▌                            | 23/204 [00:21<03:08]Verifikationshinweis-Experiment · cue_deepseekv32:  12%|███▉                            | 25/204 [00:23<02:55]Verifikationshinweis-Experiment · cue_deepseekv32:  13%|████▏                           | 27/204 [00:25<02:42]Verifikationshinweis-Experiment · cue_deepseekv32:  14%|████▌                           | 29/204 [00:26<02:33]Verifikationshinweis-Experiment · cue_deepseekv32:  15%|████▊                           | 31/204 [00:28<02:32]Verifikationshinweis-Experiment · cue_deepseekv32:  16%|█████▏                          | 33/204 [00:30<02:31]Verifikationshinweis-Experiment · cue_deepseekv32:  17%|█████▍                          | 35/204 [00:31<02:19]Verifikationshinweis-Experiment · cue_deepseekv32:  18%|█████▊                          | 37/204 [00:33<02:17]Verifikationshinweis-Experiment · cue_deepseekv32:  19%|██████                          | 39/204 [00:34<02:14]Verifikationshinweis-Experiment · cue_deepseekv32:  20%|██████▍                         | 41/204 [00:36<02:17]Verifikationshinweis-Experiment · cue_deepseekv32:  21%|██████▋                         | 43/204 [00:38<02:24]Verifikationshinweis-Experiment · cue_deepseekv32:  22%|███████                         | 45/204 [00:40<02:24]Verifikationshinweis-Experiment · cue_deepseekv32:  23%|███████▎                        | 47/204 [00:42<02:15]Verifikationshinweis-Experiment · cue_deepseekv32:  24%|███████▋                        | 49/204 [00:43<02:07]Verifikationshinweis-Experiment · cue_deepseekv32:  25%|████████                        | 51/204 [00:45<02:04]Verifikationshinweis-Experiment · cue_deepseekv32:  26%|████████▎                       | 53/204 [00:46<01:59]Verifikationshinweis-Experiment · cue_deepseekv32:  27%|████████▋                       | 55/204 [00:48<01:58]task4_3 [2.7] [2.7]
+Verifikationshinweis-Experiment · cue_deepseekv32:  28%|████████▉                       | 57/204 [00:50<02:24]task4_3 [2.7] [-1]
+task4_5 [2.1] [2.1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  29%|█████████▎                      | 59/204 [00:54<02:59]task4_5 [2.1] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  29%|█████████▍                      | 60/204 [00:57<03:39]task4_13 [2.2] [2.2]
+Verifikationshinweis-Experiment · cue_deepseekv32:  30%|█████████▌                      | 61/204 [01:00<04:09]task4_13 [2.2] [2.2]
+Verifikationshinweis-Experiment · cue_deepseekv32:  30%|█████████▋                      | 62/204 [01:01<04:00]task4_17 [2.1] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  31%|█████████▉                      | 63/204 [01:03<04:15]task4_17 [2.1] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  31%|██████████                      | 64/204 [01:06<04:54]task4_26 [2.5] [2.5]
+Verifikationshinweis-Experiment · cue_deepseekv32:  32%|██████████▏                     | 65/204 [01:09<05:16]task4_26 [2.5] [2.5]
+Verifikationshinweis-Experiment · cue_deepseekv32:  32%|██████████▎                     | 66/204 [01:11<04:59]task4_28 [2.1] [2.1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  33%|██████████▌                     | 67/204 [01:14<05:37]task4_28 [2.1] [2.1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  33%|██████████▋                     | 68/204 [01:16<05:23]task5_7 [2.1] ["The patient's most recent serum magnesium level within the last 24 hours is 2.1 mg/dL, which is within the normal range. No replacement IV magnesium order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  34%|██████████▊                     | 69/204 [01:18<05:05]task5_7 [2.1] ["Latest magnesium level is 2.1 mg/dL (normal); no replacement IV magnesium ordered."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  34%|██████████▉                     | 70/204 [01:21<05:08]task5_17 [2.3] ["The patient’s most recent serum magnesium level in the last 24 hours is 2.3 mg/dL, which is normal. No replacement IV magnesium order is needed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  35%|███████████▏                    | 71/204 [01:22<04:45]task5_17 [2.3] ["The most recent serum magnesium level for patient S6192632 within the last 24 hours is 2.3 mg/dL, which is within the normal range. No replacement IV magnesium was ordered."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  35%|███████████▎                    | 72/204 [01:24<04:37]task5_19 [2.2] ["The most recent serum magnesium level for patient S3057899 within the last 24 hours is 2.2 mg/dL, which is within normal range. No IV magnesium replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  36%|███████████▍                    | 73/204 [01:26<04:26]task5_19 [2.2] ["No serum magnesium level recorded in the last 24 hours is below the low threshold; therefore, no IV magnesium replacement order is placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  36%|███████████▌                    | 74/204 [01:28<04:06]
+Verifikationshinweis-Experiment · cue_deepseekv32:  37%|███████████▊                    | 75/204 [01:31<05:06]Verifikationshinweis-Experiment · cue_deepseekv32:  37%|███████████▉                    | 76/204 [01:33<04:36]
+Verifikationshinweis-Experiment · cue_deepseekv32:  38%|████████████                    | 77/204 [01:37<05:30]
+Verifikationshinweis-Experiment · cue_deepseekv32:  38%|████████████▏                   | 78/204 [01:41<06:32]task5_27 [2.7] ["The patient's most recent serum magnesium level within the last 24 hours is 2.7 mg/dL, which is high. No replacement IV magnesium was ordered."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  39%|████████████▍                   | 79/204 [01:43<05:36]task5_27 [2.7] ["The most recent serum magnesium level for patient S6547257 within the last 24 hours was 2.7 mg/dL (high). Since the level is not low, no IV magnesium replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  39%|████████████▌                   | 80/204 [01:45<05:18]task6_2 [90.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  40%|████████████▋                   | 81/204 [01:48<05:14]task6_2 [90.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  40%|████████████▊                   | 82/204 [01:49<04:50]task6_4 [89.88888888888889] [89.9]
+Verifikationshinweis-Experiment · cue_deepseekv32:  41%|█████████████                   | 83/204 [01:53<05:46]task6_4 [89.88888888888889] [120.5]
+Verifikationshinweis-Experiment · cue_deepseekv32:  41%|█████████████▏                  | 84/204 [01:56<05:45]task6_5 [93.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  42%|█████████████▎                  | 85/204 [01:59<05:14]task6_5 [93.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  42%|█████████████▍                  | 86/204 [02:00<04:28]task6_6 [100.0] [100]
+Verifikationshinweis-Experiment · cue_deepseekv32:  43%|█████████████▋                  | 87/204 [02:02<04:21]task6_6 [100.0] [100]
+Verifikationshinweis-Experiment · cue_deepseekv32:  43%|█████████████▊                  | 88/204 [02:04<04:12]task6_7 [123.0] [123]
+Verifikationshinweis-Experiment · cue_deepseekv32:  44%|█████████████▉                  | 89/204 [02:06<04:16]task6_7 [123.0] [-1]
+task6_8 [115.0] [115]
+Verifikationshinweis-Experiment · cue_deepseekv32:  45%|██████████████▎                 | 91/204 [02:10<03:37]task6_8 [115.0] [115]
+Verifikationshinweis-Experiment · cue_deepseekv32:  45%|██████████████▍                 | 92/204 [02:13<04:16]task6_10 [161.8] [167]
+Verifikationshinweis-Experiment · cue_deepseekv32:  46%|██████████████▌                 | 93/204 [02:16<04:29]task6_10 [161.8] [161.8]
+Verifikationshinweis-Experiment · cue_deepseekv32:  46%|██████████████▋                 | 94/204 [02:18<04:17]task6_12 [188.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  47%|██████████████▉                 | 95/204 [02:20<04:22]task6_12 [188.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  47%|███████████████                 | 96/204 [02:23<04:09]task6_13 [116.15384615384616] [117.08]
+Verifikationshinweis-Experiment · cue_deepseekv32:  48%|███████████████▏                | 97/204 [02:26<04:30]task6_13 [116.15384615384616] [117.08]
+Verifikationshinweis-Experiment · cue_deepseekv32:  48%|███████████████▎                | 98/204 [02:28<04:31]task6_20 [168.85714285714286] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  49%|███████████████▌                | 99/204 [02:31<04:32]task6_20 [168.85714285714286] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  49%|███████████████▏               | 100/204 [02:33<04:05]task6_21 [102.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  50%|███████████████▎               | 101/204 [02:36<04:34]task6_21 [102.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  50%|███████████████▌               | 102/204 [02:38<04:17]task6_23 [89.66666666666667] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  50%|███████████████▋               | 103/204 [02:41<04:11]task6_23 [89.66666666666667] [84.0]
+Verifikationshinweis-Experiment · cue_deepseekv32:  51%|███████████████▊               | 104/204 [02:43<03:54]task6_24 [90.0] [90]
+Verifikationshinweis-Experiment · cue_deepseekv32:  51%|███████████████▉               | 105/204 [02:45<03:46]task6_24 [90.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  52%|████████████████               | 106/204 [02:46<03:07]task6_25 [94.33333333333333] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  52%|████████████████▎              | 107/204 [02:49<03:26]task6_25 [94.33333333333333] [94.33]
+Verifikationshinweis-Experiment · cue_deepseekv32:  53%|████████████████▍              | 108/204 [02:52<03:48]task6_27 [245.0] [271.25]
+Verifikationshinweis-Experiment · cue_deepseekv32:  53%|████████████████▌              | 109/204 [02:56<04:49]task6_27 [245.0] [245.0]
+Verifikationshinweis-Experiment · cue_deepseekv32:  54%|████████████████▋              | 110/204 [03:00<05:03]task6_29 [166.0] [166.0]
+Verifikationshinweis-Experiment · cue_deepseekv32:  54%|████████████████▊              | 111/204 [03:03<05:01]task6_29 [166.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  55%|█████████████████              | 112/204 [03:06<04:52]task6_30 [126.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  55%|█████████████████▏             | 113/204 [03:08<04:25]task6_30 [126.0] [-1]
+Verifikationshinweis-Experiment · cue_deepseekv32:  56%|█████████████████▎             | 114/204 [03:10<03:54]task7_1 [123.0] ["The most recent CBG for patient S2823623 is 191.0 mg/dL (recorded at 2023-11-13T03:35:00+00:00)."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  56%|█████████████████▍             | 115/204 [03:13<03:42]task7_1 [123.0] ["The most recent CBG (capillary blood glucose) observation for patient S2823623 could not be found; there are no Observation resources with code \"GLU\" for this patient."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  57%|█████████████████▋             | 116/204 [03:14<03:19]task7_6 [73.0] ["The most recent CBG (GLU) for patient S0611496 is 73.0 mg/dL recorded on 2023-11-12T21:09:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  57%|█████████████████▊             | 117/204 [03:16<03:06]task7_6 [73.0] ["The most recent CBG (GLU) result for patient S0611496 is 73 mg/dL, recorded on 2023-11-12T21:09:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  58%|█████████████████▉             | 118/204 [03:17<02:45]task7_10 [94.0] ["The most recent capillary blood glucose (CBG) for patient S0674240 is 87 mg/dL recorded on 2023-11-09T12:13:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  58%|██████████████████             | 119/204 [03:20<02:49]task7_10 [94.0] ["The most recent CBG for patient S0674240 is 87 mg/dL recorded on 2023-11-09T12:13:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  59%|██████████████████▏            | 120/204 [03:21<02:34]task7_12 [79.0] ["The most recent CBG (GLU) for patient S1891852 is 86.0 mg/dL recorded on 2023-11-12T15:41:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  59%|██████████████████▍            | 121/204 [03:24<02:47]task7_12 [79.0] ["The most recent CBG (GLU) for patient S1891852 is 86.0 mg/dL recorded on 2023-11-12T15:41:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  60%|██████████████████▌            | 122/204 [03:25<02:32]task7_13 [161.0] ["The most recent capillary blood glucose (CBG) for patient S3213957 is 158 mg/dL, measured on 2023-11-12 at 20:56:00 UTC."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  60%|██████████████████▋            | 123/204 [03:28<03:04]task7_13 [161.0] ["The most recent capillary blood glucose (CBG) for patient S3213957 was measured on 2023-11-12 at 20:56 UTC with a value of 158 mg/dL."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  61%|██████████████████▊            | 124/204 [03:31<03:04]task7_14 [90.0] ["The most recent CBG for patient S6539215 is 99.0 mg/dL, recorded on 2023-11-10T14:02:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  61%|██████████████████▉            | 125/204 [03:33<03:03]task7_14 [90.0] ["The most recent capillary blood glucose (CBG) for patient S6539215 is 99 mg/dL recorded on 2023-11-10T14:02:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  62%|███████████████████▏           | 126/204 [03:35<02:52]task7_15 [81.0] ["The most recent CBG for patient S6550473 is 80.0 mg/dL recorded on 2023-11-10T14:29:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  62%|███████████████████▎           | 127/204 [03:37<02:52]task7_15 [81.0] ["The most recent CBG for patient S6550473 is 80 mg/dL recorded on 2023-11-10T14:29:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  63%|███████████████████▍           | 128/204 [03:39<02:35]task7_16 [97.0] ["The most recent CBG (GLU) for patient S6547257 is 204.0 mg/dL recorded on 2023-11-03T12:34:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  63%|███████████████████▌           | 129/204 [03:41<02:35]task7_16 [97.0] ["The most recent CBG (GLU) for patient S6547257 is 79.0 mg/dL, recorded on 2023-11-01T13:05:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  64%|███████████████████▊           | 130/204 [03:43<02:23]task7_18 [94.0] ["The most recent CBG (GLU) for patient S6521727 is 127.0 mg/dL recorded on 2023-10-01T12:34:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  64%|███████████████████▉           | 131/204 [03:45<02:29]task7_18 [94.0] ["The most recent CBG (GLU) for patient S6521727 is 127.0 mg/dL, recorded on 2023-10-01T12:34:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  65%|████████████████████           | 132/204 [03:47<02:17]task7_19 [190.0] ["The most recent CBG (GLU) for patient S6426560 is 94.0 mg/dL on 2023-11-09T11:21:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  65%|████████████████████▏          | 133/204 [03:49<02:27]task7_19 [190.0] ["The most recent CBG (GLU) for patient S6426560 is 94.0 mg/dL, recorded on 2023-11-09T11:21:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  66%|████████████████████▎          | 134/204 [03:51<02:14]task7_23 [102.0] ["The most recent capillary blood glucose (CBG) for patient S6550627 is 112 mg/dL, recorded on 2023-11-10 at 16:26 UTC."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  66%|████████████████████▌          | 135/204 [03:53<02:30]task7_23 [102.0] ["The most recent CBG for patient S6550627 is 112.0 mg/dL recorded on 2023-11-10T16:26:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  67%|████████████████████▋          | 136/204 [03:55<02:14]task7_24 [129.0] ["The most recent capillary blood glucose (CBG) for patient S2075210 is 143 mg/dL, recorded on 2023-11-11T08:24:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  67%|████████████████████▊          | 137/204 [03:58<02:27]task7_24 [129.0] ["The most recent CBG (GLU) for patient S2075210 is 143.0 mg/dL, recorded on 2023-11-11T08:24:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  68%|████████████████████▉          | 138/204 [03:59<02:14]task7_27 [94.0] ["The most recent CBG for patient S1698248 is 110 mg/dL recorded on 2023-11-11T17:37:00+00:00."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  68%|█████████████████████          | 139/204 [04:01<02:12]task7_27 [94.0] ["The most recent capillary blood glucose (CBG) for patient S1698248 is 110 mg/dL, recorded on 2023-11-11 at 17:37 UTC."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  69%|█████████████████████▎         | 140/204 [04:03<02:07]task7_30 [85.0] ["The most recent capillary blood glucose (CBG) for patient S6531922 is 105 mg/dL, measured on 2023-08-08T20:23:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  69%|█████████████████████▍         | 141/204 [04:07<02:31]task7_30 [85.0] ["The most recent capillary blood glucose (CBG) for patient S6531922 is 105 mg/dL, recorded on 2023-08-08T20:23:00+00:00."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  70%|█████████████████████▌         | 142/204 [04:09<02:28]task9_1 [3.9] ["No recent potassium level found for patient S3241217; cannot determine need for replacement or schedule follow‑up lab."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  70%|█████████████████████▋         | 143/204 [04:11<02:16]Verifikationshinweis-Experiment · cue_deepseekv32:  71%|█████████████████████▉         | 144/204 [04:16<03:03]task9_2 [3.8] ["No potassium lab result found for patient S1023381; cannot assess level or place replacement order."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  71%|██████████████████████         | 145/204 [04:18<02:44]task9_2 [3.8] ["No serum potassium observation (LOINC 2823-3) found for patient S1023381. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  72%|██████████████████████▏        | 146/204 [04:19<02:18]Verifikationshinweis-Experiment · cue_deepseekv32:  72%|██████████████████████▎        | 147/204 [04:21<02:03]Verifikationshinweis-Experiment · cue_deepseekv32:  73%|██████████████████████▍        | 148/204 [04:23<02:02]task9_4 [4.2] ["No serum potassium observation (LOINC 2823-3) found for patient S1374652. Unable to determine if potassium is low, so no replacement order was placed. A serum potassium test should be ordered to obtain a baseline level."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  73%|██████████████████████▋        | 149/204 [04:25<01:56]task9_4 [4.2] ["No serum potassium observation was found for patient S1374652. Therefore, no replacement potassium order or follow‑up serum potassium ServiceRequest was created."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  74%|██████████████████████▊        | 150/204 [04:27<01:52]task9_5 [5.1] ["No recent serum potassium observation (LOINC 2823-3) found for patient S1796597. Unable to determine if potassium is low; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  74%|██████████████████████▉        | 151/204 [04:29<01:48]task9_5 [5.1] ["No potassium level record found for patient S1796597; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  75%|███████████████████████        | 152/204 [04:31<01:47]task9_6 [4.3] ["No potassium observation found for patient S6550473; therefore cannot determine if replacement is needed. No order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  75%|███████████████████████▎       | 153/204 [04:33<01:45]Verifikationshinweis-Experiment · cue_deepseekv32:  75%|███████████████████████▍       | 154/204 [04:38<02:17]task9_7 [5.4] ["No recent serum potassium level found for patient S6268253; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  76%|███████████████████████▌       | 155/204 [04:40<02:02]task9_7 [5.4] []
+Verifikationshinweis-Experiment · cue_deepseekv32:  76%|███████████████████████▋       | 156/204 [04:41<01:45]task9_8 [3.8] ["No recent serum potassium observation (LOINC 2823-3) found for patient S1635224. Unable to determine if potassium is low, thus no replacement order placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  77%|███████████████████████▊       | 157/204 [04:43<01:42]task9_8 [3.8] ["No potassium level found for patient S1635224; unable to determine if replacement is needed. No orders placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  77%|████████████████████████       | 158/204 [04:45<01:28]task9_9 [3.8] []
+Verifikationshinweis-Experiment · cue_deepseekv32:  78%|████████████████████████▏      | 159/204 [04:46<01:14]task9_9 [3.8] ["No serum potassium observation (LOINC 2823-3) found for patient S6309742; unable to determine if potassium is low. No replacement order placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  78%|████████████████████████▎      | 160/204 [04:48<01:20]task9_10 [4.0] ["No recent serum potassium observation (LOINC 2823-3) found for patient S3084624; therefore cannot determine if potassium is low or place a replacement order."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  79%|████████████████████████▍      | 161/204 [04:50<01:16]task9_10 [4.0] ["No serum potassium observation found for patient S3084624; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  79%|████████████████████████▌      | 162/204 [04:51<01:09]Verifikationshinweis-Experiment · cue_deepseekv32:  80%|████████████████████████▊      | 163/204 [04:55<01:36]Verifikationshinweis-Experiment · cue_deepseekv32:  80%|████████████████████████▉      | 164/204 [05:00<02:10]task9_12 [4.0] ["No serum potassium observation (LOINC 2823-3) found for patient S6541353; therefore cannot determine if potassium is low. No replacement order or follow‑up lab was created."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  81%|█████████████████████████      | 165/204 [05:02<01:53]task9_12 [4.0] ["No recent serum potassium (LOINC 2823-3) result found for patient S6541353; therefore no replacement potassium order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  81%|█████████████████████████▏     | 166/204 [05:04<01:38]task9_13 [4.5] ["No serum potassium observation (LOINC 2823-3) found for patient S3057899; therefore cannot assess level or place replacement order."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  82%|█████████████████████████▍     | 167/204 [05:06<01:26]task9_13 [4.5] ["No serum potassium observation found for patient S3057899; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  82%|█████████████████████████▌     | 168/204 [05:07<01:14]task9_14 [3.7] ["No serum potassium observation (LOINC 2823-3) found for patient S6547257; therefore unable to determine if potassium is low. No replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  83%|█████████████████████████▋     | 169/204 [05:09<01:08]task9_14 [3.7] ["No serum potassium lab result found for patient S6547257; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  83%|█████████████████████████▊     | 170/204 [05:10<00:59]task9_15 [3.9] ["No potassium level record found for patient S0722219; therefore cannot determine if replacement is needed. No orders were placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  84%|█████████████████████████▉     | 171/204 [05:12<00:56]task9_15 [3.9] ["No potassium observation found for patient S0722219; therefore no replacement potassium order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  84%|██████████████████████████▏    | 172/204 [05:14<00:54]task9_16 [4.1] ["No potassium observation found for patient S2823623; unable to determine if replacement is needed. No orders placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  85%|██████████████████████████▎    | 173/204 [05:16<00:55]Verifikationshinweis-Experiment · cue_deepseekv32:  85%|██████████████████████████▍    | 174/204 [05:27<02:23]task9_17 [4.5] ["No potassium observation found for patient S6537563; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  86%|██████████████████████████▌    | 175/204 [05:29<01:52]task9_17 [4.5] ["No potassium observation found for patient S6537563. Unable to determine if potassium is low, so no replacement order was placed. A serum potassium level test should be ordered for the next morning at 8:00 AM."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  86%|██████████████████████████▋    | 176/204 [05:31<01:33]task9_18 [3.6] ["No serum potassium observation found for patient S2450227; therefore cannot determine if potassium is low and no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  87%|██████████████████████████▉    | 177/204 [05:33<01:21]Verifikationshinweis-Experiment · cue_deepseekv32:  87%|███████████████████████████    | 178/204 [05:36<01:17]task9_19 [3.5] ["No potassium observation found for patient S6329254; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  88%|███████████████████████████▏   | 179/204 [05:38<01:04]task9_19 [3.5] ["No serum potassium observation found for patient S6329254; therefore no replacement potassium order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  88%|███████████████████████████▎   | 180/204 [05:40<00:54]Verifikationshinweis-Experiment · cue_deepseekv32:  89%|███████████████████████████▌   | 181/204 [05:43<01:01]task9_20 [3.8] ["No serum potassium observation (LOINC 2823-3) found for patient S3236936; therefore no replacement potassium order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  89%|███████████████████████████▋   | 182/204 [05:45<00:55]task9_21 [4.6] ["No serum potassium observation (LOINC 2823-3) found for patient S6426560; therefore cannot assess level or place a replacement order."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  90%|███████████████████████████▊   | 183/204 [05:47<00:47]task9_21 [4.6] ["No potassium observation (LOINC 2823-3) found for patient S6426560; cannot determine if level is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  90%|███████████████████████████▉   | 184/204 [05:49<00:41]task9_22 [3.9] ["The most recent serum potassium level (LOINC 2823-3) for patient S6474456 was not found in the system. Therefore, no potassium value is available to assess whether it is low. No replacement potassium order or follow‑up serum potassium test was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  91%|████████████████████████████   | 185/204 [05:51<00:39]task9_22 [3.9] ["No recent serum potassium observation (LOINC 2823-3) found for patient S6474456. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  91%|████████████████████████████▎  | 186/204 [05:52<00:33]task9_23 [4.3] ["No serum potassium observation found for patient S0869531; unable to determine if replacement is needed. No orders were placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  92%|████████████████████████████▍  | 187/204 [05:54<00:32]task9_23 [4.3] ["No serum potassium observation (LOINC 2823-3) found for patient S0869531; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  92%|████████████████████████████▌  | 188/204 [05:56<00:29]task9_24 [4.3] ["No serum potassium observation (LOINC 2823-3) found for patient S2090974. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  93%|████████████████████████████▋  | 189/204 [05:57<00:26]task9_24 [4.3] ["No potassium observation (LOINC 2823-3) found for patient S2090974; therefore no low level to treat. No potassium replacement order was created."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  93%|████████████████████████████▊  | 190/204 [05:59<00:24]task9_25 [4.1] ["No serum potassium observation (LOINC 2823-3) found for patient S2704870; therefore no low potassium level detected and no replacement order was created."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  94%|█████████████████████████████  | 191/204 [06:01<00:23]task9_25 [4.1] ["No serum potassium observation (LOINC 2823-3) found for patient S2704870; therefore cannot determine if potassium is low. No potassium replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  94%|█████████████████████████████▏ | 192/204 [06:03<00:21]task9_26 [4.1] ["No serum potassium observation (LOINC 2823-3) found for patient S6352985. Unable to determine if potassium is low; therefore no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  95%|█████████████████████████████▎ | 193/204 [06:05<00:19]Verifikationshinweis-Experiment · cue_deepseekv32:  95%|█████████████████████████████▍ | 194/204 [06:08<00:23]task9_27 [3.5] ["No serum potassium observation (LOINC 2823-3) was found for patient S1311412. Therefore a potassium replacement order cannot be calculated, and no follow‑up potassium lab order is created."] 
+Verifikationshinweis-Experiment · cue_deepseekv32:  96%|█████████████████████████████▋ | 195/204 [06:10<00:19]task9_27 [3.5] ["No potassium observation (LOINC 2823-3) found for patient S1311412; therefore no replacement order or follow‑up lab can be placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  96%|█████████████████████████████▊ | 196/204 [06:12<00:17]Verifikationshinweis-Experiment · cue_deepseekv32:  97%|█████████████████████████████▉ | 197/204 [06:16<00:19]task9_28 [4.7] ["No serum potassium observation (LOINC 2823-3) found for patient S3228213. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  97%|██████████████████████████████ | 198/204 [06:18<00:14]task9_29 [3.6] ["No serum potassium observation (LOINC 2823-3) found for patient S6500497. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  98%|██████████████████████████████▏| 199/204 [06:19<00:10]task9_29 [3.6] ["No potassium level found for patient S6500497; therefore no replacement order was placed. A serum potassium test at 8:00 AM the next day could be considered, but without a low result, replacement is not indicated."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  98%|██████████████████████████████▍| 200/204 [06:21<00:08]Verifikationshinweis-Experiment · cue_deepseekv32:  99%|██████████████████████████████▌| 201/204 [06:24<00:07]task9_30 [3.8] ["No serum potassium observation (LOINC 2823-3) found for patient S6545016. Unable to determine if potassium is low, so no replacement order was placed."]
+Verifikationshinweis-Experiment · cue_deepseekv32:  99%|██████████████████████████████▋| 202/204 [06:26<00:04]task10_5 [6.6, '2023-11-04T14:54:00+00:00'] ["The most recent HbA1C value is 6.6 % recorded on 2023-11-04. Since this result is less than one year old, no new HbA1C lab order is needed."] 
+Verifikationshinweis-Experiment · cue_deepseekv32: 100%|██████████████████████████████▊| 203/204 [06:28<00:02]task10_5 [6.6, '2023-11-04T14:54:00+00:00'] ["The most recent HbA1C value is 6.6 % recorded on 2023-11-04. Since this result is less than one year old, no new HbA1C lab order is needed."]
+Verifikationshinweis-Experiment · cue_deepseekv32: 100%|███████████████████████████████| 204/204 [06:30<00:00]Verifikationshinweis-Experiment · cue_deepseekv32: 100%|███████████████████████████████| 204/204 [06:30<00:00]
+{
+ "attempts": 204,
+ "tasks": 102,
+ "mean_pass@1": 0.1373,
+ "mean_pass@8": null,
+ "by_category_pass@1": {
+  "task1": 0.125,
+  "task4": 0.667,
+  "task5": 0.0,
+  "task6": 0.324,
+  "task7": 0.0,
+  "task9": 0.033,
+  "task10": 0.0
+ },
+ "status_counts": {
+  "AGENT_INVALID_ACTION": 1,
+  "COMPLETED": 203
+ },
+ "failure_types": {
+  "commission": 9,
+  "no_finish": 1,
+  "none": 28,
+  "omission": 3,
+  "wrong_answer": 160,
+  "wrong_order_or_answer": 3
+ },
+ "mean_rounds": 2.71,
+ "tokens_in": 2537118,
+ "tokens_out": 44573,
+ "mean_tokens_per_attempt": 12655,
+ "served_models": [
+  "openai/gpt-oss-120b"
+ ],
+ "providers": [
+  "192"
+ ],
+ "cost_usd_reported_by_gateway": null,
+ "api_error_rows_excluded": 0
+}

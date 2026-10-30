@@ -1,0 +1,1201 @@
+run,served_model,task_id,category,attempt,status,official_pass,refined_class,mechanism,locus,evidence
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_1,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Peter Stafford', 'birthdate': '1932-12-29'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_1,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_1,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_1,task1,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Peter Stafford', 'birthdate': '1932-12-29'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_2,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_2,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_2,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_2,task1,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Maria Alvarez', 'birthdate': '1940-03-05'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_3,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_3,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Dana'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_3,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Dana Sandoval', 'birthdate': '1989-04-19'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_3,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_4,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_4,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_4,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_4,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_5,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_5,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_5,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_5,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_6,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Andrew'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_6,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Andrew Bishop', 'birthdate': '1963-01-29'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_6,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_6,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_7,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Kevin Vasquez', 'birthdate': '1953-11-19'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_7,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_7,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_7,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_8,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_8,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Brian Buchanan', 'birthdate': '1954-08-10'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_8,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_8,task1,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Brian Buchanan', 'birthdate': '1954-08-10'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_9,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_9,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_9,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_9,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_10,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_10,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Joshua Martinez', 'birthdate': '1967-03-11'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_10,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_10,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_11,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_11,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_11,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Glenda Hall', 'birthdate': '1952-11-14'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_11,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_12,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_12,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_12,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_12,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_13,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_13,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_13,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_13,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_14,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Pamela'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_14,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_14,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_14,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_15,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_15,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_15,task1,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Denise Dunlap', 'birthdate': '1945-09-20'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_15,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_16,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_16,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Debra'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_16,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_16,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_17,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Shannon Palmer', 'birthdate': '1956-11-16'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_17,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_17,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Shannon'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_17,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_18,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_18,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_18,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Melissa'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_18,task1,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,answered 'Patient not found'; search params [{'name': 'Melissa'}]
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_19,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_19,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tim Ramos', 'birthdate': '1959-04-28'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_19,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_19,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_20,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_20,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_20,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_20,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_21,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_21,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_21,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_21,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_22,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_22,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_22,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_22,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_23,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_23,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_23,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Julie Rodriguez', 'birthdate': '1962-01-20'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_23,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_24,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_24,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Katherine Sutton', 'birthdate': '1943-02-11'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_24,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_24,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_25,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_25,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_25,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_25,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_26,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_26,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_26,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Victoria Owens', 'birthdate': '2002-06-07'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_26,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_27,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_27,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_27,task1,2,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tina Reid', 'birthdate': '1953-10-18'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_27,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_28,task1,0,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tracey Stanley', 'birthdate': '1988-12-04'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_28,task1,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,"answered 'Patient not found'; search params [{'name': 'Tracey Stanley', 'birthdate': '1988-12-04'}]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_28,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_28,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_29,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_29,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_29,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_29,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_30,task1,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_30,task1,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_30,task1,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task1_30,task1,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_1,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_1,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_1,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_1,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_2,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_2,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_2,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_2,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_3,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_3,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_3,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_3,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_4,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_4,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_4,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_4,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_5,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_5,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_5,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_5,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_6,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_6,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_6,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_6,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_7,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_7,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_7,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_7,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_8,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_8,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_8,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_8,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_9,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_9,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_9,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_9,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_10,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_10,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_10,task2,2,COMPLETED,False,substantive_answer_error,computation_error,conclusion,birthDate 1943-12-14 retrieved; true age 79; answered 80
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_10,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_11,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_11,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_11,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_11,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_12,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_12,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_12,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_12,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_13,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_13,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_13,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_13,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_14,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_14,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_14,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_14,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_15,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_15,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_15,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_15,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_16,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_16,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_16,task2,2,COMPLETED,False,substantive_answer_error,computation_error,conclusion,birthDate 1956-11-16 retrieved; true age 66; answered 67
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_16,task2,3,COMPLETED,False,substantive_answer_error,computation_error,conclusion,birthDate 1956-11-16 retrieved; true age 66; answered 67
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_17,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_17,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_17,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_17,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_18,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_18,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_18,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_18,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_19,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_19,task2,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_19,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_19,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_20,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_20,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_20,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_20,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_21,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_21,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_21,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_21,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_22,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_22,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_22,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_22,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_23,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_23,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_23,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_23,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_24,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_24,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_24,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_24,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_25,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_25,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_25,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_25,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_26,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_26,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_26,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_26,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_27,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_27,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_27,task2,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_27,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_28,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_28,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_28,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_28,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_29,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_29,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_29,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_29,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_30,task2,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_30,task2,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_30,task2,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task2_30,task2,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_1,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_1,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_1,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_1,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_2,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_2,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_2,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_2,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_3,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_3,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_3,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_3,task3,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_4,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_4,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_4,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_4,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_5,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_5,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_5,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_5,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_6,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_6,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_6,task3,2,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_6,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_7,task3,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_7,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_7,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_7,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_8,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_8,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_8,task3,2,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_8,task3,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_9,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_9,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_9,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_9,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_10,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_10,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_10,task3,2,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_10,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_11,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_11,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_11,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_11,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_12,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_12,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_12,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_12,task3,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_13,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_13,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_13,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_13,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_14,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_14,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_14,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_15,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_14,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_15,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_15,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_16,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_15,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_16,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_16,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_16,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_17,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_17,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_17,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_17,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_18,task3,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_18,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_18,task3,2,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_18,task3,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_19,task3,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_19,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_19,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_19,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_20,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_20,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_20,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_20,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_21,task3,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_21,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_21,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_21,task3,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_22,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_22,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_22,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_22,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_23,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_23,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_23,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_24,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_23,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_24,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_24,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_24,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_25,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_25,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_25,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_25,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_26,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_26,task3,2,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_26,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_26,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_27,task3,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_27,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_27,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_27,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_28,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_28,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_28,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_29,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_28,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_29,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_29,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_29,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_30,task3,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_30,task3,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_30,task3,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_1,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_1,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_1,task4,2,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,no value within 24 h; reported 2.3 measured 2023-11-12T09:48:00+00:00
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_1,task4,3,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,no value within 24 h; reported 2.3 measured 2023-11-12T09:48:00+00:00
+full_deepseekv32,Qwen/Qwen3.8-27B,task3_30,task3,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_2,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_2,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_2,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_2,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_3,task4,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 35 results read; true latest 2023-11-12T13:35:00+00:00 (2.7) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_3,task4,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 35 results read; true latest 2023-11-12T13:35:00+00:00 (2.7) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_3,task4,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_3,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_4,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_4,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_4,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_5,task4,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 70 results read; true latest 2023-11-12T11:47:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_4,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_5,task4,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 70 results read; true latest 2023-11-12T11:47:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_5,task4,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 70 results read; true latest 2023-11-12T11:47:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_5,task4,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 70 results read; true latest 2023-11-12T11:47:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_6,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_6,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_6,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_6,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_7,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_7,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_7,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_7,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_8,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_8,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_8,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_9,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_9,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_8,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_9,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_9,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_10,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_10,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_10,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_10,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_11,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_11,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_11,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_11,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_12,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_12,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_12,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_12,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_13,task4,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_13,task4,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_13,task4,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_14,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_14,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_13,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_14,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_14,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_15,task4,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_15,task4,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_15,task4,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_16,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_15,task4,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_16,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_16,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_16,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_17,task4,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 106 results read; true latest 2023-11-12T13:41:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_17,task4,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 106 results read; true latest 2023-11-12T13:41:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_17,task4,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_17,task4,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_18,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_18,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_18,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_19,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_18,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_19,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_19,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_20,task4,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_19,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_20,task4,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_20,task4,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [2.1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_20,task4,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_21,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_21,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_21,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_22,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_21,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_22,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_22,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_22,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_23,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_23,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_23,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_23,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_24,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_24,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_24,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_25,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_24,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_25,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_25,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_25,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_26,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_26,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_26,task4,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_27,task4,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_27,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_26,task4,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_27,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_28,task4,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 41 results read; true latest 2023-11-12T16:27:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_28,task4,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 41 results read; true latest 2023-11-12T16:27:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_28,task4,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_27,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_28,task4,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_29,task4,0,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,no value within 24 h; reported 1.8 measured 2023-11-11T18:14:00+00:00
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_29,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_29,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_29,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_30,task4,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_30,task4,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_30,task4,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task4_30,task4,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_1,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_1,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_1,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_2,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_1,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_2,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_2,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_2,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_3,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_3,task5,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level recorded in the last 24 hours. No order placed.""]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_3,task5,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level recorded in the last 24 hours. No order placed.""]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_3,task5,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level was found in the last 24 hours, so no replacement IV "
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_4,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_4,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_4,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_4,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_5,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_5,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_5,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_5,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_6,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_6,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_6,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_6,task5,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_7,task5,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 182 results read; true latest 2023-11-12T12:58:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_7,task5,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 182 results read; true latest 2023-11-12T12:58:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_7,task5,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 182 results read; true latest 2023-11-12T12:58:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_7,task5,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 182 results read; true latest 2023-11-12T12:58:00+00:00 (2.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_8,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_8,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_8,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_8,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_9,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_9,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_9,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_9,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_10,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_10,task5,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level recorded within the last 24 hours. No order placed.""]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_10,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_11,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_10,task5,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_11,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_11,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_11,task5,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""Patient S6537563's last serum magnesium level within the last 24 hours was 2.2"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_12,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_12,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_12,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_12,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_13,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_13,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_13,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_13,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_14,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_14,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_14,task5,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_14,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_15,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_15,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_15,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_15,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_16,task5,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level has been recorded in the last 24 hours for patient S1"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_16,task5,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level has been recorded in the last 24 hours for patient S1023381"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_17,task5,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level recorded in the last 24 hours. No medication ordered."
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_17,task5,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level has been recorded in the last 24 hours, so no order was pla"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_16,task5,1,COMPLETED,False,commission,unnecessary_order,action,Mg 2.0; ordered dose [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_17,task5,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level recorded in the last 24 hours, so no order was placed.""]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_16,task5,3,COMPLETED,False,commission,unnecessary_order,action,Mg 2.0; ordered dose [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_18,task5,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level was recorded in the last 24 hours, so no order was pl"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_18,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_18,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_18,task5,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_17,task5,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 78 results read; true latest 2023-11-12T14:18:00+00:00 (2.3) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_19,task5,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No serum magnesium level was recorded in the last 24 hours, so no replacement "
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_19,task5,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level has been recorded in the last 24 hours for patient S3057899"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_19,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_19,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_20,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_20,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_20,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_20,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_21,task5,2,COMPLETED,False,omission,order_rule_omission,action,latest in-window Mg 1.8 requires replacement; no order
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_21,task5,0,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.8; ordered [1.0] vs reference [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_21,task5,1,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.8; ordered [1.0] vs reference [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_22,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_22,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_22,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_21,task5,3,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.8; ordered [1.0] vs reference [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_22,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_23,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_23,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_23,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_24,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_23,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_24,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_24,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_24,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_25,task5,0,COMPLETED,False,omission,order_rule_omission,action,latest in-window Mg 1.9 requires replacement; no order
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_25,task5,2,COMPLETED,False,omission,order_rule_omission,action,latest in-window Mg 1.9 requires replacement; no order
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_25,task5,3,COMPLETED,False,omission,order_rule_omission,action,latest in-window Mg 1.9 requires replacement; no order
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_26,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_26,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_25,task5,1,COMPLETED,False,wrong_order,order_content_error,action,Mg 1.9; ordered [1.0] vs reference [1.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_26,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_26,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_27,task5,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""No magnesium level recorded in the last 24 hours, so no order was placed.""]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_27,task5,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 35 results read; true latest 2023-11-12T13:35:00+00:00 (2.7) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_27,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_27,task5,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 35 results read; true latest 2023-11-12T13:35:00+00:00 (2.7) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_28,task5,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_28,task5,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_28,task5,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_28,task5,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_29,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_29,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_29,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_30,task5,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_29,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_30,task5,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_1,task6,0,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_30,task5,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task5_30,task5,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_1,task6,1,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_1,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_1,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_2,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_2,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_2,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_2,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_3,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_3,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_3,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_3,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_4,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_4,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_4,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_4,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_5,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_5,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_5,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 41 results read; true latest 2023-11-13T01:41:00+00:00 (93.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_6,task6,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_6,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_5,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_6,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_6,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_7,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_7,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_7,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_7,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_8,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_8,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_8,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 38 results read; true latest 2023-11-12T14:39:00+00:00 (115.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_9,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_8,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_9,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_9,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_9,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_10,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 142 results read; true latest 2023-11-13T06:45:00+00:00 (165.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_10,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_10,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [165.2]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_10,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 142 results read; true latest 2023-11-13T06:45:00+00:00 (165.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_11,task6,0,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 1 in-window values retrieved; true mean 118.00; answered 128.5
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_11,task6,1,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_11,task6,2,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_11,task6,3,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 1 in-window values retrieved; true mean 118.00; answered 125
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_12,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 633 results read; true latest 2023-11-13T06:59:00+00:00 (189.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_12,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 633 results read; true latest 2023-11-13T06:59:00+00:00 (189.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_12,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_13,task6,0,AGENT_INVALID_ACTION,False,no_finish,protocol_failure,other,status AGENT_INVALID_ACTION
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_13,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_13,task6,2,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 13 in-window values retrieved; true mean 116.15; answered 119.6
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_12,task6,1,AGENT_CONTEXT_LIMIT,False,no_finish,protocol_failure,other,status AGENT_CONTEXT_LIMIT
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_13,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_14,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_14,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_14,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [144]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_14,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [144]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_15,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_15,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_15,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_15,task6,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_16,task6,0,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_16,task6,1,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_16,task6,3,COMPLETED,False,substantive_answer_error,time_window_error,conclusion,1 in-window value(s) retrieved but -1 (none in window) answered
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_16,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_17,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_17,task6,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_17,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_17,task6,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_18,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_18,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_18,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_18,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_19,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_19,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_19,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_19,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_20,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_20,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_20,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_20,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_21,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_21,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_22,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_21,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_21,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 82 results read; true latest 2023-11-13T03:43:00+00:00 (97.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_22,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_22,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_22,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_23,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_23,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_23,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_23,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_24,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 236 results read; true latest 2023-11-12T12:58:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_24,task6,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 236 results read; true latest 2023-11-12T12:58:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_24,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_24,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 236 results read; true latest 2023-11-12T12:58:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_25,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 585 results read; true latest 2023-11-13T06:36:00+00:00 (99.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_25,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [85.0]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_25,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 585 results read; true latest 2023-11-13T06:36:00+00:00 (99.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_26,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_26,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_25,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 585 results read; true latest 2023-11-13T06:36:00+00:00 (99.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_26,task6,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_26,task6,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_27,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [271.5]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_27,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_27,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_27,task6,2,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 8 in-window values retrieved; true mean 245.00; answered 244
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_28,task6,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_28,task6,2,COMPLETED,False,substantive_answer_error,computation_error,conclusion,all 2 in-window values retrieved; true mean 108.00; answered 134
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_28,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_29,task6,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 479 results read; true latest 2023-11-13T04:12:00+00:00 (93.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_29,task6,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_28,task6,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_29,task6,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_30,task6,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_30,task6,1,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_29,task6,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 479 results read; true latest 2023-11-13T04:12:00+00:00 (93.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_30,task6,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T20:36:00+00:00 (126.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task6_30,task6,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,class substantive_answer_error; answer [-1]
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_1,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T05:54:00+00:00 (123.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_1,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T05:54:00+00:00 (123.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_1,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T05:54:00+00:00 (123.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_1,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T05:54:00+00:00 (123.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_2,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_2,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_2,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_2,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_3,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_3,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_3,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_3,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_4,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_4,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_4,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_5,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_4,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_5,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_5,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_5,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_6,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_6,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_6,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_6,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_7,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_7,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_7,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_7,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_8,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_8,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_8,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_8,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_9,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_9,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_9,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_9,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_10,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_10,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_10,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_10,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 60 results read; true latest 2023-11-12T16:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_11,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_11,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_11,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_11,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_12,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_12,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_12,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_12,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T06:31:00+00:00 (79.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_13,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_13,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_13,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_13,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-13T05:06:00+00:00 (161.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_14,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_14,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_14,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_14,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 108 results read; true latest 2023-11-12T13:04:00+00:00 (90.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_15,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_15,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_15,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_16,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_16,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_15,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-12T14:09:00+00:00 (81.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_16,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_16,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 65 results read; true latest 2023-11-13T04:36:00+00:00 (97.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_17,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_17,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_17,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_17,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_18,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_18,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_18,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_18,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 23 results read; true latest 2023-11-13T03:12:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_19,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_19,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_19,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_19,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 310 results read; true latest 2023-11-13T07:49:00+00:00 (190.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_20,task7,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"answer [""79.0 mg/dL""] vs reference [85.0]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_20,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_20,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_20,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_21,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_21,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_21,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_21,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_22,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_22,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_22,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_22,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_23,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_23,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_23,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_23,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 50 results read; true latest 2023-11-12T14:52:00+00:00 (102.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_24,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_24,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_24,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_24,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 203 results read; true latest 2023-11-13T08:19:00+00:00 (129.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_25,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_25,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_25,task7,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_25,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_26,task7,0,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"answer [""133.0 mg/dL""] vs reference [110.0]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_26,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_26,task7,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"answer [""133 mg/dL""] vs reference [110.0]"
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_27,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_26,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_27,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_27,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_27,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 74 results read; true latest 2023-11-12T12:27:00+00:00 (94.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_28,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_28,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_28,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_28,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_29,task7,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_29,task7,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_29,task7,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_29,task7,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_30,task7,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_30,task7,1,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_30,task7,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task7_30,task7,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 372 results read; true latest 2023-11-12T14:43:00+00:00 (85.0) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_1,task8,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_1,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_1,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_1,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_2,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_2,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_2,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_3,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_2,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_3,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_3,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_3,task8,3,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_4,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_4,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_4,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_4,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_5,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_5,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_5,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_6,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_5,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_6,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_6,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_6,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_7,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_7,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_7,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_7,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_8,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_8,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_8,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_9,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_8,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_9,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_9,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_9,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_10,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_10,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_10,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_10,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_11,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_11,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_11,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_11,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_12,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_12,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_12,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_12,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_13,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_13,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_13,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_13,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_14,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_14,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_14,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_14,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_15,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_15,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_15,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_15,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_16,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_16,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_16,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_16,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_17,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_17,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_17,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_18,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_17,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_18,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_18,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_18,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_19,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_19,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_19,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_19,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_20,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_20,task8,0,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_20,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_20,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_21,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_21,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_21,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_22,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_21,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_22,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_22,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_22,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_23,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_23,task8,1,COMPLETED,False,wrong_order,order_content_error,action,1 POST(s) vs 1 reference
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_23,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_23,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_24,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_24,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_24,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_25,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_24,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_25,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_25,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_25,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_26,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_26,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_26,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_26,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_27,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_27,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_27,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_28,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_27,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_28,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_28,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_28,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_29,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_29,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_29,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_29,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_30,task8,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_30,task8,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_30,task8,2,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task8_30,task8,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_1,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_1,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 62 results read; true latest 2023-11-12T20:36:00+00:00 (3.9) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_1,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_2,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_2,task9,1,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_2,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_1,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 62 results read; true latest 2023-11-12T20:36:00+00:00 (3.9) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_3,task9,0,COMPLETED,False,wrong_order,order_content_error,action,K 3.1: 1 med + 1 lab orders vs reference 2
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_3,task9,1,COMPLETED,False,wrong_order,order_content_error,action,K 3.1: 1 med + 1 lab orders vs reference 2
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_2,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_4,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_4,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_3,task9,2,COMPLETED,False,wrong_order,order_content_error,action,K 3.1: 1 med + 1 lab orders vs reference 2
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_4,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_3,task9,3,COMPLETED,False,wrong_order,order_content_error,action,K 3.1: 1 med + 1 lab orders vs reference 2
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_5,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-12T23:41:00+00:00 (5.1) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_5,task9,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-12T23:41:00+00:00 (5.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_4,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 4.2 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_5,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 67 results read; true latest 2023-11-12T23:41:00+00:00 (5.1) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_6,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_6,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_6,task9,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""The most recent potassium level for patient S6550473 is 4.6 mmol/L, which is n"
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_6,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_5,task9,3,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 67 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_7,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 73 results read; true latest 2023-11-12T13:35:00+00:00 (5.4) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_7,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 73 results read; true latest 2023-11-12T13:35:00+00:00 (5.4) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_7,task9,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 73 results read; true latest 2023-11-12T13:35:00+00:00 (5.4) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_7,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 73 results read; true latest 2023-11-12T13:35:00+00:00 (5.4) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_8,task9,2,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""Patient S1635224's most recent potassium level was 4.5 mmol/L taken on 2023-11"
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_8,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_8,task9,1,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_9,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 618 results
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_8,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_9,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_9,task9,3,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 618 results
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_10,task9,1,COMPLETED,True,pass_without_acting,pass_without_acting,grader,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_10,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_10,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_9,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.8 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_10,task9,3,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_11,task9,1,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_11,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_11,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_12,task9,1,COMPLETED,False,substantive_answer_error,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 31 results
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_12,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 4.0 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_11,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_12,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_13,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_12,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 4.0 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_13,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 4.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_13,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 4.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_13,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 4.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_14,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 57 results read; true latest 2023-11-13T04:36:00+00:00 (3.7) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_14,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 57 results read; true latest 2023-11-13T04:36:00+00:00 (3.7) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_14,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 57 results read; true latest 2023-11-13T04:36:00+00:00 (3.7) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_15,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 365 results read; true latest 2023-11-13T07:35:00+00:00 (3.9) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_14,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 57 results read; true latest 2023-11-13T04:36:00+00:00 (3.7) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_15,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 365 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_16,task9,0,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 42 results read; true latest 2023-11-13T03:35:00+00:00 (4.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_15,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 365 results read; true latest 2023-11-13T07:35:00+00:00 (3.9) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_15,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 365 results read; true latest 2023-11-13T07:35:00+00:00 (3.9) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_16,task9,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 42 results read; true latest 2023-11-13T03:35:00+00:00 (4.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_16,task9,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 42 results read; true latest 2023-11-13T03:35:00+00:00 (4.1) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_16,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_17,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_17,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_17,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_17,task9,0,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 5 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_18,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.6 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_18,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 35 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_19,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_18,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.6 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_19,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_19,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_18,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 3.6 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_19,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_20,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T01:19:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_20,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T01:19:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_20,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T01:19:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_21,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 105 results read; true latest 2023-11-12T13:04:00+00:00 (4.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_21,task9,2,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 105 results read; true latest 2023-11-12T13:04:00+00:00 (4.6) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_21,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 105 results read; true latest 2023-11-12T13:04:00+00:00 (4.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_20,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 59 results read; true latest 2023-11-13T01:19:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_21,task9,3,COMPLETED,False,substantive_answer_error,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 105 results read; true latest 2023-11-12T13:04:00+00:00 (4.6) on an unread page
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_22,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_22,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_22,task9,2,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_22,task9,3,COMPLETED,False,commission,unnecessary_order,action,latest K 3.9 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_23,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 1261 results read; true latest 2023-11-13T01:37:00+00:00 (4.3) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_23,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 1261 results read; true latest 2023-11-13T01:37:00+00:00 (4.3) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_24,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_23,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 1261 results read; true latest 2023-11-13T01:37:00+00:00 (4.3) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_24,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_24,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_24,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_23,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 4.3 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_25,task9,1,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 47 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_25,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 47 results read; true latest 2023-11-13T04:00:00+00:00 (4.1) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_25,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 47 results read; true latest 2023-11-13T04:00:00+00:00 (4.1) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_26,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_26,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_25,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 47 results read; true latest 2023-11-13T04:00:00+00:00 (4.1) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_26,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_26,task9,0,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 2 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_27,task9,0,COMPLETED,False,commission,unnecessary_order,action,latest K 3.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_27,task9,2,COMPLETED,False,commission,unnecessary_order,action,latest K 3.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_27,task9,1,COMPLETED,False,commission,unnecessary_order,action,latest K 3.5 >= 3.5; orders placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_27,task9,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_28,task9,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_28,task9,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_28,task9,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_28,task9,3,COMPLETED,False,commission,false_absence,evidence_gathering,queried code(s) ['2823-3'] -> 0 results; local code K has 1 results; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_29,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 25 results read; true latest 2023-11-13T01:25:00+00:00 (3.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_29,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 25 results read; true latest 2023-11-13T01:25:00+00:00 (3.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_29,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 25 results read; true latest 2023-11-13T01:25:00+00:00 (3.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_29,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 25 results read; true latest 2023-11-13T01:25:00+00:00 (3.6) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_30,task9,0,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 69 results read; true latest 2023-11-13T05:58:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_30,task9,1,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 69 results read; true latest 2023-11-13T05:58:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_1,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_30,task9,2,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 69 results read; true latest 2023-11-13T05:58:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task9_30,task9,3,COMPLETED,False,commission,incomplete_retrieval,evidence_gathering,`next` link not followed; 20 of 69 results read; true latest 2023-11-13T05:58:00+00:00 (3.8) on an unread page; upstream of commission
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_1,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_1,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_1,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_2,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_2,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_2,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_2,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_3,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_3,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_3,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_3,task10,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_4,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-08-01 (103 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_4,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-08-01 (103 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_4,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-08-01 (103 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_5,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_4,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-08-01 (103 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_5,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_5,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_5,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-11-04 (8 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_6,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_6,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_7,task10,0,COMPLETED,False,omission,no_action_on_detected_absence,action,no HbA1c on file (correctly found); required order not placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_6,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_6,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_7,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_7,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_7,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_8,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-13 (30 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_8,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-13 (30 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_8,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-13 (30 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_8,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-13 (30 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_9,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-14 (29 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_9,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-14 (29 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_9,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-14 (29 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_10,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_9,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-14 (29 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_10,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_10,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_10,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_11,task10,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_11,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_11,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_11,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_12,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_12,task10,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_12,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_12,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_13,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_13,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_13,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_13,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_14,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_14,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_14,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_14,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_15,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-07-07 (128 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_15,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_15,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-07-07 (128 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_15,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-07-07 (128 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_16,task10,2,COMPLETED,False,omission,no_action_on_detected_absence,action,no HbA1c on file (correctly found); required order not placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_16,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_16,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_16,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_17,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_17,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_17,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_17,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_18,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_18,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_18,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_18,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_19,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-09-22 (51 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_19,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-09-22 (51 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_19,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-09-22 (51 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_20,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_19,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-09-22 (51 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_20,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_20,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_20,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_21,task10,1,COMPLETED,False,omission,no_action_on_detected_absence,action,no HbA1c on file (correctly found); required order not placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_21,task10,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_21,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_21,task10,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_22,task10,1,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_22,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_22,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_22,task10,3,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_23,task10,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_23,task10,2,COMPLETED,False,omission,no_action_on_detected_absence,action,no HbA1c on file (correctly found); required order not placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_23,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_23,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_24,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_24,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_24,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_25,task10,0,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_24,task10,3,COMPLETED,False,substantive_answer_error,answer_error_other,conclusion,"class substantive_answer_error; answer [""The last HbA1C value for patient S6500497 was 5.5% recorded on 2021-10-11. Sin"
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_25,task10,1,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_25,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_26,task10,0,COMPLETED,True,pass,,,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_25,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_26,task10,2,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_26,task10,3,COMPLETED,False,wrong_order,order_content_error,action,1 order(s) vs reference 1
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_26,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_27,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_27,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_27,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_27,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_28,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-06-27 (138 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_28,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-06-27 (138 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_29,task10,0,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_28,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-06-27 (138 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_29,task10,1,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_29,task10,2,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_29,task10,3,COMPLETED,False,format_only,format_only,format,
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_28,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-06-27 (138 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_30,task10,0,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-30 (13 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_30,task10,1,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-30 (13 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_30,task10,2,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-30 (13 days old); order placed
+full_deepseekv32,Qwen/Qwen3.8-27B,task10_30,task10,3,COMPLETED,False,commission,unnecessary_order,action,latest HbA1c 2023-10-30 (13 days old); order placed

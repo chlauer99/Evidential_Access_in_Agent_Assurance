@@ -1,0 +1,7 @@
+run,condition,n_attempts,official_pass_rate,n_verdicts,acceptance_rate
+full_control_replay,neutral,300,1.0,300,0.22666666666666666
+full_control_replay,spec,300,1.0,300,0.2733333333333333
+full_control_replay,checklist,300,1.0,300,0.23333333333333334
+control_null,neutral,300,0.23333333333333334,300,0.0
+control_null,spec,300,0.23333333333333334,300,0.0
+control_null,checklist,300,0.23333333333333334,300,0.0

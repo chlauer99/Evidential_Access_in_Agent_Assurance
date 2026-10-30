@@ -1,6 +1,6 @@
 # Run new experiments
 
-This repository contains source code, prompts, configurations, all 300 benchmark task instructions and metadata, reference graders, environment definitions, and server setup sources. Historical model outputs and run results are intentionally excluded.
+This repository contains source code, prompts, configurations, all 300 benchmark task instructions and metadata, reference graders, environment definitions, and server setup sources. Selected paper model outputs and run results are included; see `runs/README.md` for the selection and missing original-study raw data.
 
 ## Setup
 
@@ -25,7 +25,8 @@ Use a new configuration `name` for a new experiment. Model calls can incur costs
 ## Included and excluded files
 
 - Included: prompts (`harness/prompts/`), model/pipeline configurations, FHIR function catalogue (`funcs_v1.json`), benchmark instructions and task metadata, source code, dependency definitions and usage documentation.
-- Excluded: `runs/`, `mab_runs/`, archived `data/`, generated `outputs/`, logs, local environments, server downloads and compiled Java artifacts.
-- Archived paper reproduction and archived chain-test configurations require historical data that are intentionally absent here. The optional step 10 comparison also requires archived DeepSeek results; use steps 0–9 for new experiments without archived data (see pipeline `--help`).
+- Archived inputs: the three selected `runs/` directories and original-study inputs in `data/raw/` and `data/derived/`.
+- Excluded: other experiments, generated figure files, local environments, server downloads and compiled Java artifacts.
+- Archived paper reproduction and archived chain-test configurations may require additional historical data missing from the local archive. The optional step 10 comparison also requires archived DeepSeek results; use steps 0–9 for new experiments without archived data (see pipeline `--help`).
 
 See `LICENSE-NOTES.md` for third-party component provenance and `VLLM_START.md` for deployment details.

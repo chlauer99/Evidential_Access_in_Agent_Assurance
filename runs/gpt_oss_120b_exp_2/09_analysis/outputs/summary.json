@@ -1,0 +1,21 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "n_attempts": 1200,
+  "n_tasks": 300,
+  "official_pass_rate": 0.49083333333333334,
+  "substantive_error_rate": 0.3775,
+  "outcome_classes": {
+    "substantive_answer_error": 356,
+    "pass": 566,
+    "omission": 25,
+    "pass_without_acting": 23,
+    "format_only": 155,
+    "wrong_order": 46,
+    "commission": 26,
+    "no_finish": 3
+  },
+  "api_error_records": 0,
+  "expected_attempts": 1200,
+  "missing_attempts": 0,
+  "cue_status": "analysed"
+}

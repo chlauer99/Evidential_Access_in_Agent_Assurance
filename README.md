@@ -10,7 +10,6 @@ The repository root contains:
 - `analysis/`: outcome, provenance, judge, and cross-model analyses.
 - `reproduce.py` and `verify.py`: archived-data reproduction and verification entry points.
 - Environment definitions, usage documentation, and third-party provenance notes.
-- `runs/vllm_gpt_oss_main/audit_unclassified/review.py`: additional audit code, retained at its original relative path.
 
 ## Run new experiments
 
@@ -26,9 +25,9 @@ Configure the endpoint and model before starting a live run. Supply API credenti
 
 ## Scope of this initial code release
 
-This branch imports the local experiment source files, including previously untracked scripts. Historical run results, archived datasets, manuscript files, generated figures, local environments, credentials, downloaded server files, and compiled dependencies are excluded. Benchmark task instructions, metadata, reference solvers, and graders are included as experiment inputs.
+This branch imports the local experiment source files, including previously untracked scripts. The selected paper run archives and original-study inputs are included; see [runs/README.md](runs/README.md) for the exact selection and archive gaps. Manuscript files, generated figures, local environments, credentials, downloaded server files, and compiled dependencies are excluded. Benchmark task instructions, metadata, reference solvers, and graders are included as experiment inputs.
 
-The package README and reproduction report describe the original full research package. Archived-data reproduction (`reproduce.py --level A`), historical comparisons, and scripts reading archived runs require data that are not included in this initial code release. Existing historical checksum manifests are omitted because they describe that full package.
+The package README and reproduction report describe the original full research package. Archived-data reproduction (`reproduce.py --level A`), historical comparisons, and scripts reading archived runs may require additional data not available in the local archive; see the archive limitations in [runs/README.md](runs/README.md). Existing historical checksum manifests are omitted because they describe that full package.
 
 See [the package documentation](PACKAGE_README.md) and [third-party provenance notes](LICENSE-NOTES.md).
 

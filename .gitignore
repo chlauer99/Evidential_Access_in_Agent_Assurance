@@ -22,9 +22,6 @@ outputs/
 data/
 mab_runs/
 runs/**
-# Keep analysis source stored in a run directory
-!runs/**/
-!runs/**/*.py
 *.log
 *.jsonl
 # Downloaded server and compiled dependencies
@@ -35,3 +32,53 @@ h2fix/classes/
 *.jar
 *.war
 *.zip
+
+# Explicit paper run archives (all other runs remain excluded)
+!/runs/
+!/runs/gpt_oss_120b_exp_2/
+!/runs/gpt_oss_120b_exp_2/**
+!/runs/qwen3_8_27b_exp_3/
+!/runs/qwen3_8_27b_exp_3/**
+!/runs/cross_judge_exp_1/
+!/runs/cross_judge_exp_1/**
+# Original GPT-4.1 / GPT-4.1-mini / DeepSeek paper inputs
+!/data/
+/data/*
+!/data/raw/
+/data/raw/*
+!/data/raw/pilot_gpt41/
+!/data/raw/pilot_gpt41/**
+!/data/raw/pilot_gpt41mini/
+!/data/raw/pilot_gpt41mini/**
+!/data/raw/full_deepseekv32/
+!/data/raw/full_deepseekv32/**
+!/data/raw/cue_deepseekv32/
+!/data/raw/cue_deepseekv32/**
+!/data/raw/control_replay/
+!/data/raw/control_replay/**
+!/data/raw/control_null/
+!/data/raw/control_null/**
+!/data/raw/probes/
+!/data/raw/probes/**
+!/data/raw/record_access/
+!/data/raw/record_access/**
+!/data/raw/judge_logs/
+!/data/raw/judge_logs/**
+!/data/derived/
+!/data/derived/**
+# Always exclude credentials, caches and generated figure assets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+*.png
+*.pdf
+*.svg
+!/runs/README.md
