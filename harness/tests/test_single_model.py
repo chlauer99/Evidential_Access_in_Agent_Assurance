@@ -25,7 +25,7 @@ spec.loader.exec_module(pipeline)
 class SingleModelTests(unittest.TestCase):
     def test_missing_verdict_status_allows_next_step(self):
         with tempfile.TemporaryDirectory() as td, contextlib.redirect_stdout(io.StringIO()):
-            p = pipeline.Pipeline(H / "configs/vllm_gpt_oss.yaml", False, True, Path(td))
+            p = pipeline.Pipeline(H / "configs/gpt_oss_120b_exp_2.yaml", False, True, Path(td))
             def judge_step(n):
                 (p.stepdir(n) / "test_access_status.json").write_text(json.dumps(
                     {"status": "completed_with_missing_verdicts", "missing_new": 2}))
@@ -38,7 +38,7 @@ class SingleModelTests(unittest.TestCase):
 
     def test_plan_has_no_pilot_calls(self):
         with contextlib.redirect_stdout(io.StringIO()):
-            p = pipeline.Pipeline(H / "configs/vllm_gpt_oss.yaml", True, False, None)
+            p = pipeline.Pipeline(H / "configs/gpt_oss_120b_exp_2.yaml", True, False, None)
             p.go(list(pipeline.STEPS))
         commands = '\n'.join(cmd for _, cmd in p.log)
         self.assertNotIn('pilot', commands)
@@ -86,7 +86,7 @@ class SingleModelTests(unittest.TestCase):
             for suffix, vs in verdicts.items():
                 data = [dict(task_id=f'task1_{i+1}', attempt=0, verdict=v) for i,v in enumerate(vs) if v is not None]
                 (raw / analysis.MAIN / f'judge_gpt-oss-120b{suffix}.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in data))
-            config = miniyaml.load(H / 'configs/vllm_gpt_oss.yaml')
+            config = miniyaml.load(H / 'configs/gpt_oss_120b_exp_2.yaml')
             with contextlib.redirect_stdout(io.StringIO()):
                 analysis.analyse(config, raw, der, out)
                 analysis.compare(out, base / 'compare')
@@ -137,7 +137,7 @@ class SingleModelTests(unittest.TestCase):
 
     def test_empty_cue_selection_does_not_run_agents(self):
         with tempfile.TemporaryDirectory() as td:
-            p = pipeline.Pipeline(H / 'configs/vllm_gpt_oss.yaml', False, True, Path(td))
+            p = pipeline.Pipeline(H / 'configs/gpt_oss_120b_exp_2.yaml', False, True, Path(td))
             def fake_run(n, cmd, **kwargs):
                 Path(cmd[cmd.index('--out') + 1]).write_text('')
             with patch.object(p, 'run', side_effect=fake_run) as run, contextlib.redirect_stdout(io.StringIO()):

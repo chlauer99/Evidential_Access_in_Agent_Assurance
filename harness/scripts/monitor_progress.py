@@ -149,7 +149,7 @@ def snapshot(config, base):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--config', default=str(H/'configs/vllm_gpt_oss.yaml'))
+    p.add_argument('--config', default=str(H/'configs/gpt_oss_120b_exp_2.yaml'))
     p.add_argument('--runs-root', type=Path, default=H.parent/'runs')
     p.add_argument('--interval', type=float, default=5)
     p.add_argument('--once', action='store_true')

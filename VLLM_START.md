@@ -1,4 +1,4 @@
-> Aktueller Umfang: Enthalten sind nur die Paper-Konfigurationen aus [harness/configs/README.md](harness/configs/README.md). Die unten historisch beschriebenen Smoke-Tests und Qwen-Vorläufer sind nicht mehr enthalten; für Qwen gilt `harness/configs/vllm_qwen3_8_27b_exp_3.yaml`.
+> Aktueller Umfang: Enthalten sind nur die Paper-Konfigurationen aus [harness/configs/README.md](harness/configs/README.md). Die unten historisch beschriebenen Smoke-Tests und Qwen-Vorläufer sind nicht mehr enthalten; für Qwen gilt `harness/configs/qwen3_8_27b_exp_3.yaml`.
 
 # Experiment mit GPT-OSS auf dem vLLM-Server
 
@@ -12,7 +12,7 @@ Es werden keine Aufrufe an OpenAI oder OpenRouter konfiguriert.
 - Modell-ID: `openai/gpt-oss-120b`.
   `check_endpoint.py` prüft, ob diese ID vom Server angeboten wird.
   Die Server-ID allein garantiert nicht die geladenen Gewichte.
-- Konfiguration: `harness/configs/vllm_gpt_oss.yaml`.
+- Konfiguration: `harness/configs/gpt_oss_120b_exp_2.yaml`.
 - Ohne Authentifizierung wird `EMPTY` gesendet. Falls der Server einen Schlüssel verlangt:
   `LOCAL_LLM_API_KEY` in der Umgebung setzen; nicht in die YAML schreiben.
 
@@ -71,7 +71,7 @@ Alternativ kann die vorhandene Conda-Umgebung aus `environment-harness.yml` verw
 ## 1. Endpunkt und Antwortformate prüfen
 
 ```bash
-python harness/scripts/check_endpoint.py --config harness/configs/vllm_gpt_oss.yaml
+python harness/scripts/check_endpoint.py --config harness/configs/gpt_oss_120b_exp_2.yaml
 ```
 
 Der Test fragt `/v1/models` ab und sendet zwei kleine Testprompts für Agentenaktion und
@@ -110,8 +110,8 @@ keine API-/Kontextfehler, keine systematisch leeren Antworten und keine systemat
 ## 3. Vollständigen Ablauf starten
 
 ```bash
-python harness/run_pipeline.py --config harness/configs/vllm_gpt_oss.yaml --dry-run
-python harness/run_pipeline.py --config harness/configs/vllm_gpt_oss.yaml --yes
+python harness/run_pipeline.py --config harness/configs/gpt_oss_120b_exp_2.yaml --dry-run
+python harness/run_pipeline.py --config harness/configs/gpt_oss_120b_exp_2.yaml --yes
 ```
 
 Die Schritte 0–10 umfassen Serverstart, Agenten, Kontrollen, regelbasierte Prüfung,

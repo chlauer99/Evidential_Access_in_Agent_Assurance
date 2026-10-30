@@ -68,7 +68,7 @@ class ProgressTests(unittest.TestCase):
             self.assertIn('offiziell bestanden=1',text)
 
     def test_before_first_run(self):
-        cfg = monitor.miniyaml.load(H/'configs/vllm_gpt_oss.yaml')
+        cfg = monitor.miniyaml.load(H/'configs/gpt_oss_120b_exp_2.yaml')
         with tempfile.TemporaryDirectory() as td:
             text = monitor.snapshot(cfg,Path(td))
             self.assertIn('0/1200',text)
@@ -76,7 +76,7 @@ class ProgressTests(unittest.TestCase):
 
     def test_live_log_and_exit_status(self):
         with tempfile.TemporaryDirectory() as td:
-            p = pipeline.Pipeline(H/'configs/vllm_gpt_oss.yaml',False,True,Path(td))
+            p = pipeline.Pipeline(H/'configs/gpt_oss_120b_exp_2.yaml',False,True,Path(td))
             log = p.stepdir(1)/'test.log'
             log.write_text('old output\n')
             display = io.StringIO()

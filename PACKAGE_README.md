@@ -212,4 +212,4 @@ personal path or a user name (scan in REPRO_REPORT.md).
 
 ## GPT-OSS via local vLLM
 
-See [VLLM_START.md](VLLM_START.md) for the configured endpoint, model-ID check, isolated smoke run and full single-model pipeline. Configuration: `harness/configs/vllm_gpt_oss.yaml`. The `single_model` design runs one 300-task main cohort (four attempts each), one judge under four evidence conditions, full-task controls, probes and cue reruns; no pilot cohorts or pilot data are used. Dedicated single-model CSV analyses replace the paper-specific three-model reports.
+See [VLLM_START.md](VLLM_START.md) for the configured endpoint, model-ID check, isolated smoke run and full single-model pipeline. Configuration: `harness/configs/gpt_oss_120b_exp_2.yaml`. The `single_model` design runs one 300-task main cohort (four attempts each), one judge under four evidence conditions, full-task controls, probes and cue reruns; no pilot cohorts or pilot data are used. Dedicated single-model CSV analyses replace the paper-specific three-model reports.

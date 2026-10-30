@@ -9,7 +9,7 @@ These are the archived neutral-condition judge commands and request settings fro
 
 Copy `results.jsonl` and `answers/` from each source to its target directory before running the commands. Historical outputs are not included in this repository. Configure the model endpoint addresses for your deployment.
 
-From the repository root, `bash harness/configs/cross_judge/neutral_commands.sh` executes the original neutral-condition calls and incurs model usage. For specification, checklist and record-access conditions, see [the backfill instructions](../../scripts/BACKFILL_CROSS_JUDGE.md). Those additionally require source record-access selections and a running FHIR server.
+From the repository root, `bash harness/configs/cross_judge_exp_1/neutral_commands.sh` executes the original neutral-condition calls and incurs model usage. For specification, checklist and record-access conditions, see [the backfill instructions](../../scripts/BACKFILL_CROSS_JUDGE.md). Those additionally require source record-access selections and a running FHIR server.
 
 Analyse the cross-judge results with:
 

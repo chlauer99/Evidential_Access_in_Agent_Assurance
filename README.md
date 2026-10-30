@@ -19,7 +19,7 @@ See [RUNNING.md](RUNNING.md) for setup and execution. From the repository root:
 ```sh
 conda env create -f environment-harness.yml
 conda activate ecis2027-harness
-python harness/run_pipeline.py --config harness/configs/vllm_gpt_oss.yaml --steps 0-9 --dry-run
+python harness/run_pipeline.py --config harness/configs/gpt_oss_120b_exp_2.yaml --steps 0-9 --dry-run
 ```
 
 Configure the endpoint and model before starting a live run. Supply API credentials through environment variables.

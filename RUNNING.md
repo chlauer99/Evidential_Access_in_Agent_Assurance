@@ -16,8 +16,8 @@ conda activate ecis2027-harness
 4. Inspect the execution plan, then start a new run:
 
 ```sh
-python harness/run_pipeline.py --config harness/configs/vllm_gpt_oss.yaml --steps 0-9 --dry-run
-python harness/run_pipeline.py --config harness/configs/vllm_gpt_oss.yaml --steps 0-9 --yes
+python harness/run_pipeline.py --config harness/configs/gpt_oss_120b_exp_2.yaml --steps 0-9 --dry-run
+python harness/run_pipeline.py --config harness/configs/gpt_oss_120b_exp_2.yaml --steps 0-9 --yes
 ```
 
 Use a new configuration `name` for a new experiment. Model calls can incur costs. The pipeline downloads/starts the configured benchmark server and generates run-specific references, probe instances and evaluation selections during execution.
