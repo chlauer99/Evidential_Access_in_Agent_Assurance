@@ -7,8 +7,7 @@ Experiment and analysis code for **“No Results Found”: Evidential Access and
 The repository root contains:
 
 - `harness/`: experiment pipeline, agent runners, judges, prompts, model configurations, benchmark tasks, server setup sources, and existing tests.
-- `analysis/`: outcome, provenance, judge, and cross-model analyses and figure scripts.
-- `scripts/`: experiment utilities and paper figure generation.
+- `analysis/`: outcome, provenance, judge, and cross-model analyses.
 - `reproduce.py` and `verify.py`: archived-data reproduction and verification entry points.
 - Environment definitions, usage documentation, and third-party provenance notes.
 - `runs/vllm_gpt_oss_main/audit_unclassified/review.py`: additional audit code, retained at its original relative path.
@@ -36,3 +35,5 @@ See [the package documentation](PACKAGE_README.md) and [third-party provenance n
 ## Import validation
 
 All 113 imported Python source files passed syntax parsing. A scan for common API-token and private-key patterns found no matches. The initial system-Python test run passed 20 of 23 discovered tests; two test modules could not load because `requests` and `httpx` were absent, and one historical comparison test requires the excluded archived dataset. Live model experiments were not rerun as part of this source import.
+
+Paper figure generation scripts are excluded from this repository. The analysis runner generates tables and skips figure verification.

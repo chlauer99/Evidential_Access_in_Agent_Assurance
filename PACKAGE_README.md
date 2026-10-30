@@ -1,3 +1,5 @@
+> Code release note: Paper figure scripts have been removed. `reproduce.py` now runs table analyses only and skips figure verification. Figure-related descriptions below document the original full research package.
+
 # Reproducibility package: "No Results Found": Evidential Access and the Automated Assurance of Agentic Health Information Systems (ECIS 2027)
 
 LLM agents (GPT-4.1, GPT-4.1-mini, DeepSeek V3.2) completed MedAgentBench tasks on a local FHIR server; a rule-based

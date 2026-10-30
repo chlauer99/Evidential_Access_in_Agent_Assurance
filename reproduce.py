@@ -1,7 +1,7 @@
-"""Reproduce the paper's derived tables and figures.
+"""Reproduce the paper's derived tables.
 
-  python reproduce.py --level A                 # all tables and figures from data/ into outputs/, then verify.py
-  python reproduce.py --level A --only a05 a14  # a subset of the analysis scripts
+  python reproduce.py --level A                 # all tables from data/ into outputs/, then verify.py
+  python reproduce.py --level A --only a03 a05  # a subset of the analysis scripts
   python reproduce.py --level A --raw runs/x/mab_runs --derived runs/x/derived --out runs/x/09_analysis/outputs \\
                       [--study runs/x/study.json] [--no-verify]     # Level A analyses on a NEW run (Level B step 9)
   python reproduce.py --level B                 # prints how to re-run the experiments (run_pipeline.py)
@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent
 SCRIPTS = ["a01_attempts_table.py", "a02_outcome_classes.py", "a03_judge_discrimination.py", "a04_record_access.py",
            "a05_judge_conditions.py", "a06_paired_contrasts.py", "a07_error_dependence.py", "a08_probes.py",
            "a09_cue_effects.py", "a10_provenance.py", "a11_capability_gradient.py", "a12_mechanism_table.py",
-           "a13_paper_extras.py", "a14_figures.py"]
+           "a13_paper_extras.py"]
 
 
 def main():
@@ -38,7 +38,7 @@ def main():
     if a.level == "B":
         print("Level B re-runs the experiments (FHIR server + model APIs). Start with a dry run:\n"
               "  python harness/run_pipeline.py --config harness/configs/paper.yaml --dry-run\n"
-              "See README.md, section 'Level B: re-run with other LLMs'.")
+              "See PACKAGE_README.md, section 'Level B: re-run with other LLMs'.")
         return 0
     env = dict(os.environ)
     for k, v in [("REPRO_RAW", a.raw), ("REPRO_DERIVED", a.derived), ("REPRO_OUT", a.out), ("REPRO_STUDY", a.study)]:
@@ -61,8 +61,7 @@ def main():
     if a.no_verify:
         return 0
     v = [sys.executable, str(ROOT / "verify.py"), "--outputs", str(out)]
-    if a.only:
-        v += ["--skip-figures"] if not any(s.startswith("a14") for s in todo) else []
+    v += ["--skip-figures"]
     return subprocess.run(v, cwd=ROOT, env=env).returncode
 
 
